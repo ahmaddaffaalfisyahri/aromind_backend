@@ -60,12 +60,58 @@ class RecommendResponse(BaseModel):
 class RecognizeResponse(BaseModel):
     recognized_text: str
     matched: Optional[PerfumeOut] = None
+    debug_score: Optional[float] = None  # Debug: skor tertinggi
 
 
 # ---- Endpoints ----
 @app.get("/")
 async def root():
-    return {"message": "Halo dari Aromind AI 🚀"}
+    return {"message": "Halo dari Aromind AI 🚀", "version": "1.3"}
+
+
+# Debug endpoint untuk test Gemini langsung
+@app.post("/debug-ocr")
+async def debug_ocr(file: UploadFile = File(...)):
+    """Debug endpoint - lihat raw response dari Gemini"""
+    content = await file.read()
+    image_base64 = base64.b64encode(content).decode("utf-8")
+    mime_type = file.content_type or "image/jpeg"
+    
+    if not GEMINI_API_KEY:
+        return {"error": "GEMINI_API_KEY tidak dikonfigurasi"}
+    
+    try:
+        model = genai.GenerativeModel("gemini-1.5-flash")
+        prompt = """Baca semua teks yang terlihat di gambar parfum ini.
+Tuliskan semua teks yang kamu lihat, satu per baris.
+Fokus pada: nama parfum, nama brand, ukuran (ml), dan teks lainnya.
+Jangan tambahkan penjelasan, cukup tulis teks yang terlihat."""
+
+        response = model.generate_content([
+            prompt,
+            {"mime_type": mime_type, "data": image_base64}
+        ])
+        
+        text = response.text if response.text else "(kosong)"
+        
+        # Cari match dari database
+        text_lower = text.lower()
+        matches_found = []
+        for _, row in DF.iterrows():
+            name = str(row.get("perfume", "")).lower().strip()
+            brand = str(row.get("brand", "")).lower().strip()
+            if name and len(name) >= 4 and name in text_lower:
+                matches_found.append({"type": "perfume", "value": name})
+            if brand and len(brand) >= 3 and brand in text_lower:
+                matches_found.append({"type": "brand", "value": brand})
+        
+        return {
+            "gemini_response": text,
+            "text_lowercase": text_lower,
+            "matches_found": matches_found[:10]
+        }
+    except Exception as e:
+        return {"error": str(e)}
 
 
 @app.get("/sample")
@@ -260,5 +306,6 @@ Jangan tambahkan penjelasan, cukup tulis teks yang terlihat."""
     return RecognizeResponse(
         recognized_text=text,
         matched=matched,
+        debug_score=float(best_score),
     )
 
