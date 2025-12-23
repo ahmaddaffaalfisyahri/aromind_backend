@@ -1,0 +1,1065 @@
+No,ID_Perfume,perfume,brand,price,size,concentrate,top notes,mid notes,base notes,situation,gender
+1,HRMN-0001,glitch,mykonos,249000,50,XDP,"sicilian bergamot, apple, grapefruit, charred pineapple.","Lavender, artemesia, lily of the valley, pink pepper, vanilla, dried jasmine","white musk, cedarwood, moss, amber, patchouli, smoky notes",Day,unisex
+2,HRMN-0002,invade,mykonos,249000,50,XDP,"pink pepper, lavender absolute, juniper.","cashmeran, cinnamon bark, caramel","amber, madagascar vanilla, drywoods",Night,unisex
+3,HRMN-0003,Cafe Drops,mykonos,189000,50,XDP,"Orchid, Jasmine, coffee","Vanilla, Caramel, Tonka Bean, Milk","Amber, Musk, Wood, Patchouli",Night,Unisex
+4,HRMN-0004,Pink Drops,mykonos,189000,50,XDP,"Strawberry Preserve, Almond, Caramel","Milk, Heliotrope","Vanilla, White musk",Night,Female
+5,HRMN-0005,Pandan Sticky Rice,mykonos,169000,50,XDP,"Rice, Almond, Lactonic","Jasmine, Ylang ylang, Iily of the valley, Pandan","Ambery, vanilla, sandalwood",Versatile,Unisex
+6,HRMN-0006,Down to Earth,mykonos,169000,50,XDP,"Fig, Matcha Green Tea, Bergamot, Incense, Cinnamon","Cashmere Wood, Orange, Figolide, Milky, Orcanox","Vetiver, Sandalwood, Santamanol, Cedar",Night,Male
+7,HRMN-0007,Tea Poetry,mykonos,299000,100,XDP,"Rose, Jasmine, Ylang-Ylang","Candied fruit, Balsam, orange flower, pepper, smoked black tea","Honey, smoked black tea, Cedarwood",Versatile,Female
+8,HRMN-0008,Milk Drops,mykonos,199000,50,XDP,"Floral bouquet, Milk","Milk, Green notes","Tonka bean, White musk, White wood",Versatile,Unisex
+9,HRMN-0009,Utopia,mykonos,299000,100,XDP,"Calabrian Bergamot, White Tea, Fruits, Citrus","Iris, Jasmine Sambac, Ylang-Ylang","Cedarwood, White Musk",Versatile,Unisex
+10,HRMN-0010,Intimate,mykonos,299000,100,XDP,"Raspberry Sorbet, Pink Pepper","Rose, Peony, Patchouli","Vanilla, Cashemere",Night,Female
+11,HRMN-0011,Sparkling Rose,mykonos,299000,100,XDP,"Damask Rose, Orange, Geranium","May Rose, Sparkling Red Berries, Plum, Sandalwood","Patchouli, Amber, Guaiac wood, Musk",Day,Female
+12,HRMN-0012,Pistachio Cream Cake,mykonos,139000,50,EDP,"Whipped cream accord, Pistachio, Crumble accord","Praline, Ice Cream","Orcanox, Musk, Tonka bean",Versatile,Unisex
+13,HRMN-0013,Paradise,mykonos,149000,50,EDP,"Coconut, Mandarin Orange, Pear, Pineapple","Frangipani, Jasmine, Lily","Amber, Vanilla, Woody",Day,Unisex
+14,HRMN-0014,Musk Aura,mykonos,279000,100,EDP,"Bergamot, Yuzu, Apple","Lily of the Valley, Sambac Jasmine, Ylang-ylang","Amber, Musk, Citrus, Nectarine",Versatile,Unisex
+15,HRMN-0015,Rouge,mykonos,169000,50,EDP,"Green pear, Lemon blossom","Lily of the valley, Ambrette, Violet, Orris","Orcanox , Musks",Day,Female
+16,HRMN-0016,Sansa,mykonos,279000,100,EDP,"Moss, Peach, Black Tea, Osmanthus.","Rose, Tuberose, Narcissus, Toffee.","Cedarwood, Orris Root, Vetiver, Dark Chocolate.",Night,Unisex
+17,HRMN-0017,Aphrodite,mykonos,169000,50,EDP,"Jasmine, Burnt Cinnamon, Myrrh","Cedarwood, tonka bean, sandalwood","White musk, tobac, Vanilla, Mineral amber",Night,Unisex
+18,HRMN-0018,Caramel Fudge,mykonos,149000,50,EDP,"Cookie Dough, Caramel, Vanilla","Caramel, Condensed Milk, Sea Salt","White Musk, Vanilla, Caramel, Praline",Night,Unisex
+19,HRMN-0019,XoXo Rosy,mykonos,149000,50,EDP,"Turkish Rose, Pink Pepper, green notes","Turkish Rose, Rose Petals, Orange Jam , Red Berries","Amber, Musk, Rose",Versatile,Female
+20,HRMN-0020,Matcha Latte,mykonos,169000,50,XDP,"Matcha Tea, White Chocolate","Jasmine, Tonka Bean","Vanilla, Milk",Night,Unisex
+21,HRMN-0021,Enchanted,mykonos,169000,50,XDP,Mandarin Orange,"Peony, Rose, Violet, Peach"," Iris, Musk",Day,Female
+22,HRMN-0022,Bonfire Vanilla,mykonos,169000,50,XDP,"Cloves, nutmeg, Pink pepper, orange zest & Vanilla","Smoked wood, Pepper, Guaic wood, Burnt brown sugar","Smoked Wood, Vanilla, marshmallow, caramel",Night,Unisex
+23,HRMN-0023,Verve,mykonos,149000,50,XDP,"Vanilla, pear, Blackcurrant","Jasmine, Iris, Orange blossom","Praline, Vanilla, Tonka Bean",Night,Unisex
+24,HRMN-0024,Stilettos,mykonos,149000,50,EDP,"Blackberry, Sour Cherry, Mandarin Orange","Violet, Jasmine","Cashmere wood, Amber, patchouli, Musk, Vanilla",Day,Female
+25,HRMN-0025,Berry Caramel Pancake,mykonos,149000,50,EDP,"Mixed Berry coulis, brown sugar, lemon","Smoked brown sugar caramel, butter pancake","caramel, black berry, cashmere wood, tonka bean",Day,Unisex
+26,HRMN-0026,Moroccan Vanilla,mykonos,299000,100,EDP,"Moroccan Vanilla, Bulgarian Rose, Rose, Lemon","Bulgarian Rose, Vanilla, Lemon, Sugar","White Musk, Sugar, Vanilla",Versatile,Unisex
+27,HRMN-0027,Black Opera,mykonos,269000,100,EDP,"Vanilla, Orange Blossom, Pink Pepper","Licorice, Jasmine, Almond, Coffee","Cashmere wood, Jasmine, Vanilla, Patchouli",Night,Unisex
+28,HRMN-0028,When In Paris,mykonos,149000,50,EDP,"Mandarin Orange, Lychee & Marigold","Wild Orchid, Vanilla Orchid, Magnolia","Apricot, Cashmere musk, Guaic Wood",Day,Unisex
+29,HRMN-0029,Vanilla Clouds,mykonos,149000,50,EDP,"Vanilla, heliotrope, white floral accord","Vanilla, Marshmallow, Iris","Caramel, White Musk, Vanilla",Day,Unisex
+30,HRMN-0030,Coconut Dreams,mykonos,149000,50,EDP,"Coconut, Aloe Vera, Lily of the Valley","Coconut Cream, Vanilla, Sweet Rice","Vanilla, Cashmere Wood​",Day,Unisex
+31,HRMN-0031,Blossom,mykonos,139000,50,EDP,"Green Notes, Orange, Jasmine","Tuberose, Honeysuckle, Jasmine","Vanilla, Sandalwood",Day,Female
+32,HRMN-0032,Ivory,mykonos,139000,50,EDP,"Strawberry, Pink, Grapefruit, Raspberry, Cassia","Lily of the valley, Violet, Red Peony, Lily","Vanilla, Cashmere wood, Musk",Day,Female
+33,HRMN-0033,Chai Crema Latte,mykonos,299000,50,XDP,"Cinnamon, Gingerbread, Coffee, Cardamom","Tea Leaves, Caramel, Milk, Hazelnut","Vanilla, Tonka Bean, Musk, Milk",Day,Unisex
+34,HRMN-0034,Luminos,mykonos,229000,50,XDP,"Apple, Banana (Part of The Blue Java Banana Accord)","White Florals, Rose, Tuberose, Lily of The Valley, Orange Blossom, Vanilla (Part of The Blue Java Banana Accord)","Amber, Edible Notes, Solar Accord, Amberwood, Cashmere, Ice Cream (Part of The Blue Java Banana)",Day,Unisex
+35,HRMN-0035,Hawaiian Crush,mykonos,399000,100,EDP,"Lychee, Red Fruits, Black Tea","Rose, Lily Of The Valley, Lychee, Black tea","Amber, Patchouli, Musk, Incense",Day,Unisex
+36,HRMN-0036,Adelina,mykonos,149000,50,EDP,"Green Notes, Orange, Jasmine","Honeysuckle, Tuberose, Jasmine","White Musk, Sandalwood",Day,Female
+37,HRMN-0037,Satin Blanc,mykonos,399000,100,XDP,"Bergamot, Black Pepper, Green Apple","Cedar Wood, Jasmine Tea, Floral Bouquet, Aquatic","White Amber, Tonka Bean, Vanilla",Day,Unisex
+38,HRMN-0038,Dark Secret,mykonos,299000,100,XDP,"Black Cherry, Saffron, Bergamo","Cinnamon, Nutmeg, Marigold, Jasmine, Praline"," Amber, Musk, Tonka Bean, Sandalwood",Day,Unisex
+39,HRMN-0039,It's Not Ella,mykonos,179000,50,EDP,"Hazelnut, Praline","Creamy, Praline","Vanilla Caramel, Amber, Cedar",Day,Female
+40,HRMN-0040,Slow Living,mykonos,149000,50,EDP,"Italian Lemon, Bergamot, Orange Blossom","Lavender, Hawthorn","Musk, Ambroxan​",Day,Unisex
+41,HRMN-0041,Dolce Cherry,mykonos,179000,50,XDP,"Maraschino Cherry, Vanilla, Pink Pepper, Bergamot, cloves","Vanilla, Cinnamon leaves, Dried Apricot, plum, black cherry","Tonka bean, vetiver, cedar, amberwood, sandalwood",Night,Unisex
+42,HRMN-0042,Alpha,HMNS,320.000,100,EDP,"CITRUS, GRASS",CEDARWOOD,GREEN TEA ESSENCE,Day,MALE
+43,HRMN-0043,ORGSM,HMNS,323.000,100,EDP,RED APPLE,"ROSE, JASMINE, PEONY","VANILLA BEANS, AMBER",Night,FEMALE
+44,HRMN-0044,Darker Shade of ORGSM,HMNS,380.000,100,EDP,"ORANGE BLOSSOM, APPLE, PEPPER","CYPRIOL, CARAMEL, PATCHOULI ","VANILLA BEANS, CEDARWOOD, AMBER, VETIVER",Night,FEMALE
+45,HRMN-0045,Farhampton,HMNS,369.000,100,XDP,"BERGAMOT, RIPE FRUIT","LAVENDER, ORANGE BLOSSOM FLOWER","LABDANUM, CEDAR WOOD, TONKA BEAN",Versatile,MALE
+46,HRMN-0046,Essence Of The Sun (EOS),HMNS,369.000,100,EDP,"Bergamot, Coriander Seeds, Pink Pepper","Tropical Flower, Jasmine, Rose, Solar Accord	","Vanilla, Tonka Bean, Ambrette, Cedar Wood",Day,FEMALE
+47,HRMN-0047,Essence of The Night,HMNS,398.000,100,EDP,"Bergamot, Tuberose","Ylang ylang, violet leaves, jasmine absolute","amberwood, musk",Night,FEMALE
+48,HRMN-0048,Unrosed,HMNS,374.000,100,EDP,FLORAL,EARTHY,NOTES MUSKY,Versatile,FEMALE
+49,HRMN-0049,The Perfection,HMNS,398.000,100,EDP,"BERGAMOT, ELEMI, CLOVE, NUTMED","LAVENDER, TAGETES, LILY OF THE VALLEY, GREEN PEAR","DRIFTWOOD, SANDALWOOD, LEATHER, WHITE MUSK",Versatile,MALE
+50,HRMN-0050,The Prestige,HMNS,415.000,100,EDP,"GRAPEFRUIT, TOBACCO LEAVES, PINK PEPPER JUNGLE ESSENCE","PATCHOULI, GERANIUM, ORRIS","TOLU, VETIVER, LABDANUM",Night,MALE
+51,HRMN-0051,Untitled Humans,HMNS,395.000,100,EDP,"CORIANDER, VIOLET LEAVES, AMBRETTE","FIGOLIDE, VELVET NOTE, ROSE ABSOLUTE","SANDALWOOD, CYPRIOL, VANILLA JUNGLE ESSENCE",Versatile,Unisex
+52,HRMN-0052,Unpatched,HMNS,398.000,100,EDP,"JASMINE SAMBAC, VANILLA MADAGASCAR, COKELAT","KARAMEL, AKIGALAWOOD, MAWAR","TONKA BEAN BRAZIL, AMBER, MUSK",Night,Unisex
+53,HRMN-0053,Ambar Janma,HMNS,500.000,100,EDP,"BERGAMOT, ELEMI, CLOVE, NUTMED","LAVENDER, TAGETES, LILY OF THE VALLEY, GREEN PEAR","DRIFTWOOD, SANDALWOOD, LEATHER, WHITE MUSK",Versatile,UNISEX
+54,HRMN-0054,Addict,HMNS,249.000,50,EDP,BERRIES,"RED ROSE, COFFEE","PATCHOULI, AMBER, TONKA BEANS",Night,MALE
+55,HRMN-0055,FWB,ONIX,203150,50,EDP,"Bergamot, Lemon, Orange, Apple, Green tea","Freesia, White Floral, Amber, Peach, Coconut","Amber, Vetiver, Musk, Vanilla, Cedarwood, Caramel",Versatile,Male
+56,HRMN-0056,GALA,ONIX,278800,50,XDP,"Cassis, Peach, & Opoponax","Jasmine, Magnolia, Rose, Oudh, & Myyrh","Patchoulli, Amber, Cedarwood, Guaiac Wood, Musk & Vanilla",Versatile,Unisex
+57,HRMN-0057,OSCAR,ONIX,278800,50,XDP,Floral,Amber & Lactone,Musk & Moss Amber,Versatile,Unisex
+58,HRMN-0058,SENOPARTY,ONIX,203150,50,EDP,"Saffron, fir, bergamot, nagarmotha","Oud, white floral, tageta","Amber, musk, caramel cedar, moss",Night,Unisex
+59,HRMN-0059,SCORPIO,ONIX,122320,30,EDP,"Pink Pepper, Orange Blossom","Jasmine, Coffee","Vanilla, Patchouli, Cedarwood",Night,Unisex
+60,HRMN-0060,Call Me Bento,ONIX,122320,30,EDP,"Marigold, Bergamot, Lemon, Prune, Tagete","Jasmine sambac, Ylang, Rose, Coconut, Clove, Orange flower","Amber Benzoin, Musk, Vanilla, Cabrueva, Cedar",Night,Unisex
+61,HRMN-0061,CHILLIN' BABY ,ONIX,122320,30,EDP,"peach, apple, melony","Floral bouquet of mimosa, tuberose, freesia, jasmine and ylang ylang","sandalwood, musk, oakmoss",Day,Unisex
+62,HRMN-0062,FRESHBOOK PASSION,ONIX,122320,30,EDP,"Fruity cocktail of blackcurrant, red apple, raspberry and mango","Consist of floral bouquet of jasmine, violet, plum and blach fig","Musk, sandalwood, cedarwood, amber and vanilla",Day,Unisex
+63,HRMN-0063,GRATITUDE,ONIX,203150,50,EDP,"Green, Fruity, Ozone","White Floral, Caramel, Lactone, Violet","Amber, Musk, Vanilla, Sandalwood, Cedarwood",Versatile,Unisex
+64,HRMN-0064,MEXICOLA,ONIX,203150,50,EDP,"Raspberry, apple, pineapple","Jasmine, muguet, cyclamen, freesia","Sandalwood, coconut, musk, tonka, vanilla, caramel",Day,Unisex
+65,HRMN-0065,CONCERT,ONIX,278800,50,XDP,"Bergamot, Pink Pepper, & & Mandarin",Frankincense & Jasmine,"Sandalwood, Musk, Patchoulli, & Vanilla",Night,Unisex
+66,HRMN-0066,Rose d'amour,LAYR,309.000,50,XDP,"Lychee, Bergamot, Incense, Pear, Heirloom Tomato","Bulgarian Rose, Grapefruit, Peony, Lily of the Valley","Vanilla Bali, Vetiver, Musk, Cashmere Wood",Day,Female
+67,HRMN-0067,BEFORE PETRICHOR,LAYR,329.000,50,XDP,"Basil, Spearmint, Neroli, Lemon, Petitgrain, Mandarin, Watermelon","Cyclamen, White Floral, Orange Flower, Rose, Cedarleaf, Olibanum","Vetiver, Musk, Olibanum, Moss",Versatile,Unisex
+68,HRMN-0068,CHRONIC TONIC,LAYR,249.000,50,XDP,"Chronic Cinnamon, Grapefruit, Raspberry, Cypress, Thyme, Rosemary.","Lactone, Iris, Muguet, Rose, Saffron, Violet, Floral, Mandarin Orange.","Musk, Moss, Vanilla Amber, Patchouli, Vetwer, Leather, Sandalwood, Leather, Olibanum.",Night,Male
+69,HRMN-0069,Empty Room,LAYR,329.000,50,XDP,"Paper, Cotton, Lemon, Pink Peppercorn, Fig Leaves","Rose, Orange Flower, Dried Flower Base Dust, Musk, Incense, Sandalwood",-,Versatile,Unisex
+70,HRMN-0070,FORBIDDEN GARDEN,LAYR,199.000,50,XDP,"Green Apple, Rose, Blackberry, Geranium, Violet","Jasmine Sambac, Ylang ylang, Orris, Raspberry, Red Apple","Musk, Patchouli, Sandalwood, Vanilla, Vetiver",Night,Female
+71,HRMN-0071,GET NAKED,LAYR,199.000,50,XDP,"Tobacco, Green Pear, Violet, Orange, Petitgrain, Galbanum, Pine.","Magnolia, Sandalwood, Rose, Pineapple, Lavender, Geranium, Freesia.","Amber, Cedar, Musk, Patchouli, Leather, Moss, Tonka.",Versatile,Unisex
+72,HRMN-0072,KYOTO JAZZ,LAYR,289.000,50,XDP,"Matcha, Green, Yuzu, Pear, Bergamot, Cocoa, Cardamom, Lavandin, Ozone.","Ylang ylang, Violet, Beeswax, Orange Blossom, Lily of the Valley, Cassis, Pineapple.","Musk, Sandalwood, Amber, Iris, Cashmere, Vanilla, Patchouli, Moss, Labdanum.",Day,Unisex
+73,HRMN-0073,High Tide Low Tide,LAYR,329.000,50,XDP,"Lemon, Orange Flower, Tangerine, Bergamot, Rosemary","Driftwood, Coastal Trees, Earthy Sand","Musk, Cedarwood, Wild Patchouli",Versatile,Unisex
+74,HRMN-0074,MIDNIGHT HAZE,LAYR,209.000,50,XDP,"Pink Pepper, Cardamon, Lavender, Tuberose, Tulip, Grass.","Oud, Jasmine, Cedarwood, Lily of the Valley, Ylang ylang, Orange Flower.","Amber, Vanilla, Musk, Sandalwood, Tonka Bean, Vetiver.",Night,Female
+75,HRMN-0075,SECOND SKIN,LAYR,199.000,50,XDP,"Blackpepper, Bergamot, Clary Sage, Mandarin, Green, Tagete","Rose, Orange Flower, Violet, Lily of the Valley, Jasmine, Fruity","Patchouli, Amber, Musk, Cedar, Lactone, Labdanum, Vanilla",Day,Unisex
+76,HRMN-0076,SLOW DANCE,LAYR,219.000,50,XDP,"Plum, Black Pepper, Bergamot, Cassis, Green Apple, Green Tea, Thyme","Rose Turkish, Magnolia, Jasmine Sambac, Iris, Freesia, Clove, Fruity, Clary Sage, Nutmeg","Amber, Vanilla, Vetiver, Patchouli, Caramel, Musk",Night,Female
+77,HRMN-0077,VELVET DREAM,LAYR,199.000,50,XDP,"Black Cherry, Cypress, Elem, Citrus, Labdanum, Orange, Almond.","Patchouli, Olibanum, Guaiacwood, Strawberry, Blackcurrant, Whiskey Bourbon.","Cedar, Vetwer, Musk, sandalwood, Amber, Vanilla, Raspberry, Peach, Heliotrope.",Versatile,Unisex
+78,HRMN-0078,VILA ENIGMA,LAYR,199.000,50,XDP,"Mint, Sunscreen, Coconut Milk, Honeysuckle, Pear Blossom, Figolide","Tuberose, Jasmine Sambac, Gardenia, Ambrette","Bourbon Vanilla, Sandalwood, Musk, Patchouli, Ambergris",Day,Male
+79,HRMN-0079,Heiress of Minahasa,Project 1945,345000,100,EDP,"Bergamot, Mandarin, Pepper, Rhubarb","Rose, Incense, Patchouli, Cashmere Wood","Vetiver, Sandalwood, Benzoin, Musky",Night,Unisex
+80,HRMN-0080,Symphony of Borobudur,Project 1945,345000,100,EDP,"Fig, Mandarin, Tuberose","Violet, Incense, Sandalwood, Milk","Vanilla, Tonka, Benzoin, Musky",Versatile,Unisex
+81,HRMN-0081,Bamboe Roencing,Project 1945,325000,100,EDP,"Bergamot, Marine, Green Leaves","Freesia, Waterlily, Osmanthus, White Jasmine, Rose","Musk, Precious Woods, Dry Fruits",Day,Unisex
+82,HRMN-0082,The Great Batavia,Project 1945,325000,100,EDP,"Apple, Lemon, Watermelon, Spearmint","Lavender, Clove Indonesia, Geranium, Elemi","Patchouli Indonesia, Vanilla, Tonka Bean, Moss",Versatile,Unisex
+83,HRMN-0083,Horas,Project 1945,375000,100,EDP,"Rum, chocolate","coffee, caramel, almond, heliotrope","vetiver, sandalwood",Night,Unisex
+84,HRMN-0084,Petruk,Project 1945,375000,100,EDP,"lemon, apple, lavender, pepper","leather, cardamom, rose","cedarwood, vetiver",Versatile,Unisex
+85,HRMN-0085,Samosir,Project 1945,375000,100,EDP,"Bergamot, Green","Jasmine, Honeysuckle, Green Tea, Honey","Labdanum, Musk",Day,Unisex
+86,HRMN-0086,Waters of Maluku,Project 1945,325000,100,EDP,"Grapefruit, Carrot, Green Tea","Lotus, Peony, Cinnamon","Clove, Cistus, Incense, Musk",Day,Unisex
+87,HRMN-0087,Fields of Ubud,Project 1945,325000,100,EDP,"Ambrette Seeds, Buchu Leaves, Bergamot, Elemi","Lavender, Sea Salt, Sage, Dried Fruit","Vetiver Java, Sandalwood, Oakmoss",Day,Unisex
+88,HRMN-0088,Princess of Java,Project 1945,325000,100,EDP,"Peach, Green Pear, Bitter Orange","uberose, Neroli, Jasmine, Orange Blossom","Vanilla, Sandalwood, Musk, Amber",Versatile,Unisex
+89,HRMN-0089,Sunset in Sumba,Project 1945,325000,100,EDP,"Mandarin, Red apple, Cardamom, Elemi","Lavender, Incense, Clove","Patchouli, Vanilla",Night,Unisex
+90,HRMN-0090,Nusantara's Embrace,Project 1945,295000,100,EDP,"Citrus, Incense, Star Anise","Rice, Black Orris, Water Lily","Sesame, Sandalwood, Hay",Versatile,Unisex
+91,HRMN-0091,Apresiasi,Project 1945,295000,100,EDP,"Bergamot, Ambrette Seed, Orange","Neroli, Petitgrain, Musk","Vetiver, Cedarwood, Amber",Day,Unisex
+92,HRMN-0092,Jeruk Of Kintamani ,Bali Surfers Perfume,299000,100,EDP,"Orange, Grapefruit","Lime, Green Tea","Musk, Cedarwood",Day,Unisex
+93,HRMN-0093,Papan selancar for her,Bali Surfers Perfume,225000,100,EDP,"Strawberry Candy, Soursop, Watermelon",Soursop,Soapy,Day,Female
+94,HRMN-0094,Dreamland for Her,Bali Surfers Perfume,225000,100,EDP,Biscuit Butter,-,-,Night,Female
+95,HRMN-0095,Surfing club,Bali Surfers Perfume,199000,100,EDP,Sweet orange,Woody,-,Day,Unisex
+96,HRMN-0096,Festival Layangan,Bali Surfers Perfume,225000,100,EDP,"Lemon, Green","Vanilla, Patchouli","Amber, musk",Versatile,Unisex
+97,HRMN-0097,The Ubud 3,Bali Surfers Perfume,250000,100,EDP,Pineapple ,Saffron,-,Versatile,Unisex
+98,HRMN-0098,Balangan and Me,Bali Surfers Perfume,225000,100,EDP,grapefruit,"Cedar, tonka bean",-,Day,Unisex
+99,HRMN-0099,Dreamland ,Bali Surfers Perfume,225000,100,EDP,"Nutmeg, Lavender",Patchouli,-,Night,Male
+100,HRMN-0100,Bali Cliff 2,Bali Surfers Perfume,225000,100,EDP,Citrussy,"Lavender, Almond, Flowery, Saparila","Vanilla, Amber, Woody",Night,Male
+101,HRMN-0101,Bali Cliff 1,Bali Surfers Perfume,225000,100,EDP,"Pink Papper, Bergamot, Apple, Cardamom","Oakmoss, Cinnamon, Lavender","Chestnut, Vanilla, Cedarwood",Night,Male
+102,HRMN-0102,Papan selancar ,Bali Surfers Perfume,225000,100,EDP,"Hazelnut, Nutty, Honey",Bergamot,"Vanila, Patchouli",Day,Unisex
+103,HRMN-0103,Double SIX,Bali Surfers Perfume,225000,100,EDP,"Citrussy, Aromatic , Fresh Spicy, Aquatic",-,-,Day,Unisex
+104,HRMN-0104,The Ubud ,Bali Surfers Perfume,250000,100,EDP,"Peach, Rose",-,"Patchouli, Musk",Versatile,Unisex
+105,HRMN-0105,Kuta 7 pm,Bali Surfers Perfume,225000,100,EDP,"Lychee, Citrussy ","Bamboo, Tea","Musk, Amber",Night,Unisex
+106,HRMN-0106,Kuta 7 am,Bali Surfers Perfume,110000,37,EDP,"Lychee, Citrussy, Jasmine, Flowery","Musk, Woody",-,Day,Unisex
+107,HRMN-0107,For her,Bali Surfers Perfume,225000,100,EDP,"citrus, bergamot","rose, jasmine","musk, amber",Day,Female
+108,HRMN-0108,Blue Point,Bali Surfers Perfume,225000,100,EDP,"Cytrus, Fruity, Oceanic","Flowery, Worm Spicy, Marine","Musky, Woody",Day,Unisex
+109,HRMN-0109,Bali Cliff for her,Bali Surfers Perfume,225000,100,EDP,"Fruity, Watermellon",-,-,Day,Female
+110,HRMN-0110,Zephyr,Oullu,272000,50,EDP,"licorice, almond","ground pistachio, rhubarb","ambergris, vanilla",Versatile,Unisex
+111,HRMN-0111,Phobos,Oullu,233000,50,EDP,"Bitter Orange, Wormwood, Saffron","Muguet, Pink Pepper, Jasmine","Amber, Musk, Tonka Bean, warm woody",Night,Male
+112,HRMN-0112,Dia,Oullu,389000,50,EDP,"Yuzu, Poppy, Carambola","Ylang, Tuberose, Orange Blossom","Musk, Heliotrope, Oris",Versatile,Female
+113,HRMN-0113,Solar Rays,Oullu,389000,50,EDP,"caramel popcorn, brown sugar, tangerine","orchid, Chinese osmanthus","tonka bean, bourbon vanilla, sandalwood",Night,Unisex
+114,HRMN-0114,Deep Dive,Oullu,389000,50,EDP,"lemon blossom, barley, ozonic","sage, hinoki","oak moss, cashmere wood",Versatile,Unisex
+115,HRMN-0115,Aether,Oullu,389000,50,EDP,"darjeerling, sapodilla","cucumber , magnolia","virginia cedar, jasmine",Day,Unisex
+116,HRMN-0116,Ego,Oullu,389000,50,EDP,"cassis, fig","violet, geranium","cedar, patchouli",Night,Unisex
+117,HRMN-0117,Umbra,Oullu,389000,50,EDP,"amalfi lemon, grapefruit","clove, blackpepper","oak moss, pine Perfect",Day,Unisex
+118,HRMN-0118,Zephyr,Oullu,389000,50,EDP,"bergamot, lemon","jasmine, apricot","amber, sandalwood",Day,Unisex
+119,HRMN-0119,Bird Song,Oullu,291000,50,EDP,"ineapple, water lily, hortensia","kumquat plum, anise","amberwood, myrrh",Versatile,Unisex
+120,HRMN-0120,One and Only,Oullu,195000,50,EDT,"apple, melon","marine, lychee","jasmine, musk, amber",Day,Unisex
+121,HRMN-0121,Nothing,USUAL,349000,50,EDP,Fruity,White floral,"Ambroxide, amber",Versatile,Unisex
+122,HRMN-0122,Smells Like Nothing,USUAL,324500,50,EDP,ozonic,floral,"Ambroxide, amber, musk",Versatile,Unisex
+123,HRMN-0123,Jasmine Bouquet,USUAL,197000,50,EDP,Marigold,"jasmine, honey","labdanum, benzoin, vanilla",Night,Female
+124,HRMN-0124,Bergamore,USUAL,269000,50,EDP,"Bergamot, mandarin","black tea, ginger","ambroxide, amber",Versatile,Unisex
+125,HRMN-0125,Our of Shower,USUAL,229000,50,EDP,"Bergamot, pepper","geranium, lavender","patchouli, vetiver",Versatile,Male
+126,HRMN-0126,Blush,USUAL,229000,50,EDP,"Zapota, Melon Seeds","Sandalwood, Magnolia, Violet",Hedione,Versatile,Female
+127,HRMN-0127,Rosie De Marrie,The Body Tale,258000,50,XDP,"Mandarin, Lemon, Bergamot, Pear, Pink Pepper","Rose, Orange Blossom, Vetiver","Patchouli, Vanilla, Caramel, Amberwood",Day,Female
+128,HRMN-0128,Cherry Pop,The Body Tale,258000,50,XDP,Bitter Almond,"Rose, Cherry","Vanilla, sandal wood, tonka bean",Day,Female
+129,HRMN-0129,Sip Me Litch,The Body Tale,258000,50,XDP,"lychee, apple",floral,"sugar, amber",Day,Female
+130,HRMN-0130,Spice Nomad,The Body Tale,258000,50,XDP,"Apple, Smoke, Cinnamon","Tobacco, Moss, Vetiver",Vanilla,Night,Male
+131,HRMN-0131,Summer Splash,The Body Tale,258000,50,XDP,"soda, bergamot","amber, woody",orange blossom,Day,Unisex
+132,HRMN-0132,Hojicha Latte,The Body Tale,258000,50,XDP,Hojicha tea,milk,"tonka bean, brown sugar, musk",Day,Unisex
+133,HRMN-0133,Portrait of Kyoto,The Body Tale,228000,50,XDP,"earl grey tea, apple, honey, mandarin","jasmine, black tea, fresia, irish","musk, pepper, sandalwood, amber",Day,Female
+134,HRMN-0134,Verona,The Body Tale,258000,50,XDP,"black currant, pink pepper","rose, geranium","patchouli, moss, vetiver, musk",Day,Female
+135,HRMN-0135,Lady M,The Body Tale,258000,50,XDP,balsamic,balsamic,"vanilla, musk",Versatile,Female
+136,HRMN-0136,Kairy,The Body Tale,228000,50,XDP,"Bergamot, pink pepper","turkish rose, floral, coconut","vanilla, absolute tonka bean, cedarwood",Versatile,Female
+137,HRMN-0137,Nectar of Nile,The Body Tale,258000,50,XDP,"Irish, Green Notes, Juniper Berries","Jasmine, Orrid, Root","Pink Pepper, Vetiver, Leather",Day,Unisex
+138,HRMN-0138,Juliette,The Body Tale,258000,50,XDP,"cinnamon, cardamom, bergamot","jasmine, ylang ylang, sage","amber, woody, leather, labdanum",Versatile,Female
+139,HRMN-0139,Diana,The Body Tale,258000,50,XDP,strawberry,"tuberose, jasmine",amber,Day,Female
+140,HRMN-0140,Teamomile,The Body Tale,228000,50,XDP,almond,"chamomile, jasmine, musk","cedre, vanilla, bois de santal",Versatile,Female
+141,HRMN-0141,Plain Jane,The Body Tale,228000,50,XDP,"lemon, bergamot, tagetes, black currant","violet, irish, cyclamen, jasmine","vetiver, musk",Versatile,Female
+142,HRMN-0142,Flower Dome,The Body Tale,228000,50,XDP,"rose violet, blackberry","peomy, jasmine","musk, sandalwood, patchouli, ",Versatile,Female
+143,HRMN-0143,Leviora,The Body Tale,228000,50,XDP,"lily, galbanium","lily, vanila","musk, sandalwood",Versatile,Female
+144,HRMN-0144,Humbling Forest,Kahf,76.950,35,EDT,"Cypress, Rosemary, Grapefruit","Cedarwood, Guaiac Wood, Jasmine.","Sandalwood, Patchouli, Musk.",Versatile,MALE
+145,HRMN-0145,Invigorating Waterfall,Kahf,76.950,35,EDT,"Marine, Water, Lemon","Cedarwood, Floral, Violet","Dry Amber, Patchouli, Veliver, Musk ",Versatile,MALE
+146,HRMN-0146,Kahf Revered Oud,Kahf,75.330,35,EDT,"Rose, lemon, fruity","Amber, gourmand","Vanilla, agarwood (oud), musk​",Day,MALE
+147,HRMN-0147,Kahf Saffron Oud,Kahf,256.500,100,EDP,"Mandarin, Saffron, Clove.","Rose, Leather, Oud.","Cedarwood, Patchouli, Sandalwood, Musk.",Versatile,MALE
+148,HRMN-0148,True Brotherhood,Kahf,76.950,35,EDT,"Cinnamon, Orange, Lemon.","Tobacco, Cypress, Lavender.","Tonka Beans, Cedarwood, Incense.",Day,MALE
+149,HRMN-0149,Galleria,Alchemist Fragrance,199000,30,EDP,"Cape Jasmine, Plum","Tuberose, Oiellet","Honey, Redwood",Versatile,Female
+150,HRMN-0150,Pink Laundry,Alchemist Fragrance,199000,30,EDP,"Clean Aldehydes, Chamomile, Green Notes","Jasmine, Lily of the Valley, Rose","Musky Notes, Patchouli, Sandalwood, Powdery Notes",Day,Female
+151,HRMN-0151,Bois et Musc,Alchemist Fragrance,529000,50,EDP,Black Pepper,"Muguet, Cashmeran","Patchouli, Musk, Moss",Night,Unisex
+152,HRMN-0152,Cachemire,Alchemist Fragrance,529000,50,EDP,"Cinnamon Bark Oil, Pepper Pink CO2, Apple","Rose Accord, Violet Notes, Ambrette ABS","Cedarwood Heart, Virgina, Musk",Night,Unisex
+153,HRMN-0153,Musc Laiteux,Alchemist Fragrance,529000,50,EDP,"Pink Pepper, Orange Flower","Orris Crete, Transparent Floral, Riz Au Lait Accord","Ambrette ABS, Patchouli Oil",Night,Unisex
+154,HRMN-0154,Musc Vanille,Alchemist Fragrance,529000,50,EDP,"Pink Pepper, Black Pepper","White Floral Bouquet, Coconut Accord","Musk, White Woods, Vanilla",Night,Unisex
+155,HRMN-0155,Onirique,Alchemist Fragrance,449000,50,XDP,"Pear, Orange, Clary Sage","Tuberose, Orange Blossom, Jasmine","Vanilla, Cedarwood, Satin Musks",Versatile,Unisex
+156,HRMN-0156,Out West,Alchemist Fragrance,339000,50,XDP,"Yuzu, Bergamot, Green Apple","Cedarwood, Rose, Plum","Musk, Patchouli, Vetiver",Day,Unisex
+157,HRMN-0157,Home Garden,Alchemist Fragrance,199000,50,EDP,"Blackberry, Grapefruit, Clove","Cedar, Vetiver",Floral Notes,Day,Unisex
+158,HRMN-0158,Got My Mojo Back,Alchemist Fragrance,199000,50,EDP,"Bergamot, Saffron","Rose, Jasmine","Sandalwood, Amber, Musk, Patchouli",Night,Unisex
+159,HRMN-0159,LET'S FREAKING GO,Memoir Perfumery,249000,50,EDP,"Lavender, Bergamot, Magnolia","Myrrh, Amber, Guaiac Wood","Tonka Bean, Vanilla, Almond",Night,Unisex
+160,HRMN-0160,Weekend,Filosophia,150000,50,EDP,"lime, apple","red lily, lavender, ginger",vanilla,Versatile,Unisex
+161,HRMN-0161,Fly Me To The Moon,Filosophia,400000,100,XDP,"Orange, Bergamot","Saffron, White Floral, Rum, Seasalt, Nutmeg","Warm Leather Accord, Black Amber, Cedarwood, Patchouli, Vetiver",Night,Male
+162,HRMN-0162,Bella Luna,Filosophia,150000,50,XDP,"Fresh Berries, Plum, Green Apple","Jasmine, Orchid, Lily","Caramel, Vanilla",Day,Female
+163,HRMN-0163,Party Anthem Royale,Filosophia,375000,100,XDP,"Lavender, Lemon","Violet, Cypress, Ambroxan","Oud, Coffee, Tonka Bean, Deer Musk",Night,Male
+164,HRMN-0164,Party Anthem,Filosophia,225000,100,XDP,"passion fruit, bergamot","cocktails, mint, pear","lavender, leather",Versatile,Unisex
+165,HRMN-0165,Bed of Roses,Filosophia,225000,100,XDP,"bergamot, pomelo","rose, magnolia, violet","cedar, musk",Day,Female
+166,HRMN-0166,Party Anthem Weirdo,Filosophia,225000,100,XDP,"tobacco, clove","roasted marshmallow, almond",vanilla,Night,Unisex
+167,HRMN-0167,Beach Walk,Filosophia,225000,100,XDP,"sea notes, coconut","pineapple, sugarcane, bamboo","sandalwood, sand",Day,Unisex
+168,HRMN-0168,CHNO,SAFF & Co,189000,30,XDP,"Pink pepper, Orange blossom, Pear","Coffee, Jasmin, Bitter almond, Licorice","Vanilla, Patchouli, Cedar, Cashmere wood",Night,Female
+169,HRMN-0169,LOUI,SAFF & Co,189000,30,XDP,"Verbena, Green, Aldehydic","Rose, Peony, Lily of the Valley","Cedarwood, Musk",Day,Unisex
+170,HRMN-0170,COCO,SAFF & Co,189000,30,XDP,"Citrus, Floral, Green","Marine, Woody","Musky, Oriental",Versatile,Unisex
+171,HRMN-0171,Cascavel,SAFF & Co,189000,30,XDP,"Saffron, Orange Blossom","Jasmine, Violet, Lily of the Valley","Oakmoss, Ambergris",Versatile,Unisex
+172,HRMN-0172,MALEALI,SAFF & Co,229000,30,XDP,"Bush Juniper, Tellicherry Pepper","Palo Santo a.k.a The Tree of Life, Red Sandalwood","Nagarmotha, Sulawesi Patchouli",Night,Male
+173,HRMN-0173,Minouet,SAFF & Co,239000,30,XDP,"Starkrimson, Galbanum","Roseraie de l'Hay, Bigarade Orange, Iris Pallida","Cashmere Wood, Fior di Latte, Ambergris",Versatile,Female
+174,HRMN-0174,SAFF,SAFF & Co,229000,30,XDP,"Bergamot, Mandarin, Saffron","Ylang, Lily of the valley, Jasmine/White Floral","Dryamber, Leathery, Musk",Night,Male
+175,HRMN-0175,MORFOSIA,SAFF & Co,249000,35,XDP,"Rhubarb, Yuzu, Elletaria","Shogayu, Narcissus, Cape Jasmine","Amber, Red Cedar, haiti Vetiver",Versatile,Unisex
+176,HRMN-0176,IRAI LEIMA,SAFF & Co,259000,35,XDP,"Cassis bud, Dalanghita, Pink peppercorn","Duchesse de Nemours, Water Iris, Raat Ki Rani","Ambrette, Ancient waters",Versatile,Unisex
+177,HRMN-0177,ILIAD,SAFF & Co,229000,30,XDP,"Pink Peppercorn, Peony, Muguet","Ylang ylang, Iris, Hedione","Amber, Cashmeran, Patchouli",Night,Unisex
+178,HRMN-0178,XOCOLATL,SAFF & Co,229000,30,XDP,"Mandarin, Pear, Apple","Heliotrope, Plumeria, Maltol, Gardenia","Coconut, Musk, Sandalwood",Versatile,Unisex
+179,HRMN-0179,LAS POZAS,SAFF & Co,199000,30,XDP,Datura a.k.a The Angel's Trumpet,Sumatran benzoin & Nutmeg,"Cashmeran, Cedar, Sandalwood",Night,Unisex
+180,HRMN-0180,Solaris,SAFF & Co,219000,30,XDP,"Bergamot, Mandarin, Violet Leaves","Orris, Freesia, Cedarwood","Vetiver, Amber, Tonka Bean",Versatile,Unisex
+181,HRMN-0181,OSTARA,SAFF & Co,219000,30,XDP,"Raspberry. Passionfruit, Pear","Cassis Buds, Lily of the Valley","Amber, Patchouli, Heliotrope",Day,Unisex
+182,HRMN-0182,S. O. T. B,SAFF & Co,249000,30,XDP,"Mandarin, Galbanum, Ylang","Tuberose, Jasmine, Orange flower","Vanilla, Tonka bean, Musk",Day,Female
+183,HRMN-0183,OMNIA,SAFF & Co,189000,30,XDP,"Grapefruit, Green Notes","Rose, Floral, Iris","Woody, Heliotrope, Musk",Day,Unisex
+184,HRMN-0184,TROUPE,SAFF & Co,189000,30,XDP,"Citrus/Fresh, Pear","Rose, Orange Blossom, Freesia","Patchouli, Musky, Amber",Versatile,Female
+185,HRMN-0185,Matcha Éclat,Carl & Claire,279000,30,EDP,"Green tea, Bergamot, Orange","Jasmine, Matcha, orange blossom","mossy, cedarwood",Versatile,Unisex
+186,HRMN-0186,Enchantée,Carl & Claire,279000,30,EDP,"Citrus, Ginger, Peach","White flowers, Jasmine, Tuberose, Heliotrope","Ambrette, Musk, Solar, Gourmand",Night,Female
+187,HRMN-0187,Mystical Mirage,Carl & Claire,251100,30,EDP,"Oud, Turkish Rose",Violet,"Oud, Vanilla",Night,Unisex
+188,HRMN-0188,Into the Woods,Carl & Claire,251100,30,EDP,"Violet, Lotus, Verbena","Lily of The Valley, Tea Rose","Sandalwood, Amber, Musk",Versatile,Unisex
+189,HRMN-0189,Garden of Eden,Carl & Claire,251100,30,EDP,"Saffron , Jasmine","Amber, Wood",Cedarwood,Night,Unisex
+190,HRMN-0190,Take My Hand,Carl & Claire,237150,30,EDP,"Bergamot, Fruity, Floral","Floral, Patchouli","Ambery, Animalic",Day,Female
+191,HRMN-0191,Morning Glory,Carl & Claire,251100,30,EDP,"Citrus, White Floral, Fruity","Floral, Jasmine, Lily of The Valley","Moss, Musky, Oriental",Day,Female
+192,HRMN-0192,A Love Like This,Carl & Claire,251100,30,EDP,"Lily, Aromatic, Eucalyptus, Ginger","Lily, Ambery, Jasmine","Cedarwood, Musky, Patchouli",Versatile,Female
+193,HRMN-0193,Dancing With My Shadow,Carl & Claire,251100,30,EDP,"Floral, Fresh, Herbaceous","Floral, Oriental, Rose","Ambery, Balsamic, Musky",Versatile,Female
+194,HRMN-0194,Delicate Embrace,Carl & Claire,251100,30,EDP,"Citrus, Freesia, Fruity, Pear","Lily of The Valley, Rose","Ambery, Musky",Day,Female
+195,HRMN-0195,Spring Sonata,Carl & Claire,251100,30,EDP,"Citrus, Rose, Peony, Jasmine, Fruity","Floral, Fruity, Lactonic","Ambery, Floral, Musky",Day,Female
+196,HRMN-0196,Talking to the Moon,Carl & Claire,251100,30,EDP,"Fruity, Orange Blossom","Jasmine, Tuberose, Woody","Ambery, Musky, Sweet",Night,Female
+197,HRMN-0197,Song of the Youth,Carl & Claire,251100,30,EDP,"Citrus, Floral, Fruity","Magnolia, Musky, Iris, Vanilla","Ambery, Animalic, Moss",Versatile,Unisex
+198,HRMN-0198,Black Dahlia,Carl & Claire,251100,30,EDP,"White Floral, Gourmand, Coffee","Vanilla, Floral, Woody","Ambery, Musky, Sweet",Night,Unisex
+199,HRMN-0199,Enigma,Eloi Coco,349999,100,EDP,"Blackcurrant LMR, Raspberry","Jasmine LMR, Rose LMR","Patchouli Indonesia LMR, Tonka bean LMR",Night,Female
+200,HRMN-0200,Rosie Posie,Eloi Coco,349999,100,EDP,"Cardamom, plum","Rose LMR, Cedarwood","Vanilla Bean LMR, Amber",Versatile,Female
+201,HRMN-0201,Blanc Pepper,Eloi Coco,349999,100,EDP,"Pink Pepper, Bergamot","Orris, Violet, Orange Flower","Musk, Amberette",Versatile,Unisex
+202,HRMN-0202,Moonlight Musk,Eloi Coco,349999,100,EDP,"Lychee, Blackcurrant","Rose, Muguet","White Musk, Vetiver LMR",Versatile,Unisex
+203,HRMN-0203,Lightning & Thunder,Eloi Coco,349999,100,EDP,"Coffe, Mandarin","Lavender LMR, Orange Blossom","Vanilla Bean LMR, Tonka Bean LMR",Night,Unisex
+204,HRMN-0204,A Lazy Afternoon,Eloi Coco,349999,100,EDP,"Ginger Lily, Pink Pepper LMR","Violet leaves LMR, Jasmine LMR","Sandalwood, LMR, Patchouli LMR",Day,Unisex
+205,HRMN-0205,Park Lane Cigarillos,Eloi Coco,50000,100,EDT,"Lemon, Pineapple, Cinnamon","Green Leaf Violet, Lavender, Marine Accords","Musk, Leather, Amberwood",Night,Male
+206,HRMN-0206,Polo Whisky Red,Eloi Coco,150000,100,EDT,"Red Grapefruit, Cedrat, Red Cranberry","Strong Saffron, Lavandin, Sage","Wood, Amber, Coffee",Night,Male
+207,HRMN-0207,Niagara Falls,Eloi Coco,50000,30,EDP,"Bergamot, Cardamom, Nutmeg","Lavandin, Green Leaf, Cedarwood","Amberwood, Gaiacwood, Musk",Versatile,Unisex
+208,HRMN-0208,The Dark Side,Eloi Coco,50000,30,EDP,"Clove Buds, Bergamot, White Petals","Jasmine, Pink Rose, Ylang Ylang","Violet, Rice Powder, Musk",Night,Unisex
+209,HRMN-0209,Love in Motion Classic Man,Eloi Coco,349999,100,EDT,"Grapefruit, Nutmeg, Pine, Lemon","Clary Sage, Patchouli, Lavender, Guaiacwood","Cedarwood, Vetiver, Amber",Versatile,Male
+210,HRMN-0210,Cibiche,Eloi Coco,65000,100,EDT,"Marine Notes, Mint, Green Accords, Corriander","Neroli, Geranium","Cedarwood, Oakmoss, Musk",Day,Unisex
+211,HRMN-0211,Polo Whisky Green,Eloi Coco,150000,100,EDT,"Pine, Lavender, Bergamot, Cumin, Basil, Juniper","Marjoran, Jasmine, Carnation, Rose, Coriander","Patchouli, Leather, Amber, Musk, Cedar, Frankicense",Night,Male
+212,HRMN-0212,Polo Whisky Black,Eloi Coco,175000,100,EDT,"Iced Mango, Spanish Sage, Green Fresh Accords","Silver Armoise, Hedione, Wormwood","Patchouli Noir, Sandalwood, Timberol, Tonka Bean",Versatile,Male
+213,HRMN-0213,Coastal Grove,Eliotte Parfums,149000,35,EDP,"Lemon, Lime","Juniper Berries, Cypress, Pine Tree",Sea Water,Day,Unisex
+214,HRMN-0214,Tonka Nostalgia,Eliotte Parfums,149000,35,EDP,"Tonka Bean, Cherry, Lemon","Bit Cola, Jasmine",Amber,Versatile,Unisex
+215,HRMN-0215,Holy Moly,Eliotte Parfums,149000,35,EDP,"Bergamot, Grapefruit",Black Currant,"Ambroxan, Iso e Super",Versatile,Unisex
+216,HRMN-0216,Super Last Course,Eliotte Parfums,149000,35,EDP,"Lemon, Orange",Cinnamon,"Vanilla, Caramel",Night,Unisex
+217,HRMN-0217,Apple Sangria,Eliotte Parfums,149000,35,EDP,"Lemon, Apple, Pineapple",Cinnamon,"Sugar, Brandy",Day,Unisex
+218,HRMN-0218,Vanille Seduction,Eliotte Parfums,189000,35,EDP,"Bergamot, Lemon","Pepper, Ginger, Rose","Vanilla, Cumin, Resins",Night,Female
+219,HRMN-0219,Morning Kiss,Eliotte Parfums,149000,35,EDP,"Grapefruit, Orange","Neroli, Tea, Ginger",Ambroxan,Day,Unisex
+220,HRMN-0220,Sweet Symphony,Eliotte Parfums,199000,35,EDP,Pepper,"Carnation, Olibanum, Saffron","Vanilla, Suede",Night,Female
+221,HRMN-0221,Long Way To The Bar,Eliotte Parfums,199000,35,EDP,Rum,"Oak, Vanilla","Amber, Tobacco, Leather, Chestnut",Night,Male
+222,HRMN-0222,Saturday Shenanigans,Scentalgia,230000,50,EDP,"Pineapple, Plum","Iris, Bulgarian Rose, Peony","Honey, Patchouli, Amber",Versatile,Unisex
+223,HRMN-0223,Page 11,Scentalgia,230000,50,EDP,"Kiwi, Watermelon, Lemon Blossom","Peony, Cyclamen, Jasmine Sambac","White Musk, Patchouli, Sandalwood",Day,Female
+224,HRMN-0224,Treats and Tea,Scentalgia,230000,50,EDP,"Genmaicha, Apple, Yuzu","Coffee, Cocoa, Tulip","Vanilla, Cedarwood, Tobacco",Versatile,Unisex
+225,HRMN-0225,Nocturne,Scentalgia,245000,50,EDP,"Lemon, Bergamot, Lavender","Nutmeg, Violet, Vetiver","Tonka Bean, Suede, Sandalwood",Night,Male
+226,HRMN-0226,Raw Morning 09:00AM,Scentalgia,230000,50,EDP,"Lemon, Rhubarb, Aldehyde","Wild Rose, Peony, Rose Petal","Amber, Patchouli, Vetiver",Day,Female
+227,HRMN-0227,Golden Hour,Scentalgia,225000,50,EDP,"Saffron, Neroli","Milk, Almond, Iris","Vanilla, Ambergris, Caramel",Night,Female
+228,HRMN-0228,Raw Morning 05:00 AM,Scentalgia,245000,50,EDP,"Bergamot, Orange Blossom","Orange Blossom, Rose","White Musk, Vanilla",Day,Unisex
+229,HRMN-0229,Anything Else?,Scentalgia,225000,50,EDP,"Raspberry, Blackcurrant","Cotton Candy, Caramel, Iris","Benzoin, Honey, Vanilla, Patchouli",Night,Female
+230,HRMN-0230,The Starry Night,Scentalgia,190000,50,EDP,"Cardamom, Grapefruit, Pink Pepper","Geranium, Rose, Ginger, Aromatic Cedar","Nutmeg, Cedarwood, Musk",Night,Male
+231,HRMN-0231,The Kiss,Scentalgia,175000,50,EDP,"Floral, Saffron","Ylang Ylang, Spicy, Amber Accord","Musky, Woody, Vanilla",Night,Female
+232,HRMN-0232,Le Saint Tropez,Bonavie,59600,30,EDP,"BERGAMOT, NUTMEG, CARDAMOM","LILY OF THE VALLEY, VIOLET, YLANG","CEDARWOOD, VETIVER, MUSKY",Day,Unisex
+233,HRMN-0233,Madeleine et Glacé,Bonavie,59600,30,EDP,"BERGAMOT, RED FRUITS, NEROLI","TUBEROSE, ORANGE BLOSSOM, JASMINE","AMBER, WHITE MUSK, WOODY",Day,Unisex
+234,HRMN-0234,Poudre et Plume,Bonavie,59600,30,EDP,"Berry, Bergamot, Violet Leaf","Jasmine, Lily of the Valley, Rose","Patchouli, Musk, Vetiver",Day,Unisex
+235,HRMN-0235,Le Jasmin Doux,Bonavie,59600,30,EDP,"Cassis Buds, Green, Pear","Jasmine, Lily of The Valley, Iris","Dry Amber, Musk",Day,Unisex
+236,HRMN-0236,Mon Petit Soleil,Bonavie,59600,30,EDP,"floral, mandarin, ivy","Orchid, violet, rose","Plum, wood, musk",Day,Unisex
+237,HRMN-0237,La Belle Étoile,Bonavie,59600,30,EDP,"Bergamot, Pear, Berry","Jasmine, Peony","Musk, Patchouli",Day,Unisex
+238,HRMN-0238,Fleur du Jardin,Bonavie,59600,30,EDP,"Mandarin, Dewberry, Watermelon","Carnation, Muguet, Jasmine","Amber, Musk, Patchouli",Day,Unisex
+239,HRMN-0239,Creme Canele,Bonavie,59600,30,EDP,"pear, pink pepper, coffee","jasmine, caramel, heliotrope","vanilla, patchouli, cedarwood",Night,Unisex
+240,HRMN-0240,Marie Antoinette,Bonavie,59600,30,EDP,"orange flower, bergamot, mandarin","jasmine, rose, ylang-ylang","cedarwood, patchouli, musk",Day,Unisex
+241,HRMN-0241,La Petite Sirene,Bonavie,59600,30,EDP,"Citron, Mandarin, Orange","Aquatic, Magnolia, Ylang","Cedarwood, Vetiver, Musky",Day,Unisex
+242,HRMN-0242,Wild Side,Cave,155900,50,XDP,"Bergamot, Pepper","Pepper, Lavender, Patchouli, Geranium","Cedar Woods, Labdanum",Versatile,Male
+243,HRMN-0243,Vanilla Oud,Cave,225000,50,XDP,"Candied mandarin, vanilla, floral","Coconut, rice, lily flower, apple blossom","Vanilla, woody notes",Versatile,Male
+244,HRMN-0244,Eather Oud,Cave,155900,50,XDP,"Oud wood, Incense","Raspberry, Saffron, Benzoin","Leather, Amberwood, Geranium",Versatile,Male
+245,HRMN-0245,Easy Day,Cave,205000,50,EDP,"Passion Fruit, Lime, Ginger, Red Apple","Incense, Pepper, Mint","Vanilla, Woody",Day,Unisex
+246,HRMN-0246,Golden Soul,Cave,205000,50,EDP,"Mandarin Orange, Grapefruit, Mint","Cinnamon, Rose","Wood, Patchouli",Versatile,Male
+247,HRMN-0247,Aura Lovers,Kitschy,169000,30,XDP,"Pink Peppercorn, Bergamot, Solar","Jasmine, Orange Flower","Coffee, Vanilla, Sandalwood",Versatile,Unisex
+248,HRMN-0248,AURA Blush,Kitschy,169000,30,XDP,"Apple, Orange Zest, Chamomile","Floral, Patchouli, Sandalwood, Tea","Musk, Amberwood, Lorenox, Orcanox",Versatile,Unisex
+249,HRMN-0249,AURA Tears,Kitschy,169000,30,XDP,"Floral, Sweet Amber, Woody","Patchouli, Warm Spicy, Coconut","Musk, Creamy Powder, Velvet",Versatile,Unisex
+250,HRMN-0250,Rania de Bloem,Kitschy,349000,50,EDP,"Rose, Wild Berry, Scent Garden","Woody, Forest Essence, Blossom Bouquet","Amber, Musky, Earthy Undertones",Night,Unisex
+251,HRMN-0251,Fairytale,Kitschy,349000,50,XDP,"Pistachio, Hazelnut, Cassis","Peony, Jasmine, Muguet","Vanilla, Maltol",Versatile,Unisex
+252,HRMN-0252,Day Dream,Kitschy,229000,50,EDP,"Oud, Pink Pepper, Cardamon, Lavender.","Jasmine, Patchouli, Cedar, Vanilla, Muguet.","Amber, Sandalwood, Tonka Bean, Musk, and Coconut.",Day,Unisex
+253,HRMN-0253,Forever Vacation,Kitschy,249000,50,EDP,Marshmallow and Pink Pepper,"Jasmine, Iris, and Vanilla","Musk, Wood, Orange, Patchouli",Day,Unisex
+254,HRMN-0254,Date Night,Kitschy,249000,50,EDP,"Calabrian Bergamot, California Orange, Mint","Magnolia, Grasse Rose, Violet","Musk, Cedar, Bulgarian Rose",Night,Unisex
+255,HRMN-0255,Golden Hour,Kitschy,249000,50,EDP,Honey and Jasmine Sambac,Marigold,Benzoin and Ylang Ylang,Versatile,Unisex
+256,HRMN-0256,Profumo,Bonjour,175000,100,EDP,"Bergamot, sea notes","Rosemary, Sage, Geranium","Incense, patchouli",Versatile,Male
+257,HRMN-0257,Bliss Roses,Bonjour,250000,100,EDP,"Rose, Bulgarian Rose",Agarwood Saffron,"Ambergris, Black Pepper",Versatile,Unisex
+258,HRMN-0258,Chant d'amour,Bonjour,125000,50,EDP,"Blueberry Bergamot, Ginger","Rose, Jasmine","Musk, Cypress, Patchouli",Versatile,Unisex
+259,HRMN-0259,Green Tea Pour Femme,Bonjour,80000,30,EDP,"Mint, Rhubard, Lemon, Bergamot","White Amber, Jasmine, Musk, Fennel","Carnation , Jasmine, Oakmoss, Cloves, Caraway",Versatile,Unisex
+260,HRMN-0260,Blue Icon,Bonjour,195000,100,XDP,"Fig Leaf, Grapefruits, Bergamot, Water Notes","Black Pepper, Patchouli, Violet","Saffron, Tonka Bean, Incense, Musk",Night,Male
+261,HRMN-0261,Tres Chic,Bonjour,125000,50,EDP,"Damask Rose, Saffron, Jasmine","Rose Water, Amberwood, Ambergris","Agarwood, White Musk, Cedar",Night,Female
+262,HRMN-0262,My Wish,Bonjour,150000,100,EDP,"Kiwi, Pink Pepper, Rhuburb","Watermelon, Jasmine, Cyclamen","Lemon, Sandalwood, Musk",Versatile,Female
+263,HRMN-0263,Forever Musc,Bonjour,195000,100,XDP,"Ylang-Ylang, Basil, Galbanum, Musk,Lily","Rose, Jasmine - Musk, Lily","Iris, Amber, Vanilla, Jasmine, Peach, Vetiver",Night,Female
+264,HRMN-0264,Lady Boss,Bonjour,81250,50,EDP,"Strawberry, Raspberry, Blackberry, Sour Cherry, Black Currant, Mandarin Orange, Lemon","Violet, Jasmine","Musk, Vanilla, Cashmeran, Woody Notes, Oakmoss, Amber, Patchouli",Versatile,Female
+265,HRMN-0265,Forever Young,Bonjour,60000,30,EDP,"Bergamot, Mandarin Orange, Peach","Violet , Red Apple , Apricot, Woody, Musk","Blackcurrant, Tuberose, Gardenia, Nectarine",Day,Unisex
+266,HRMN-0266,Musk Ambre,Bonjour,64000,30,EDP,"Ylang -Ylang, Basil, Galbanum","Musk, Lily, Rose, Jasmine","Iris, Amber, Vanilla, Peach, Vetiver",Day,Female
+267,HRMN-0267,Roses n Musk,Bonjour,135000,100,EDP,-,"Damask Rose, Rose Water","Agarwood, White Musk, Amber",Night,Female
+268,HRMN-0268,Quantum,Bonjour,180000,100,XDP,"Melon, Bergamot, Mint, Black","Sea Water, Green Apple, Cappucino, Cardamon","Amber, Woodsy Notes",Versatile,Male
+269,HRMN-0269,Only You,Bonjour,175500,100,XDP,"Bergamot, Mandarin Orange, Peach, Violet, Red Apple, Apricot","Blackcurannt, Tuberose, Gardenia, Nectarine, Marigold",Woodsy Notes,Day,Female
+270,HRMN-0270,Beautiful,Bonjour,140000,100,EDP,"Pear,Mandarin,Pink Papper Coffe, Neroli, Prune","Rose, Orange Blossom, Jamine Freesia,Caramel, Heliotrope","Vanilla, Patchouli, Sandalwood,Wood, Cedar, Amber, Musk",Versatile,Female
+271,HRMN-0271,Magnolia Bloom,Bonjour,60000,30,EDP,"Magnolia, Fruity, Citruses. Orange Blossom","Jasmine, Rose, Lily Of The Valley","Vanilla, Vetiver, SandalWood",Versatile,Female
+272,HRMN-0272,Black Hole,Bonjour,195000,100,XDP,"Pear, Pink Pepper, Orange Blossom","Coffee, Jasmine, Bitter Almond, Licorice","Vanilla, Patchouli, Cashmere Wood, Cedar",Night,Female
+273,HRMN-0273,Love Scent,Bonjour,81250,50,EDP,"Violet, Tuscan Iris, Green Notes","Rose, Tuscan Iris, Chinese Jasmine","Peach, Acácia, White Musk",Versatile,Female
+274,HRMN-0274,Lagoon,Bonjour,135000,100,EDP,"Sicilian Lemon, Bellflower, Cedar, Apple","White Rose, Bamboo, Jasmine","Cedar, Musk, Amber",Versatile,Female
+275,HRMN-0275,Cotton Sparkle,Bonjour,64000,30,EDP,"Cotton Candy, Nectarine, Blackcurrant, Clementine","Wild Orchid, Orange Blossom","Woodsy, Musk,Ambre",Versatile,Female
+276,HRMN-0276,Beauty,Bonjour,175000,100,EDP,"Pear, mandarin, pink pepper, coffe, neroli","Rose, orange blossom, jasmine, caramel","Vanilla, patchouli, sandalwood, musk, amber",Night,Female
+277,HRMN-0277,Vanilla Silk,Bonjour,64000,30,EDP,"Vanilla, Floral, Coconut","Rice, Vanilla, Coconut","Heliotrope, Musk, Sandalwood",Versatile,Female
+278,HRMN-0278,Blue Circle,Bonjour,148750,100,EDT,"Petitgrain, Neroli, Lavender, Rosemary","Galbanum, Geranium, Jasmine","Vetiver, Cedar, Oakmoss, Sandalwood, Amber",Day,Male
+279,HRMN-0279,BLACK STONE,Bonjour,81250,50,EDP,"Champagne Citruses, Papper","Geranium, Violet Leaves","Sandalwood, Ambrocenide",Night,Male
+280,HRMN-0280,Explorer,Bonjour,187500,100,XDP,"Bergamot, Pink Pepper, Clary Sage","Haitian Vetiver, Leather","Ambroxan, Akigalawood, Indonesian Patchouli Leaf, Cacao Pod",Versatile,Male
+281,HRMN-0281,Twilight Ginger,Bonjour,81250,50,EDP,Peony,"Ginger, Candied Ginger",Cedar,Night,Female
+282,HRMN-0282,Ethereal Silver Mirage,Mine. Perfumery,295000,30,XDP,"Petitgrain, Grapefruit, Bergamot","Suede, Pine, Hedione, Silver Needle Tea","Musk, Sandalwood, Guaiacwood",Day,Unisex
+283,HRMN-0283,DIRTY MONEY,Mine. Perfumery,350100,50,EDP,"Black Pepper, Orange","Sandalwood, Poppy, Ambroxan, Neroli","Vanilla, Bank Notes, White Musk, Patchouli",Night,Unisex
+284,HRMN-0284,TRUST FUND BABY,Mine. Perfumery,350100,50,EDP,"Black Pepper, Orange","Sandalwood, Poppy, Ambroxan, Neroli","Vanilla, Bank Notes, White Musk, Patchouli",Night,Unisex
+285,HRMN-0285,DADDY’S MONEY,Mine. Perfumery,350100,50,EDP,"Rosemary, Violet Leaf, Bergamot","Myrhh, Labdanum, Olibanum, Vanilla","Wallet, Amber, Oud, Sandalwood, Cedar",Night,Unisex
+286,HRMN-0286,OLD MONEY,Mine. Perfumery,350100,50,EDP,"Rosemary, Violet Leaf, Bergamot","Myrhh, Labdanum, Olibanum, Vanilla","Wallet, Amber, Oud, Sandalwood, Cedar",Night,Unisex
+287,HRMN-0287,24 Carat,Mine. Perfumery,345400,50,XDP,"Floral Nectar, Mimosa, Pink Pepper","Gardenia, Gold-Leaf, Iris, Violet, Tuberose","Suede, Vanilla Milk, Amber, Leather",Night,Unisex
+288,HRMN-0288,Toxique Vanille,Mine. Perfumery,345400,50,XDP,White musk Plum,White woods Labdanum Resinous Cigar Whiskey Congac,Amber vanilla Ambroxan Oud Guaiacwood,Night,Unisex
+289,HRMN-0289,Vanilla Caviar,Mine. Perfumery,328500,50,XDP,Lavender magnolia grapefruit,Orris root caviar ginger jasmine peony,vanilla absolute tonka bean ambroxan musk sandalwood,Night,Unisex
+290,HRMN-0290,Ethereal Thermal ,Mine. Perfumery,320800,50,EDP,Bergamot Cassis Rose,Suede Violet Sandalwood, Vetiver Vanilla White Musk,Day,Unisex
+291,HRMN-0291,2023,Mine. Perfumery,338400,50,EDP,"Almond, Cherry, Pistachio","Blossoms, Cyclamen, Sandalwood","Cherry, Salted Caramel, Vanilla",Day,Unisex
+292,HRMN-0292,Perky Pomegranate,Mine. Perfumery,205600,30,EDP,"Ambroxan, Toffeed sugar, Guaiacwood","Muguet, Rose, Sandalwood","Pomegranate. Rhubarb, Neroli",Day,Unisex
+293,HRMN-0293,Pineapple Pleasure,Mine. Perfumery,205600,30,EDP,"Pineapple, Passionfruit, Strawberry","Peony, Red Berries, Lily of the Valley","White Musk, Oakmoss, Sandalwood",Day,Unisex
+294,HRMN-0294,Golden Pear,Mine. Perfumery,192750,30,EDP,"Californian Lemon, Mandarin, Pear","Orange Blossom, Aldehydic, Fruity","Cotton Candy, White Musk, Sea Salt",Day,Unisex
+295,HRMN-0295,Koko Kink,Mine. Perfumery,192750,30,EDP,"White Coconut, Vanilla Absolut, Sea Salt,","Orchid, Sun Rays, Tonka,","Benzoin, Musk, Sandalwood",Day,Unisex
+296,HRMN-0296,Berry Bash,Mine. Perfumery,192750,30,EDP,"Raspberry, Blackberry, Strawberry","Watermelon, Ozone, Apple","Amber, Musk, Praline",Day,Unisex
+297,HRMN-0297,Fig-Urative ,Mine. Perfumery,192750,30,EDP,"Bergamot, Pink Pepper, Cardamom","Orris Root, Violet, Fig","Vanilla, Sandalwood, Musk",Day,Unisex
+298,HRMN-0298,UNTAMED,Mine. Perfumery,305600,50,EDP,"Citrus, Pink Pepper, Orange Blossom","Toasted Almond, Sandalwood, Juniper","Oud, Vanilla, Indonesian Patchouli",Night,Unisex
+299,HRMN-0299,ETHEREAL EXTREME,Mine. Perfumery,305600,50,EDP,"Toasted Almond, Bergamot, Pink Pepper","Babys Breath, Ambergris, Bezoin","Maple, Tonka Bean, Salted Caramel",Night,Unisex
+300,HRMN-0300,2022,Mine. Perfumery,338400,50,EDP,"Bergamot, Rhubarb",Lily,Vanilla,Day,Unisex
+301,HRMN-0301,Sakura Sake,Mine. Perfumery,338400,50,EDP,"Strawberry, Momo Peach, Sake","Blackcurrant, Cherry Blossom, Rosewood oil","Creamy Sandalwood, Ethyl Maltol, Ambrette",Day,Unisex
+302,HRMN-0302,TATAMI,Mine. Perfumery,274950,50,EDP,"Plum, Earl Grey, orange Blossom","Peony Rose, Blackcurrant, bud Lily of the Valley","Ambrettolide, Violet Leaf, Tea Leaf",Day,Unisex
+303,HRMN-0303,UNBOUND,Mine. Perfumery,418000,50,EDP,"Nutmeg, Cardamom, Tobacco","Taekwood, Gula Aren, Mahogany","Javanese Vanilla, Sandalwood, Cacao",Versatile,Unisex
+304,HRMN-0304,LUCID DREAMS,Mine. Perfumery,320800,50,EDP,"Air, White Peach, Gardenia","Solar, Maltol, Vanillin","White Musk, Ambergris, Ambroxan",Day,Unisex
+305,HRMN-0305,FLORAISON ,Mine. Perfumery,320800,50,EDP,"Pink Pepper, Peony, Lychee, Wild Berry,","Hedione, Rose Otto Oil,","White Musk, Patchouli, Bois De Rose",Day,Unisex
+306,HRMN-0306,LA BOHÈME,Mine. Perfumery,260650,50,EDP,"Forest Mist, Cannabis, Raspberry Ketone","Oakmoss, Violet, Vanillin","Patchouli, Wild Vetiver, Ethyl Maltol",Night,Unisex
+307,HRMN-0307,ALMALIKA,Mine. Perfumery,300750,50,EDP,"Desert Lavender, Fir Needle, Black Pepper, Myrrh","Lilac, Desert Rose","White Oud, Guaiacwood, Vanillin",Night,Unisex
+308,HRMN-0308,ETHEREAL,Mine. Perfumery,300750,50,EDP,"Vanillin, Almond, Hedione","Bergamot, Baby's Breath, Pink Pepper","Sandalwood, Cashmeran and Orange",Day,Unisex
+309,HRMN-0309,NARCOTIQUE,Mine. Perfumery,320800,50,EDP,"Blood Orange, Bergamot, Sicilian Lemon","Sea Salt, Cardamom, Petitgrain","Vetiver, Cedarwood, Ambrette",Day,Unisex
+310,HRMN-0310,Ruby Royale,Mine. Perfumery,320800,50,XDP,"Cassis, Peony, Rose, Lavandin, Violet","Ruby, Strawberry, White Peach","Ambroxan, Patchouli, Pine, Amber",Night,Unisex
+311,HRMN-0311,Oud Absolute,Mine. Perfumery,345400,50,XDP,"Blackcurrant, Wild Berry, Geranium","Benzoin, Jasmine, Musk, Resinous Vetiver","Amber, Oud, Ambroxan, Patchouli, Sandalwood, Maltol",Night,Unisex
+312,HRMN-0312,With Love,Mine. Perfumery,423000,50,EDP,"Baby’s Breath, Coconut, Mimosa","Amber, Sandalwood, Vanillin",Clean Musk,Day,Unisex
+313,HRMN-0313,2021,Mine. Perfumery,423000,50,EDP,"Urban Greenery, Lemon Zest, Pink Pepper","Rose (Delta Damascone,) Futuristic Florals, Ozonic Woods","Dry Woods, Benzoin, Tonka Bean, Dripping Honey",Day,Unisex
+314,HRMN-0314,Beige 96,Mine. Perfumery,320800,50,EDP,"Juniper Berry, Skin Accord, Musk Mallow","Suede, Rose","Sandalwood, Vetiver, Orange, Clary Sage",Versatile,Unisex
+315,HRMN-0315,Miracle in Scent,Fordive,299000,50,XDP,"Pink Pepper, Violet Leaf, English Rose","Orchid, Nutmeg, Raspberry","Leather, Ink, Tonka Bean, Musk",Versatile,Unisex
+316,HRMN-0316,Royal,Fordive,279000,100,EDP,"Pineapple, Mint","Incense, Cumin, Jasmine","Caramel, Amber, Tobacco",Night,Male
+317,HRMN-0317,Utopia,Fordive,249000,100,EDP,"Rhubarb, Grapefruit","Cherry, Vanilla, Cinnamon","Cashmere Wood, Virginia Cedarwood, Amber",Versatile,Female
+318,HRMN-0318,Fordive 1970,Fordive,279000,100,EDP,"Pink Pepper, Juniper, Violet, Grapefruit","Cinnamon, Sage, Vanilla","Amber, Tonka Bean, Toffee, Oak",Night,Male
+319,HRMN-0319,Atlantis,Fordive,249000,100,EDP,"Grapefruit, Black Currant, Sea Salt","Lily of the Valley, Pine, Jasmine","Amber, Praline",Day,Unisex
+320,HRMN-0320,Feeling Good,Fordive,249000,100,EDP,"rasberry, peony","candy, ambery","praline, musky, floral",Night,Female
+321,HRMN-0321,Echoes Of Aqua,Nostalgy,299000,50,EDP,"Apple, Bergamot, Orange, Ginger","Orange blossom, George, Pineapple","Ambroxan, Akigalawood, Cedar, Musk",Versatile,Unisex
+322,HRMN-0322,Nocturnal Oud,Nostalgy,290000,50,XDP,"Saffron, Cardamom, Coriander, Pink Pepper, Raspberry","Leather, Jasmine Sambac, Orris, Vanilla, Orange Flower","Musk, Vanilla, Amber, Cedarwood, Coconut",Night,Unisex
+323,HRMN-0323,Rose in the Attic,Nostalgy,280000,50,XDP,"Bulgarian Rose, Saffron, Bergamot","Agarwood, Sandalwood, Vetiver","Amber, Musk, Cedar",Night,Unisex
+324,HRMN-0324,Tranquil Corner,Nostalgy,280000,50,XDP,"Green Tea Leaves , Petitgrain, Mandarin Orange","Jasmine, Muguet, Orange Blossom, iris","White Chocolate, Musk, Moss , Cedar, Vetiver",Day,Unisex
+325,HRMN-0325,Ginger Pandan Bread,Nostalgy,289999,50,EDP,"Ginger, Pandan Leaf","Rice, Coconut Milk","Brown Sugar, Vanilla",Versatile,Unisex
+326,HRMN-0326,Fleur Du Glace,Nostalgy,290000,50,XDP,"moringa, acassia, bergamote, honeysuckle","Iris, Jasmine, Tuberose, Gardenia","Vanilla, Coconut Milk, Sandalwood, Musk",Day,Unisex
+327,HRMN-0327,Winter in Rovaniemi,Nostalgy,290000,50,XDP,"Bergamot, Ylang Ylang, Almond","Rose, Iris, Opoponax, Cardamom","Vanilla, Amber, Patchouli, Musk, Tonka Bean",Night,Unisex
+328,HRMN-0328,Teh Sereh,Nostalgy,289999,50,XDP,"Black Tea, Chammomile, Orange","Lemongrass, Jasmine","Cedar, Bergamot, Musk",Day,Unisex
+329,HRMN-0329,Summer in Holland,Nostalgy,279999,50,XDP,"Lemon, Calabrian Bergamot, Orange Peel, Rhuburb, Mint","Pink Tulip, Jasmine, Carnation ,Neroli, Ambroxan, Citron","Green Notes, Chinese Black Tea, Amber, Freesia, Vetiver",Day,Unisex
+330,HRMN-0330,Profane Pleasure,Nostalgy,280000,50,XDP,"Chocolate Truffle, Dark Chocolate, Tobacco Leaf , Spices","Cacao Pod, Vanilla, Tonka Bean, Tobacco Blossoms","Cloves , Dried Fruits, Woody Notes, Musk",Night,Unisex
+331,HRMN-0331,Burlesque Night,Nostalgy,368000,50,EDP,"Neroli, Black Pepper, Cardamom","Iris, Violet, Geranium, Mate","Amber, Sandalwood, Cedar, Patchouli",Night,Unisex
+332,HRMN-0332,Violet Vonce,Verbena,150000,100,EDP,"Pink Pepper, Black Currant, Pear","Rose, Osmanthus, Jasmine","Woody, Caramel, Amber",Versatile,Female
+333,HRMN-0333,Strawberry Float,Verbena,150000,100,EDP,"Orange, White pepper, Blackcurrant, Blackberry","Strawberry, Violet, Lily of the Valley, Jasmine","Amber, Moss, Vanilla, Caramel",Versatile,Female
+334,HRMN-0334,Thriverail,Verbena,75000,50,EDP,"Strawberry, Raspberry, Blackberry, Sour Cherry, Black Currant, Mandarin Orange, Lemon","Violet, Jasmine","Musk, Vanilla, Cashmeran, Woody Notes, Oakmoss, Amber, Patchouli",Versatile,Female
+335,HRMN-0335,Snowdrop,Verbena,150000,100,EDP,"Orange Blossom, Bergamo","Tuberose, Indian Jasmine","Madagascar Vanilla, White Musk",Versatile,Female
+336,HRMN-0336,Secret Noir,Verbena,150000,100,EDP,"Pear, Pink Pepper, Orange Blossom","Coffee, Jasmine, Bitter Almond, Licorice","Vanilla, Patchouli, Cedar, Cashmere Wood",Night,Female
+337,HRMN-0337,Miss World,Verbena,150000,100,EDP,"Litchi, Rhubarb, Bergamot, Nutmeg","Turkish Rose, Peony, Musk, Petalia, Vanilla","Cashmeran, Cedar, Haitian Vetiver, Incense",Versatile,Female
+338,HRMN-0338,Suga Bourbon,Unke Naru,269000,50,XDP,"Lychee, Tropical Fruits","Peony, Rose","Sugar Vanilla, Woody Notes",Versatile,Unisex
+339,HRMN-0339,Jenggala,Unke Naru,269000,50,XDP,"Bergamot, Pomelo, Cinnamon, Clove","Lavandin, Geranium, Coconut","Cedarwood, Vanilla, Balsamic, Amber",Night,Unisex
+340,HRMN-0340,Ayodhya,Unke Naru,269000,50,XDP,"Rose, Blackcurrant, Lavender","Jasmine, Cedarwood, Musk",Lily of the valley,Day,Unisex
+341,HRMN-0341,Kala Jingga,Unke Naru,269000,50,XDP,"Mandarin, Wallflower, Lemon, Sweet Orange","Frangipani, Violet, Tuberose","Vetiver, Cedarwood",Day,Unisex
+342,HRMN-0342,Tesso Nilo,Unke Naru,269000,50,XDP,"Bergamot, Juniper Berry, Cypress","Rose, Jasmine, Cedarwood",Guaiacwood,Day,Unisex
+343,HRMN-0343,Shower of Spring,Unke Naru,378000,100,EDP,"Green Apple, Blackcurrant, Plum","Rose, Violet, Sambac Jasmine","Vetiver, Sandalwood, Musk",Day,Unisex
+344,HRMN-0344,Cocoa Mint,Unke Naru,378000,100,EDP,"Hazelnut, Strawberry","Cocoa Bean, Peppermint","Vanilla, Milk chocolate",Day,Unisex
+345,HRMN-0345,Berry Brûlée,Unke Naru,378000,100,EDP,"Blackcurrant, Blueberry",Cheesecake,White Musk,Day,Unisex
+346,HRMN-0346,For Me,Unke Naru,589000,100,EDP,"Apple Blossom, Cinnamon Flower, Styrax Gum","Rose, Cedarwood, Sambac Jasmine","White Musk, Sandalwood, Cashmere Wood",Versatile,Unisex
+347,HRMN-0347,PERSIAN LEATHER,MOEN,288000,50,EDP,"Geranium, Rosemary, Bergamot, Green notes","Rose, Clove, Cinnamon, Osmanthus, Incense","Leather, Patchouli, Vetiver, Sandalwood, Cedar, Amber",Night,Male
+348,HRMN-0348,Golden Poetry,MOEN,388000,50,EDP,"Pistachio, White Peach, Bergamot","Tuberose, Ylang-Ylang, Jasmine, Orange Blossom, Lily-of-the-Valley",Coconut Amber Ambroxan Vanilla,Versatile,Female
+349,HRMN-0349,MOON,MOEN,388000,100,EDP,"Cardamom, Frankincense, Oud","Rose, Sandalwood, Sichuan Pepper, Vetiver","Amber, Birch, Tonka Bean, Vanilla",Versatile,Unisex
+350,HRMN-0350,CLOUDS,MOEN,288000,50,EDP,"Aldehydes, Iris, Daisy, Carrot","Water notes, Clary Sage, Turkish Rose","Woody notes, Green, Musk",Versatile,Unisex
+351,HRMN-0351,THE MYTH,MOEN,288000,50,EDP,"Fennel, Bergamot, Vetiver","Myrrh, Olibanum, Cedar, Rosemary","Benzoin, Vanilla, Musk",Night,Unisex
+352,HRMN-0352,Eminences,MOEN,258000,50,EDP,"Calabrian Bergamot, Ginger","Water notes, Sage, Geranium","Ambroxan, Amber",Versatile,Unisex
+353,HRMN-0353,Mindfulness,MOEN,258000,50,EDP,"Verbena, Iris, Lavender","Mint, Cardamom, Violet","Papyrus, Leather, Sandalwood, Amber, Cedar",Versatile,Unisex
+354,HRMN-0354,SACRED SPICES,MOEN,288000,50,EDP,"Tobacco leaf, Cognac, cloves","Tonka bean, cinnamon, vanilla, cacao","Vanilla, Sandalwood",Night,Unisex
+355,HRMN-0355,GREEN ROSE,MOEN,288000,50,EDP,"Cassis, Blackcurrant leaf","Saffron, Turkish Rose","Musk, Cedar, Ambergris",Versatile,Unisex
+356,HRMN-0356,HEDONE,MOEN,288000,50,EDP,"Pear, Tangerine","Neroli, Jasmine","Vanilla, Amber, Whitemusk",Versatile,Female
+357,HRMN-0357,Morning Tea,MOEN,288000,50,EDP,"Tuberose, Leaf, White tea","Jasmine, Camelia","Musk, Pink pepper",Day,Female
+358,HRMN-0358,SALTED WHISPER,MOEN,288000,50,EDP,"Sage, grapefruit",Sea salt,Ambrette,Day,Unisex
+359,HRMN-0359,Jammy,MOEN,288000,50,EDP,"Citrus, Iris","Leaves, Bergamot","Musk, Ambergris, Sandalwood",Day,Female
+360,HRMN-0360,SHE,MOEN,288000,50,EDP,Almond and Wild Cherry,"Sour Cherry, Rose, Plum","Tonka bean, Vanilla, Cinnamon, Sandalwood, Patchouli, Vetiver",Night,Female
+361,HRMN-0361,Noble,HINT,199000,50,EDP,"tuberose, tulip, green","muguet, ylang ylang, jasmine, fruity","musk, sandalwood, vetiver",Versatile,Unisex
+362,HRMN-0362,Resurrect,HINT,179000,50,EDP,"bergamot, lavender, cypress","watery, frankincense","musk, suede, oakmoss",Day,Unisex
+363,HRMN-0363,Noble,HINT,229000,50,XDP,"tuberose, tulip, green","muguet, ylang-ylang, jasmine, fruity","musk, sandalwood, vetiver",Versatile,Unisex
+364,HRMN-0364,Metaverse,HINT,229000,50,EDP,"ginger, aldehydes, red fruits","jasmine, orange blossom, tuberose","patchouli, incense, vanilla, honey, vetiver",Day,Unisex
+365,HRMN-0365,Realm,HINT,179000,50,EDP,"citrus, apple blossom","rose, orange blossom, freesia","amber, musk, patchouli",Day,Unisex
+366,HRMN-0366,Ultimate,HINT,229000,50,EDP,"Bergamot, Marine, Orange Bitter, Cypress","Pink Peppercorn, Green Stems, Cedarwood","Dry Amber, Patchouli, Moss, Musk",Versatile,Unisex
+367,HRMN-0367,Delicate,HINT,189000,50,EDP,"Geranium, Nagarmotha (Cypriol), Green Notes, Pink Pepper","Raspberry, Magnolia, Rose","Musk, Amber, Woody Notes, Patchouli",Day,Unisex
+368,HRMN-0368,Mintea,HINT,229000,50,EDP,"bergamot, tea, mint","sage, bigarade","sandalwood, musky, wood",Day,Unisex
+369,HRMN-0369,Zencha,HINT,229000,50,EDP,"lemon, orange, pink pepper","sencha, sage clary, orris","vetiver, cedarwood, tonka bean, musk",Day,Unisex
+370,HRMN-0370,Jeans,HINT,229000,50,EDP,"mandarin, pink peppercorn, rose","cedarwood, patchouli","vanilla, amber",Night,Unisex
+371,HRMN-0371,Cotton,HINT,229000,50,EDP,"bergamot, aldehyde, ozone, freesia, verbena","peony, muguet, gardenia, orris, rose","musk, vanilla, sandalwood, cedarwood, amber",Day,Unisex
+372,HRMN-0372,Silk,HINT,229000,50,EDP,"bergamot, silk, black pepper","orchid, lily pink, orange blossom","patchouli, cashmere musk, white amber",Day,Unisex
+373,HRMN-0373,Velvet,HINT,229000,50,EDP,"Mandarin, Cinnamon Bark. Almond","Rose, Orange blossom, Amber","sandalwood, Tonka Bean, Vanilla",Night,Unisex
+374,HRMN-0374,Naked,HINT,229000,50,EDP,"bergamot, pear, orange flower","rose, tuberose, spicy","patchouli, sandalwood, guaiac, oud",Night,Unisex
+375,HRMN-0375,Leather,HINT,229000,50,EDP,"cardamom, violet","leather, orris, cedarwood","amber, sandalwood, musk",Versatile,Unisex
+376,HRMN-0376,Identity,HINT,119400,50,EDP,"lemon, ozonic, melon","watery, geranium, lily of the valley","amber, patchouli, sea-moss, sandalwood",Day,Unisex
+377,HRMN-0377,Dragon,HINT,159400,50,EDP,"bergamot, eucalyptus, lemon, african orange flower","bamboo leaf, lotus, water, violet, jasmine, cyclamen","amber, cedarwood, rosewood, musk, vetiver",Night,Unisex
+378,HRMN-0378,Epitome,HINT,179000,50,EDP,"bergamot, cardamom, pepper, mint","fig, coconut milk, basil","Atlas cedarwood, patchouli, ambery",Day,Unisex
+379,HRMN-0379,Miracle,Lelido,138000,100,XDP,"Magnolia Petals, Litchi, Tangerine","Hortensia, Vanilla Orchid, Peony","Cashmere musk, Woody notes, Apricots",Versatile,Female
+380,HRMN-0380,Night Swim,Lelido,195000,100,EDP,"Pink Pepper, Apple, Pear","Rose, Raspberry, Leather","Patchouli, Musk, Amber",Versatile,Unisex
+381,HRMN-0381,Secret Delice,Lelido,195000,100,EDP,"Pomegranate, Grapefruit, Pepper, Green Notes","Orchid, Pear, Lotus, Peony, Ginger, Neroli","Cedar, Fir Resin",Versatile,Unisex
+382,HRMN-0382,Ariana,Lelido,195000,100,EDP,"Mandarin Orange, Bergamot,Grapefruit","Orange Blossom, Raspberry,Black Currant","Whipped Cream, Marshmallow, Musk, Ambrette",Versatile,Female
+383,HRMN-0383,Bacca Noir,Lelido,195000,100,EDP,"Saffron, Jasmine","Amberwood, Ambergris","Cedar, Fir Resin",Night,Female
+384,HRMN-0384,Diora,Lelido,80000,30,EDP,"Green, Neroli, Ylang-Ylang","Jasmine, Rose, Marine","Sandalwood, Musky, Peach",Versatile,Unisex
+385,HRMN-0385,Eternal Love,Versant,110000,30,EDP,"Orange Blossom, Jasmine Tea",Musk,"Jasmine, Vanilla",Versatile,Female
+386,HRMN-0386,Gentleman,Versant,110000,30,EDP,"Chesnut, Smoke",Lavender,Vanilla,Night,Male
+387,HRMN-0387,Liberum,Versant,110000,30,EDP,"Sea Notes, Grapefruit","Bay Leaf, Jasmine","Oakmoss, Woody",Versatile,Male
+388,HRMN-0388,Hearth and Mantel,Scentrum,389000,50,EDP,"Blackcurrant, Gardenia, Spices, Coconut","Amber, Sandalwood, Ylang-ylang","Chocolate, Cedar, Patchouli",Night,Female
+389,HRMN-0389,"Silk, Velvet, and Brocade",Scentrum,389000,50,EDP,"Lime, Pink Pepper, Elemi","Rose, Amber, Suede accord","Musk, Cedar, Vetiver",Night,Male
+390,HRMN-0390,Monet is a Gardener,Scentrum,389000,50,EDP,"Orange, Green Notes, Magnolia","Tuberose, Jasmine, Neroli","Amber, Sandalwood, Musk",Day,Female
+391,HRMN-0391,Moorland Heathers,Scentrum,389000,50,EDP,"Bergamot, Grapefruit, Pink Pepper, Cucumber","Violet, Carnation, Mimosa","Vanilla, Powdery, Balsam",Day,Female
+392,HRMN-0392,Beautiful Day,Rossa Beauty,175000,50,EDP,"melon, redberries, tropical fruits","Waterlily, peony","sandalwood,velvet musk",Day,Female
+393,HRMN-0393,Day Dream,Rossa Beauty,175000,50,EDP,"lemongrass, orange",neroli rose,"Patchouli, vanille, white musk",Day,Female
+394,HRMN-0394,Sorrow and Joy,Unite as One,220000,50,EDP,"Tangerine, Elemi Gum","Violet, Iris, Lilac","Tonka Beans, Vanilla, Musk",Day,Female
+395,HRMN-0395,As We Hustle,Unite as One,220000,50,EDP,"Bergamot, Galbanum, Blackcurrant","Apple, Cedarwood","Sandalwood, Musk, Amber",Day,Male
+396,HRMN-0396,The Missing Puzzle,Unite as One,240000,50,EDP,"Blackcurrant, Bergamot","Patchouli, Jasmine","Musk, Amber, Moss",Day,Unisex
+397,HRMN-0397,Impreal Night,AromaRo,249000,100,EDP,"Cardamon, Bergamot","Lavender, Iris, Cinnamon","Vanilla, Amberwood, Tonka Bean, Sandalwood",Night,Male
+398,HRMN-0398,EDP,AromaRo,249000,100,EDP,Boozy Accord,"Cinnamon, Tonka Bean, Oak","Praline, Vanilla, Sandalwood",Night,Unisex
+399,HRMN-0399,Aroma Cha,AromaRo,249000,100,XDP,"Bergamot, Orange, Mandarin, Petitgrain","Oolong Tea, Nutmeg, Musk","Fig, Woody Notes, Musk",Versatile,Unisex
+400,HRMN-0400,Soleil,TEMPT,299999,50,EDP,Rose,Smooth musk,"Woody, Resin",Versatile,Female
+401,HRMN-0401,Chleon,TEMPT,299999,50,EDP,"Cognac, Raspberry Blossom, Turkey Red Rose","Cinnamon, Pink Pepper, Mandarin Orange","Sandalwood, Amber, Musk",Versatile,Female
+402,HRMN-0402,Patheon,TEMPT,299999,50,EDP,"Leather, Saffron, Vetiver","Agarwood, Figleaves, Patchoulli","Musk, Vanilla, Geranium",Night,Male
+403,HRMN-0403,Chevalier,TEMPT,299999,50,EDP,"Green Tea, Orange Blossom, Lemongrass","Jasmine, Neroli",Matcha,Day,Unisex
+404,HRMN-0404,Delicate Tea,Auctus,239000,33,XDP,"grapefruit, lemon, bergamot","earl grey tea, jasmine, tuberose","sugar, ambergis scented, musk",Versatile,Unisex
+405,HRMN-0405,Sunkissed Sea,Auctus,229000,33,XDP,"lemon, bergamot, vanila blossom","coconut, cyclamen","cedarwood, musk, vanila, amber",Day,Unisex
+406,HRMN-0406,BeGin Again,Amthra,219000,30,XDP,"Orange, Juniper Berries, Angelica","Pepper, Orris, Leather","Vetiver, Sugar, Cherry, Amber",Versatile,Unisex
+407,HRMN-0407,Wine I’m With You,Amthra,249000,50,XDP,"Blackcurrant, Pink Pepper, Bergamot","Rose, Geranium","Patchouli, Moss, Vetiver",Night,Male
+408,HRMN-0408,Burning Black,Amthra,289000,50,XDP,"Cardamom Explosion, Candied mandarin, Dried fruits","Tobacco Wafts, Addictive Honey, Ambery Rum, Cuban Coffee","Amber, Blond Leather, Patchouli, Tolu Balm",Night,Unisex
+409,HRMN-0409,November Rain,Amthra,219000,30,EDP,"Green Notes, Bergamot, Pink Pepper","Rain notes, Watery Notes, Rose, Jasmine","Pine tree, Moss, Patchouli",Day,Unisex
+410,HRMN-0410,Bubble Trouble,Amthra,219000,30,XDP,"Boba, Cardamom","Black Tea, Jasmine","Milk, Sugar",Day,Unisex
+411,HRMN-0411,Red Lips,Amthra,219000,30,EDP,"Bergamot, Black Pepper, Orange Blossom","Iris, Lavender, May rose","White Musk, Guaic Wood, Patchouli",Versatile,Unisex
+412,HRMN-0412,Mango Tango,Amthra,219000,30,XDP,"Mango, Cassis, Coconut, Pear","Vanille, Lilly of the valley, Freesia","Musk, Patchouli, Sandalwood, Ambroxan",Versatile,Female
+413,HRMN-0413,Tea-amo,Amthra,249000,50,XDP,"Earl Grey, Apple, White Pepper","Jasmine, Champaka, Tuberose, White Tea, Lily Of The Valley","White Musk, Sandalwood, Honey",Versatile,Unisex
+414,HRMN-0414,Matcha Punch,Amthra,249000,50,XDP,"clementine, orange, green tea","magnolia, ylang2, jasmine, matcha, milk","vanilla, benzoin, white chocolate",Day,Unisex
+415,HRMN-0415,You Drive Me Nutty,Amthra,249000,50,XDP,"Almond Milk, Ambretta, Musk mallow","Iris, Freesia","Tuberose, Vanila, Tonka Bean, Musk",Versatile,Female
+416,HRMN-0416,Amthra X Hungry For Skincare,Amthra,289000,50,XDP,"Pistachio, Hazelnut, Cassis","Peony, Muguet, Jasmine","Maltol, Vanilla",Versatile,Female
+417,HRMN-0417,Teenage Dream,Fleurie,90000,35,EDP,"Apple , Lemon , Galbanum , Grapefruit , Cassis","Muguet , Violet , Passionfruit , Peach , Orange Flower","Musk , Moss , Gourmand",Day,Female
+418,HRMN-0418,Italian Chic,Fleurie,90000,35,EDP,"Jasmine , Tuberose , Ylang , Lily","Marine Notes , Green Leaves , Fruity","Sandalwood , Musk , Amber",Versatile,Female
+419,HRMN-0419,Eau De Rose,Fleurie,90000,35,EDP,"Lemon , Lime , Bergamot , Mandarin , Blackcurrant , Green Apple , Rhubarb , Marine","Jasmine , Violet , Peach","Patchouli , Amber",Day,Female
+420,HRMN-0420,Sweet Strawberry,Evangeline,50000,100,EDP,"Strawberry, Pineapple, Fresh Kiwi","Blueberry, Plum, Fresh Flowers, Violet","Caramel, Vanilla Beans",Day,Female
+421,HRMN-0421,Summer Peach,Evangeline,50000,100,EDP,"White Peach, Orange Juice, Pink Grapefruit","May Rose, Blackcurrant, Crisp Pear","Lily Flower, White Musk",Day,Female
+422,HRMN-0422,Sugar Biscuit,Evangeline,50000,100,EDP,"Green Apple, Cinnamon, Almond","Coconut, Butter, Cookie Accord","Vanilla Beans, Musk",Day,Female
+423,HRMN-0423,Royal Lavender,Evangeline,50000,100,EDP,"Apple, Green Notes, Pine, Rosemary","Lavender, Eucalyptus, Geranium","Sage, Musk, Tobacco",Night,Female
+424,HRMN-0424,Orange Citrus,Evangeline,50000,100,EDP,"Pineapple, Orange, Grapefruit","Lily of The Valley, Jasmine, Green Apple","Vetiver, Cedarwood, Cashmere Wood",Day,Female
+425,HRMN-0425,Mango Temptation,Evangeline,50000,100,EDP,"Mango, Apricot, Cassis Bud","Mango, Ozonic, Apple","Musky, Ambery, Vanilla",Day,Female
+426,HRMN-0426,Juicy Pear,Evangeline,50000,100,EDP,"Strawberry, Peach, Pear",Jasmine,"Balsamic, Vanilla, Musky",Day,Female
+427,HRMN-0427,Green Tea,Evangeline,50000,100,EDP,"Bergamot, Tangerine, Tea Accord","Muguet, Jasmine, Fig leaves","Green Moss, Musk, Woody, Ambery",Day,Female
+428,HRMN-0428,Cherry Blossom,Evangeline,50000,100,EDP,"Bergamot, Green Leaves","Rose Petals, Cherry, Apple, Jasmine, Lily of The Valley","Musk, Sandalwood,Vanilla",Day,Female
+429,HRMN-0429,Raw Almond,Evangeline,50000,100,EDP,"Butter Accord, Grapefruit, Pear, Mandarin","Orange Blossom, Lily of The Valley, Jasmine, Peach","Sandalwood, Musks, Vanilla, Caramel",Day,Female
+430,HRMN-0430,Coconut Fantasy,Evangeline,50000,100,EDP,"Coconut, Cucumber, Floral","Heliotrope, Milky, Gourmand, Solar Notes, Coumarin","Vanilla Beans, Sandalwood, Patchouli Essence, Virginia Cedar, Musks",Day,Female
+431,HRMN-0431,Black Vanilla,Evangeline,50000,100,EDP,"Vanilla, Coconut, Citrus","Vanilla, Peach, Floral","Vanilla, Ambery",Night,Female
+432,HRMN-0432,White Musk,Evangeline,50000,100,EDP,"Pear, Violet, Almond","Rose, Carnation, Lily Of The Valley","Patchouli, Vanilla, Musky, Moss",Day,Female
+433,HRMN-0433,Violet Musk,Evangeline,50000,100,EDP,"Bergamot, Red Berries, Apple","Sugared Rose, Tuberose, Raspberry","Musky, Vanilla, Sandalwood",Night,Female
+434,HRMN-0434,Red Musk,Evangeline,50000,100,EDP,"Dill, Pear Skin, Yuzu, Aldehyde, Cosmetic, Anise, Fruity","Musk, Violet Petal, Rose Bud, Rose, Lilac, Lily Of The Valley, Spice","Vanilla, Almond, Rice Powder, Sandalwood, Powdery, Vanilla, Musk Blends",Night,Female
+435,HRMN-0435,Blue Musk,Evangeline,50000,100,EDP,"Yuzu, Pomegranate, Watery Notes","Lotus, Magnolia, Peony","Musk, Mahogany, Amber",Night,Female
+436,HRMN-0436,Black Musk,Evangeline,50000,100,EDP,"Pear, Pink Pepper, Bergamot","Heliotrope, Marzipan, Almond, Ylang Ylang, Licorice","Musky, Patchouli, Vetiver, Chocolate",Night,Female
+437,HRMN-0437,Purple Sakura,Evangeline,50000,100,EDP,"Lime Blossom, Spearmint, Strawberry","Powdery, Tolu, Rose Essence","Amberwood, Musk",Day,Female
+438,HRMN-0438,Zodiac Aquarius ,Evangeline,41500,50,EDP,"Apple, Peach, Freesia","Muguet, Mimosa, Jasmine, Tuberose","Sandalwood, ylang ylang, Oakmoss, musk",Day,Female
+439,HRMN-0439,Zodiac Virgo,Evangeline,41500,50,EDP,"Orange, Red Fruit, Melon","Jasmine, Violet, Apple","Amberwood, Vanilla, Lactone",Day,Female
+440,HRMN-0440,Zodiac Taurus,Evangeline,41500,50,EDP,"Mandarin, Blackcurrant, apple","cherry blossom, rose",musk,Day,Female
+441,HRMN-0441,Zodiac Scorpio,Evangeline,41500,50,EDP,"forest fruits, red currant, pink grapefruit, melon","frangipani, freesia, jasmine","musk, woody, patchouli",Night,Female
+442,HRMN-0442,Zodiac Sagitarius,Evangeline,41500,50,EDP,"Citrus, grapefruit, pink fruit, apple red","floral, muguet","woody, musk white",Day,Female
+443,HRMN-0443,Zodiac Libra,Evangeline,41500,50,EDP,"grapefruit, black currant, green fruits","ozonic, fresh spices, lily of the valley",musk,Day,Female
+444,HRMN-0444,Zodiac Leo,Evangeline,41500,50,EDP,"mandarin, plum, pear","lily, osmanthus, rose","cotton candy, woody ambery, musky",Day,Female
+445,HRMN-0445,Zodiac Capicorn,Evangeline,41500,50,EDP,"Melon, cucumber, pomegranate, citruses","freesia, peony",musk,Day,Female
+446,HRMN-0446,Zodiac Cancer,Evangeline,41500,50,EDP,"Pink Grapefruit, mandarin, blood orange","jasmine, lily of the valley, peach","vanilla, sandalwood, white musk, amber",Day,Female
+447,HRMN-0447,Zodiac Aries,Evangeline,41500,50,EDP,"Bergamot, orange","blackberry, rose","caramel, vanilla, sandalwood",Day,Female
+448,HRMN-0448,Apollo,Goos,159000,30,EDP,"Vegetal Green Notes, Clary Sage, Pink Pepper","Jasmine Absolute, Rose Absolute, Orange Blossom","Benzoin, Musk, Vanilla",Versatile,Male
+449,HRMN-0449,Ares,Goos,159000,30,EDP,"Bergamot, Mandarin Orange","Cherry Blossom, Rose, Mimosa","Musk, Woodsy Notes",Day,Male
+450,HRMN-0450,Daybreak,Argve,198000,50,EDP,"Ginger, Clove, Lemon","Lavender, Pineapple Leaves, Rosemary","Moss, Gaiac, Wood, Patchouli",Day,Unisex
+451,HRMN-0451,Ardour,Argve,198000,50,EDP,"Aldehyde, Bergamot, Mandarin, Lemon, Coriander Leaf, Pink Pepper","Lavender, Geranium, Clary Sage, Violet Leaf, Orris, Jasmine","Amber, Musk, Cedarwood, Olibanum, Patchouli, Sandalwood",Versatile,Male
+452,HRMN-0452,Blooming Sunset,Unnomo,299000,30,EDP,"Orange Blossom, Rose, Iris, Tuberose","Pink Pepper, Tuberose","Benzoin, Musk",Night,Unisex
+453,HRMN-0453,Cozy Hug on a Gloomy Day,Unnomo,299000,30,EDP,"Cloves, Pink Pepper, Orange Blossom","Chestnut, Guaiac Wood, Juniper","Vanilla, Peru Balsam, Cashmeran",Night,Unisex
+454,HRMN-0454,Chill Forest Gateaway at Night Time,Unnomo,299000,30,EDP,"lemon, pepper, juniper","incense, pine needle, orris root","vanilla, sandalwood, amber",Night,Unisex
+455,HRMN-0455,POV,Gumush,109000,60,EDP,"Pear, Pink Papper, Orange Blossom","Coffee, Jasmine, Bitter Almond, Licorice","Vanilla, Patchouli, Cashmere Wood, Cedar",Night,Female
+456,HRMN-0456,LUX,Gumush,109000,60,EDP,"Sea Salt, Sage, Grapefruit Ambrette (Musk Mallow), Seaweed",-,-,Versatile,Female
+457,HRMN-0457,FLO,Gumush,109000,60,EDP,"Mandarin Orange, Bergamot and Cardamom","Sea Notes, Orange Blossom and Neroli","Caramel, Amber, Musk and Sandalwood",Day,Female
+458,HRMN-0458,OUR,Gumush,109000,60,EDP,Raspberry Liqueu,Black Peony,Sweet Pralines,Night,Female
+459,HRMN-0459,VYU,Gumush,109000,60,EDP,"Black Currant, Orange, Mandarin Orange, Grapefruit, Cassia and Bergamot","Rose, Apricot, Jasmine, Lily and Lily-of-the-Valley","Vanilla, Tonka Bean, Musk, Amber and Virginia Cedar",Versatile,Female
+460,HRMN-0460,Inferno,Altar,249000,50,EDP,"Alibanum, Saffron, Cardamom, Pink Pepper, Myrtle","Myrrh, Geranium, Tropical Fruit","Oud, Leather, Cedar, Sandalwood, Styrax",Night,Male
+461,HRMN-0461,Paradiso,Altar,289000,50,EDP,"Kiwi, Rhubarb, Water Jasmine, Bergamot","Cyclamen, Lily, Heliotrope, Peach","Musk, Sandalwood, Amber, Tonka, Vanilla",Day,Female
+462,HRMN-0462,Nigredo,Altar,289000,50,EDP,"Coke, Black Cherry, Bergamot, Black Pepper","Cognac, Ginger, Jasmine","Vanilla, Benzoin, Indonesian Patchouli",Night,Unisex
+463,HRMN-0463,Salvatio,Altar,289000,50,EDP,"Ozone, Yuzu","Skin, Jasmine, Mugane, Milk","Moss, Orcanox",Day,Unisex
+464,HRMN-0464,Maelstrom,Altar,289000,50,EDP,"Orange, Bergamot","Neroli, Lemon, Pink Pepper, Cardamom",Vetiver,Day,Male
+465,HRMN-0465,Solarium,Altar,289000,50,EDP,"Bergamot, Green Tea","Lemongrass, Petitgrain",White Musk,Day,Unisex
+466,HRMN-0466,Pomona,Altar,289000,50,EDP,"Green Tomato, Figs","Geranium, Patchouli","Oakmoss, Cedar",Day,Unisex
+467,HRMN-0467,Symphony Of The Sea,Crusita,298000,50,XDP,"Lemon, Pineapple, Cardamome, Watermelon","Coconut, Cyclamen, Frangipani, Heliotrope","Tonka, Vanilla, Amber, Musk",Versatile,Unisex
+468,HRMN-0468,Deep Mountain,Crusita,329000,100,XDP,"Lemon, Bergamot, Pink Pepper","Lavender, Leather, Sage","Patchouli, Ambery, Vetvier",Day,Male
+469,HRMN-0469,Scandal ,Crusita,199000,50,XDP,"Wild Berries,Apricot, Apple Blossom","Cherry Blossom,Orchid, Heliotrope","Vanilla, Marshmallow,Musk",Night,Female
+470,HRMN-0470,Famous,Crusita,339000,100,XDP,"Jasmine, Plum, Bitter orange, Mandarin","Rose, Solar, Floral, Watery","Vanilla, Musk, Sandalwood, Cashmere Wood, Praline",Versatile,Female
+471,HRMN-0471,Black Love,Crusita,329000,100,XDP,"Berries, Pink Pepper, Mandarin, Lemon","Orange Blossom, Coffe, Rose, Jasmine, Muguet","Amber, Vanilla, Patchouli, Musk, Cedarwood, Vetiver",Night,Unisex
+472,HRMN-0472,Mystique of Java,Crusita,295000,50,XDP,"Bergamot, Lavender, Petitgrain, Galbanum","Jasmine, Ylang-Ylang, Lily of the Valley, Orange Blossom, Narcissus","Vanilla, Cedar, Moss, Styrax",Versatile,Unisex
+473,HRMN-0473,Gentlemen,Crusita,329000,100,XDP,"Grapefruit, Blood Mandarin, Green apple","Cedarwood, Nutmeg, Water lily","Sandalwood, Vanila, Musks",Versatile,Male
+474,HRMN-0474,Rich Gold,Crusita,329000,100,XDP,"Green, Spicy, Aromatic","Oud, Balsamic","Vanilla, Agarwood, Musky",Night,Male
+475,HRMN-0475,Twilight,Crusita,329000,100,XDP,"Fresh Ginger, Orange, Bergamot","Tuberose, Neroli, Jasmine","Sandalwood, Vanilla",Versatile,Unisex
+476,HRMN-0476,Lady Rose,Crusita,329000,100,XDP,"Peach, Green, Black Currant, Pepper","Rose, Iris","White Musk, Cedar Wood, Violet Leaf",Day,Female
+477,HRMN-0477,Busy Day,Crusita,189000,100,XDP,"Bergamot, Blackcurrant, Mandarin","Lavender, Geranium, Powdery","Patchouli, Vetiver, Tonka Bean",Day,Male
+478,HRMN-0478,Iced Lychee Tea,Crusita,209000,50,XDP,"Iced Lychee Tea, Lemon, Bergamot","Geranium, Rose, Muguet, Violet Flower","Musk, Patchouli, Vanilla",Versatile,Unisex
+479,HRMN-0479,Iced Peach Tea,Crusita,209000,50,XDP,"Mathe, Bergamot","Peach Tea, Rose, Magnolia","Cedarwood, Dry Amber",Day,Female
+480,HRMN-0480,Iced Thai Tea,Crusita,209000,50,XDP,"Iced Thai Milk Tea, Bergamot","Sambac Jasmine, Violet Flower, Muguet","Sambac Jasmine, Violet Flower, Muguet",Versatile,Unisex
+481,HRMN-0481,Gen Maicha,Crusita,209000,50,XDP,"Bergamot, Lemon","Genmaicha, Neroli, Orange Flower","Cedarwood, Musk, Amber",Versatile,Unisex
+482,HRMN-0482,About Last Night,Crusita,349000,65,EDP,"Cedarwood, Coffee, Patchouli","Orange Blossom, Jasmine, Vanilla","Bergamot, Pink Pepper",Night,Unisex
+483,HRMN-0483,Comfort Zone,Crusita,349000,65,EDP,"Sandalwood, White Musk",Rose,"Bergamot, Aldehydes",Versatile,Unisex
+484,HRMN-0484,Golden Souffle,Jarte,250000,30,XDP,"Pink Peppercorn, Fresh, Ylang","White Flowers, Jasmine, Spicy","Patchouli, Amber, Heliotrope, Vanilla",Versatile,Unisex
+485,HRMN-0485,Fragnos,Jarte,275000,30,XDP,"Bergamot, Cyclamen, Musks","Jasmine, Neroli, White Freesia","White Musks, Sandalwood, White Woods, Figolide",Day,Unisex
+486,HRMN-0486,AORA,Jarte,325000,30,XDP,Rose,"Orris, Freesia","Leather, Musk",Night,Female
+487,HRMN-0487,Peppermint Tea,Jarte,250000,30,XDP,"Bergamot, Mint","Hyacinth, Orange Blossom","Lorenox, Musky",Day,Unisex
+488,HRMN-0488,Mango Sticky Rice,Jarte,250000,30,XDP,"Lemon Blossom, Mango, Pear Pulp","White Flower, Coconut Milk, Rice","Sandalwood, Cream, Musks, Precious Wood",Versatile,Unisex
+489,HRMN-0489,By The Garden,Jarte,200000,30,XDP,"Bergamot, Orange Flower, Grabanum, Clove","Tuberose, Jasmine, Ozonic, Ylang","Musk, Amber, Cedarwood, Vanilla",Versatile,Unisex
+490,HRMN-0490,Peony Noel,Jarte,225000,30,XDP,"Apple, Fruity, Green Freshness","Peony, Sandalwood, Violet","Marine, Musk, Vanilla",Versatile,Unisex
+491,HRMN-0491,Sip Me Litchi,The Body Tale,148500,30,XDP,"lychee, apple",Floral,"sugar, amber",Versatile,Female
+492,HRMN-0492,Plain Jane,The Body Tale,179000,30,XDP,"lemon, bergamot, tagetes, black currant","Violet, irish, cyclamen, jasmine","Vetiver, Musk",Day,Unisex
+493,HRMN-0493,Teamomile,The Body Tale,148500,30,XDP,Almond,"chamomile, jasmine, musk","cedre, vanilla, bois de santal",Day,Unisex
+494,HRMN-0494,Nectar of Nile,The Body Tale,148500,30,XDP,"Irish, Green Notes, Juniper Berries","Jasmine, Orrid, Root","Pink Pepper, Vetiver, Leather",Versatile,Male
+495,HRMN-0495,Cherry Pop,The Body Tale,148500,30,XDP,Bitter Almond,"Rose, Cherry","Vanilla, sandal wood, tonka bean",Night,Unisex
+496,HRMN-0496,Portrait of Kyoto,The Body Tale,148500,30,XDP,"earl grey tea, apple, honey, mandarin","jasmine, black tea, fresia, irish","musk, pepper, sandalwood, amber",Versatile,Unisex
+497,HRMN-0497,Juliette,The Body Tale,148500,30,XDP,"cinnamon, cardamom, bergamot","jasmine, ylang ylang, sage","amber, woody, leather, labdanum",Night,Unisex
+498,HRMN-0498,Kanthi Arum,Aamodini,178600,30,XDP,"Mandarin, Honey, Orange Blossom","White Champaca, Tuberose, Jasmine","Tonka Bean, Vanilla, Sandalwood",Versatile,Female
+499,HRMN-0499,Jatmika,Aamodini,178600,30,XDP,"Leaves, Marine Notes, Clove Bud, Melon","Jasmine, Freesia, Orange Blossom, Gardenia, Peach Notes","Musk, Amber",Day,Unisex
+500,HRMN-0500,Dirgantara,Aamodini,178600,30,XDP,"Apple, Cassis, Bergamot","Pink Pepper, Cedar","Sandalwood, Patchouli, Amber",Versatile,Unisex
+501,HRMN-0501,Kirana,Aamodini,188700,30,XDP,"Mandarin, Petitgrain, Bergamot, Blackcurrant","Orange Blossom, Jasmine, Magnolia, Lavender","Vanilla, Cedarwood, Ambergris, Musk",Day,Female
+502,HRMN-0502,Muschio,Smells Good,225000,60,EDP,"Rose, Cardamome","Sandalwood, Cashmeran","Ambroxan, Musk",Versatile,Unisex
+503,HRMN-0503,Cashmere,Smells Good,225000,60,EDP,"Neroli, Almond","Heliotrope, Vanilla, Irish","Cashmeran, Tonka, Musk",Versatile,Unisex
+504,HRMN-0504,Mounde,Smells Good,218000,60,EDP,"Agarwood, Cocoa, Saffron, Leather",-,-,Versatile,Unisex
+505,HRMN-0505,Matiere,Smells Good,218000,60,EDP,Blackcurrant,"Rose, Indonesian Nutmeg, Cyclamen",Agarwood,Versatile,Unisex
+506,HRMN-0506,Tulipe,Smells Good,225000,60,EDP,"Freesia, Cyclamen",Pink Tulip,"Green Notes, Soft Spicy",Day,Female
+507,HRMN-0507,La Rose,Smells Good,218000,60,EDP,"Bulgarian Rose, Californian Citrus","Grasse Rose, Powdery, Violet","Cedar, Musk, Fresh Spicy",Night,Female
+508,HRMN-0508,Vanille,Smells Good,218000,60,EDP,"Vanilla, Powdery","Vanilla, Coconut","Vanilla, sandalwood, musk",Night,Female
+509,HRMN-0509,Moud,Smells Good,218000,60,EDP,"Bulgarian Rose, Vanilla, Agarwood",-,-,Night,Unisex
+510,HRMN-0510,I.L.Y,Smells Good,225000,60,EDP,"Ginger, Bitter Orange","Tuberose, Orange Blossom","Sandalwood, Vanilla",Night,Female
+511,HRMN-0511,Scweet,Smells Good,225000,60,EDP,"Lavender, Mandarin Orange","Lavender, Orange Blossom","Madagascar Vanilla, Musk",Versatile,Female
+512,HRMN-0512,Gemstone,Smells Good,225000,60,EDP,"Green Notes, Pink Grapefruit","Iris, Bulgarian Rose","Heliotrope, Woodsy",Day,Female
+513,HRMN-0513,Dialogue Ivi,Loco,226800,50,EDP,"Blood Orange, Bergamot, Lavender, Musk Mallow, Heliotrope, Tangerine","Iris, Violet, Geranium, Freesia, Angelica, Hawthorn, Neroli, Jasmine Sambac, Honey","Vanilla, Tonka Bean, Musk, Caramel, Amber, Benzoin, Palo Santo",Versatile,Female
+514,HRMN-0514,Veil of Eire,Loco,299300,50,EDP,"Nectarine, Grapefruit, Bulgarian Rose, Lily Of The Valley","Tonka Bean, Oak, Rose, Mimosa, Tuberose, Suede","Vanilla, Praline, Ambergris, Sandalwood, Leather",Versatile,Unisex
+515,HRMN-0515,White Potion,Loco,226800,50,EDP,"Mandarin Blossom, Pomelo, Orange Leaf, Pink Pepper, Sweet Basil","Orange Blossom, Gardenia, Cannabis, Tuberose, Jasmine Sambac, Lily Of The Valley, Freesia, White Tea","Honey, Vetiver, Palo Santo, Musk, Sandalwood, Tonka Bean",Versatile,Unisex
+516,HRMN-0516,Red Rhapsody,Loco,226800,50,EDP,"Neroli, Saffron, Nutmeg, Lavender, Dark Chocolate, Sweet Cinnamon","Rose, Bulgarian Rose, Rose Taif, Rose Baccara, Red Rose, Cinnamon Spices, Oud, Iris, Jasmine Sambac, Myrrh","Marshmallow, Vanilla, Musk, Oud, Coumarin, Sandalwood, Amber, Tonka Bean, Incense",Night,Unisex
+517,HRMN-0517,Mocktail in the Garden,Loco,289460,50,EDP,"Strawberry, Raspberry, Blackberry, Sour Cherry, Blackcurrant, Mandarin Orange, Lemon","Rose, Violet, Jasmine","Musk, Vanilla, Cashmeran, Woody Notes, Amber, Oakmoss, Patchouli",Day,Female
+518,HRMN-0518,Harvest Feast,Loco,289460,50,EDP,"Rosemary, Amalfi Lemon, Grapefruit, Osmanthus, Litchi, Bergamot","Peony, Freesia, Orange Blossom, Jasmine, Ginger, Rose","Musk, Sandalwood, Agarwood, Moss, Ambergris",Day,Unisex
+519,HRMN-0519,Abandoned Land,Loco,299300,50,EDP,"Green Apple, Calabrian Bergamot, Mandarin Orange, Ozonic notes, Juniper, Berries","Patchouli, Green Leaves, Petitgrain, Cashmeran, Cedar, Pomarose, Violet","Oakmoss, Musk, Amberwood, Ambroxan",Day,Unisex
+520,HRMN-0520,Into the Waves,Loco,289460,50,EDP,"Sea Notes, Aldehydes, Grapefruit, Lemon, Mint, Pink Pepper, Bergamot, Coriander,Juniper Berries","Rosemary, Sage, Geranium,Ginger, Nutmeg, Jasmine, Melon","Incense, Patchouli,Amber, Cedar, Sandalwood, Labdanum",Day,Male
+521,HRMN-0521,Shades of P.M,Loco,299300,50,EDP,"Leather, Tomato Leaf, Vanilla, Pineapple blossom, Peach, Apple Blossom, Dark Chocolate, Rum","Heliotrope, Galbanum, Labdanum, Clary Sage, Orris Root, Coffee, Sugar cane, Almond","Leather, Vanilla Absolute, Benzoin, Tolu Balsam, Myrrh, Opoponax, Sandalwood, Musk Wild Rose, Patchouli, Caramel",Night,Male
+522,HRMN-0522,Saturday Cheers,Loco,299300,50,EDP,"Cognac, Rum, Whisky, Cardamom, Mandarin Orange","Cinnamon, Tobacco Leaf, Tonka Bean, Oak, Rose","Praline, Vanilla, Sandalwood, Guaiac Wood, Cedar, Musk",Night,Unisex
+523,HRMN-0523,Smoke on Top,Loco,299300,50,EDP,"Wormwood, Mint, Basil, Raspberry","Incense, Lavender, Gold bar, Rose, Saffron, Geranium, Birch","Tobacco, Sandalwood, Guaiac Wood, Vetiver, Oakmoss, Amber, Vanilla, Musk, Agarwood, Leather, Benzoin",Night,Unisex
+524,HRMN-0524,Hypnotic Spell,Loco,299300,50,EDP,"Coffee, White Hyacinth, Iris, Jasmine Sambac","Turkish Rose, Vanilla, Opoponax, Cashmeran","Honey, White Musk, Amber, Cedar",Night,Female
+525,HRMN-0525,Oudamaz,Bohe,155000,35,XDP,"Oud, Rose, Leather",-,-,Night,Unisex
+526,HRMN-0526,Sage,Bohe,155000,35,XDP,"Green Tea, Bergamot, Lemon","Ambroxan, Jasmine, Orange Blossom, Matcha, Lavender","Musk, White Choco, Moss, Cedar",Day,Unisex
+527,HRMN-0527,Velvet Oud,Bohe,155000,35,XDP,"Oud, Rose, Vanilla, Violet, Musk, Geranium",-,-,Night,Unisex
+528,HRMN-0528,Lykn,Bohe,145000,35,XDP,"Pepper , Lemon","Lavender , Vetiver , Geranium , Pink Pepper","Patchouli , Cedar , Labdanum , Ambroxan",Versatile,Male
+529,HRMN-0529,Ares,Bohe,135000,35,XDP,"Mint , Green Apple , Lemon","Tonka Bean , Ambroxan , Geranium","Vanilla , Cedar , Vetiver",Versatile,Male
+530,HRMN-0530,Egost,Bohe,135000,35,XDP,"Orange, Grapefruit","Pepper, Cedar","Patchouli, Vetiver",Day,Male
+531,HRMN-0531,Midas,Bohe,165000,35,XDP,"Apple, Lavender, Bergamot, Sweet Orange","Geranium, Violet, Jasmine, Cocoa","Vanilla, Cardamom, Sandalwood, Pepper, Patchouli, Coffee",Night,Male
+532,HRMN-0532,Bohemi,Bohe,155000,35,XDP,"Blackcurrant, Chasis, Vanilla, Rose, Lychee, Freesia, Patchouli",-,-,Day,Female
+533,HRMN-0533,Badboy for Life,Bohe,155000,35,XDP,"Grapefruit, Blood Mandarin, Mint","Tose, Cinnamon, Spicy","Leather, Woody, Amber, Patchouli",Night,Male
+534,HRMN-0534,Savage,Bohe,155000,35,XDP,"Grapefruit, Mandarin Orange","Bay Leaf, Jasmine","Guaiac Wood, Oakmoss, Patchouli, Ambergis",Versatile,Male
+535,HRMN-0535,Ambitchous,Bohe,155000,35,XDP,"Almond, Bergamot, Coffee, Lemon","Tuberose, Jasmine, Orris, Vanilla","Tonka Bean, Amber, Cacao, Praline, Sandalwood",Night,Female
+536,HRMN-0536,Badassery,Bohe,145000,35,XDP,"Pink Pepper, Pear, Orange Blossom","Coffee, Jasmine, Almond, Licorice","Vanilla, Cedar, Patchouli",Night,Female
+537,HRMN-0537,Berly,Bohe,155000,35,XDP,"Orange, Geeen Notes","Tuberose, Jasmine, Honey","Orris, Vanilla, Sandalwood",Day,Female
+538,HRMN-0538,Classy,Aoera,169000,50,EDP,"Ginger, Almond","Orris, Tonka Bean, Orcanox, Figolide","Sandalwood Cream, Vanilla",Night,Unisex
+539,HRMN-0539,Fantasy,Aoera,149000,50,EDP,"Amber, Cedarwood","Caramel, Oakmoss","Vanilla, Tonka",Night,Unisex
+540,HRMN-0540,Signature,Aoera,159000,50,EDP,"Nutmeg, Saffron, Lavender","Leather, Tabacco, Maderal, Oud","Patchouli, Moss, Musk, Driftwood",Night,Male
+541,HRMN-0541,Majestic,Aoera,159000,50,EDP,"Mandarin, Peach, Orange","Tuberose, Ylang-ylang, Coconut, Tropicalone","Sandalwood, Vanilla, White Musk, Cedar",Day,Female
+542,HRMN-0542,Pretty,Aoera,169000,50,EDP,"Lemon, Orange, Plum, Strawberry","Rasberry, Rose, White Flower","Ambery, Musk, Praline, Vanilla",Day,Female
+543,HRMN-0543,Chapters of Romance,YN Parfumery,249000,60,EDP,"Coconut, Blackcurrant, Bergamot","Rose, Ylang-Ylang, Iris, Jasmine","Musk, Solar, Cedarwood",Day,Female
+544,HRMN-0544,On Cloud Nine,YN Parfumery,249000,60,EDP,"Lemon, Freesia, Rose, Blackcurrant, Pear","Jasmine, Anise, Sandalwood, Jasmine Sambac Absolute, Floral Accord","Vanilla, Musk, Lily Of The Valley, Dry Wood, Patchouli",Day,Female
+545,HRMN-0545,The Morning After,YN Parfumery,229000,60,EDP,"Ylang, Lily of the Valley, Bergamot","Jamine, Orange Blossom, LYS Flower","Vanilla, White Floral Accord, Cedarwood",Day,Female
+546,HRMN-0546,Vintage Tobacco,YN Parfumery,229000,60,EDP,"Cardamom, Mandarin, Lemon, Bergamot","Mint, Grapefruit, Soft Wood","Dry Amber, Tonka Beans, Musk",Night,Male
+547,HRMN-0547,Garden of Spring,YN Parfumery,219000,60,EDP,"Apple, Freesia, Strawberry","Peony, Jasmine, Rose","White Musk, Vanilla, Sugar",Day,Unisex
+548,HRMN-0548,Sunset Hour,YN Parfumery,219000,60,EDP,"Bergamot, Orange, Sugar","Vanilla, Licorice and Violet Blossoms","Sandalwood, Musk, Star Anise",Versatile,Unisex
+549,HRMN-0549,Rose in September,YN Parfumery,219000,60,EDP,"Peach, Green Notes, Blackcurrant","May Rose, Rose, Turkish Rose, Iris","White Musk, Cedar, Pepper, Orris Root, Violet Leaf",Versatile,Female
+550,HRMN-0550,The Duchess,YN Parfumery,219000,60,EDP,Jasmine,Tuberose,Rangoon Creeper,Versatile,Female
+551,HRMN-0551,Mr. Grey,YN Parfumery,219000,60,EDP,"Calabrian Bergamot, Pepper","Sichuan Pepper, Lavender, Pink Pepper, Patchouli",Cedar,Night,Male
+552,HRMN-0552,Imperial Jasmine Tea,Nevernot,189000,30,EDP,"Jasmine, Osmanthus, Black tea","Ylang ylang, Petitgrain","Balsamic, Musk, Vanilla",Day,Unisex
+553,HRMN-0553,3am in Senop,Nevernot,189000,30,EDP,"Cherry, Almond, Rum","Jasmine, Tuberose, Rose","Amber, Woods, Tonka, Gourmand",Night,Unisex
+554,HRMN-0554,Grandma's Kitchen,Nevernot,169000,35,EDP,"Milk, Peony, Jasmine","Bourbon Vanilla, Cacao","Sandalwood, Musk",Day,Female
+555,HRMN-0555,Afternoon Sunset,Nevernot,169000,35,EDP,"wisteria, blackberry, pear","jasmine, lychee","white wood, musk",Day,Female
+556,HRMN-0556,Tripping Apple,Nevernot,169000,35,EDP,"Red Apple, Cassis","Iris, May Rose, Freesia","Sandalwood, Virginia Cedar, Vanilla, Patchouli",Versatile,Female
+557,HRMN-0557,Kitchen in Pool,Nevernot,169000,35,EDP,"Lemon Zest, Mint, Pear, Bergamot","Wisteria, Geranium, Lavender","Amberwood, Tonka Bean",Versatile,Unisex
+558,HRMN-0558,Date of Birth,Nevernot,169000,35,EDP,"Violet, Vanilla, Rose","Freesia, Pear Flowers","Powder, White Wood",Versatile,Female
+559,HRMN-0559,Never Been Drunk,Nevernot,169000,35,EDP,"Grape, Cranberry, Cinnamon","Nutmeg, Lemongrass, Plum","Sandalwood, Vanilla",Versatile,Unisex
+560,HRMN-0560,Cabin 119,Nevernot,169000,35,EDP,"Lavender, Citrus",Neroli,Cedarwood & Patchouli,Versatile,Unisex
+561,HRMN-0561,Petite Avenue,Nevernot,169000,35,EDP,"Earl grey tea, Mandarin orange","Freesia, Rose, Jasmine","Iris, Musk, Sandalwood",Versatile,Unisex
+562,HRMN-0562,Hello Prune,Nevernot,169000,35,EDP,"Magnolia, Bergamot","Peach, Jasmine","Amber, Sandalwood, Vanilla",Versatile,Unisex
+563,HRMN-0563,RSVP,Nevernot,169000,35,EDP,"Raspberry, Cherry, Peach","Marshmellow, Gardenia, Orchid","Musk, Oak, Ylang-Ylang",Versatile,Female
+564,HRMN-0564,Gentle Cudle,Verites,210000,50,EDP,Aldehydic,"Lily of the valley, Jasmine, Rose, Violet","Musk, Ambery, Leather",Versatile,Female
+565,HRMN-0565,In a Penthouse,Verites,190000,50,EDP,"Honeysuckle, Lemon, Coconut Milk, Pear Blossom","Tuberose, Sambac Jasmine, Ambrette, Gardenia","Patchoulli, Sandalwood, Musks, Bourbon Vanilla",Versatile,Unisex
+566,HRMN-0566,Rose Papier,Verites,210000,50,EDP,"Lemon, Pink peppercorn","Rose, Orange Flower, Magnolia, Lily of the Valley","Musk, Incense",Versatile,Unisex
+567,HRMN-0567,Orange Haze,Verites,200000,50,EDP,"Mandarin, Guava, Blackcurrant","Jasmine, Tuberose, Orange Flower","Cedarwood, Vanilla, Musk",Versatile,Unisex
+568,HRMN-0568,On a Date,Verites,200000,50,EDP,"Strawberry, Blackcurrent, Lychee, Mint","Cinnamon, Orange Blossom, Rose","Edible Notes, Dry Woods, Smoky Notes",Versatile,Unisex
+569,HRMN-0569,Ginz Cha,Verites,230000,50,XDP,"Herbaceous, Sweet, Tea, Bergamot","Orange Blossom, Jasmine, Ambery","Chocolate, Cedarwood, Moss",Versatile,Unisex
+570,HRMN-0570,Amalfi Coast,Verites,250000,50,XDP,"Bergamot, Orange, Lemon, Ozonic, Grapefruit","Jasmine, Muguet, Lavender, Geranium, Blackcurrant","Musk, Sandalwood, Amber",Versatile,Unisex
+571,HRMN-0571,Voeu Provence,Verites,250000,50,XDP,"Mandarin, Pear, Blackcurrant, Pink Pepper","Jasmine, Violet, Tuberose, Ylang-Ylang, Watery","Sandalwood, Caramel, Powdery, Amberwood, Musks",Versatile,Unisex
+572,HRMN-0572,Caspian Ebony,Verites,240000,50,XDP,"Citrus, Bergamot, Cardamom, Clove","Floral, Peach, Peru Balsam, Olibanum","Patchouli, Cedarwood, Amber, Oud Wood",Versatile,Unisex
+573,HRMN-0573,Capri Escape,Verites,230000,50,XDP,"Aldehydes, Bergamot","Jasmine, White Flower Accords","White Musk, Sandalwood",Day,Unisex
+574,HRMN-0574,Santorini Sunset,Verites,230000,50,XDP,"Mandarin, Mint, Orange","Rosemary, Neroli","Cashmeran, Sap, Cedarwood",Night,Unisex
+575,HRMN-0575,Zen Garden,Verites,220000,50,EDP,Neroli,"Rose, Honeysuckle","Magnolia, Jasmine",Day,Female
+576,HRMN-0576,Soul Signature,Verites,220000,50,EDP,"Bergamot, Tangerine, Pear Accord","Neroli, Neroli Bud, Orange Blossom, Sambac Jasmine","Amber Accord, Benzoin, Bourbon Vanilla, White Musk Accord",Day,Unisex
+577,HRMN-0577,De Club,Verites,215200,50,EDP,"Lavandin, Clary Sage",Virginia Cedarwood,Vetiver,Night,Male
+578,HRMN-0578,Blooming Amoure,Verites,240000,50,EDP,"Ginger, Carnation, Green Leaves","Tuberose, Jasmine","Musk, Sandalwood",Night,Female
+579,HRMN-0579,Her Summer,Verites,220000,50,EDP,"Green Pear, Green Grape, Strawberry, Blackcurrant, Pink Peppercorn","Honeysuckle, Peony, Rose, Lily Of The Valley","Musk, Cedarwood",Day,Female
+580,HRMN-0580,Starstruck,Verites,220000,50,EDP,"Lychee, Bergamot","Rose, Magnolia","Virginia Cedar, Musk",Night,Female
+581,HRMN-0581,Shine All Night,Verites,190000,50,EDP,"Floral, Edible, Toffee","Floral, Woody","Amber, Musk, Sweet Accents",Night,Female
+582,HRMN-0582,Siren,Verites,190000,50,EDP,"Pear, Red Fruit, Bergamot, Pink Pepper","Jasmine, Orris, Magnolia, Red Rose, Orange Blossom","Amber, Caramel, Vetiver, Vanilla",Night,Female
+583,HRMN-0583,Secretly Sexy,Verites,220000,50,EDP,"Apple, Orange, Red Berries","Rose, Jasmine, Lily","Vanilla, Cedarwood, Sandalwood, Musky",Day,Female
+584,HRMN-0584,Joie De Vivre,Verites,200000,50,EDP,"Strawberry, Pineapple, Mandarin","Rose, Jasmine","White Musk, Amber, Patchouli",Day,Female
+585,HRMN-0585,After The Rain,Verites,240000,50,EDP,"Almond, Chocolate, Black Currant","Cedarwood, Tuberose, Sambac Jasmine","Amber, Sandalwood",Night,Female
+586,HRMN-0586,Myriad Synastry,ORSAR,725000,80,EDP,"Blackberry, Grapefruit, Rose, Bergamot, Mandarin","Rose Absolute, Jasmine, Lily of the Valley, Ylang Ylang","Musk, Amber, Vanilla, Rosewood",Night,Female
+587,HRMN-0587,Songbird,ORSAR,725000,80,EDP,"Fig Leaf, Neroli, Orange Blossom, Hyacinth, Petitgrain","Pink Pepper, Grapefruit, Rose, Gardenia, Cardamom","Cedarwood, Patchouli, Vetiver, White Amber",Day,Female
+588,HRMN-0588,Transcendence,ORSAR,725000,80,EDP,"Freesia, Magnolia, Neroli, Orange Blossom, Pear, Sweet Pea","Osmanthus, Violet, Iris, Honeysuckle, Marshmallow, Cedarwood","Sandalwood, Musk, Vanilla, Benzoin",Day,Female
+589,HRMN-0589,Conny,SAKA,129900,30,EDP,"Coconut, Blackcurrant, Bergamot","Vanilla, Licorice and Violet Blossoms","Powdery, Tropical, Lactonic",Day,Female
+590,HRMN-0590,Teaphoria,SAKA,239900,50,XDP,"Bergamot, Mirabelle, Plum, Freesia","Orange Blossom, Jasmine Sambac, Darjeeling Tea, Osmanthus","Musk, Amber, Sandalwood, Cedarwood",Versatile,Unisex
+591,HRMN-0591,After Bath,SAKA,239900,50,XDP,"Neroli, Dihydromyrcenol, Verbena, Aldehydic","Rose, Jasmine, Orange Flower","Milk, Sandalwood, Ambroxan, Musk",Versatile,Unisex
+592,HRMN-0592,Emily,SAKA,229900,50,XDP,"White Floral, Patchouli, Woody","Sweet, Powdery","Warm Spicy, Vanilla",Night,Female
+593,HRMN-0593,Harrod's,SAKA,229900,50,XDP,"Black Currant, White Peach, Coconut, Calabrian bergamot","Violet, Egyptian Jasmine, Bulgarian Rose","Vanilla, White Musk",Versatile,Unisex
+594,HRMN-0594,Nashville,SAKA,129900,30,XDP,"Tangerine, Strawberry, PassionFruit, Pineapple, Grapefruit","Jasmine, Vanilla Orchid, Red Berries, Peony, Lily Valley","Musk, Woody, Oakmoss",Day,Female
+595,HRMN-0595,Montpellier,SAKA,129900,30,XDP,"Citrus, Peony, Mandarin Orange","Rose, Osmanthus","Patchouli, Sandalwood, Pink Pepper",Versatile,Female
+596,HRMN-0596,Florance,SAKA,129900,30,XDP,"Mandarin Orange, Blackcurrant, Bergamout, Grapefruit","Jasmine Sambac, Magnolia, Osmanthus, Peony, Green Notes","Vanilla, White Musk, Lily",Versatile,Female
+597,HRMN-0597,Te Anue,SAKA,129900,30,XDP,"Pink Pepper, Orange Blossom, Pear","Coffee, Jasmine","Vanilla, Patchouli, Cedar",Night,Unisex
+598,HRMN-0598,Olgaline,SAKA,229900,50,XDP,"Lemon, Water Notes","Rose, Sugar","Vanilla, Sugar, White Musk, Cedar",Versatile,Female
+599,HRMN-0599,Gori,Fabron,215000,50,XDP,"Incense, Spices, Labdanum","Woody notes, Patchouli leaf","Amber, Guaiac wood, White musk, Vanilla",Versatile,Unisex
+600,HRMN-0600,Numa,Fabron,215000,50,XDP,"Orange, Mandarin, Grapefruit","Mango, Nectarine, Blackcurant","Peach, Musk",Day,Unisex
+601,HRMN-0601,Pleasure of Jo,Fabron,190000,50,EDP,"Bergamot, fruity accord, rose, pepper, cloves","Patchouli, sandalwood, iris, milk, heliotrope, cedarwood","Praline, musk, vanilla, tonka bean, benzoin",Night,Unisex
+602,HRMN-0602,Bregas,Fabron,215000,50,EDP,"Black tea, Lavender, Bergamot, Lemon","Honey, Cinnamon, Cashmeran, Jasmine Sambac","Tobacco Leaf, Vanilla, Tonka Bean",Day,Unisex
+603,HRMN-0603,Bizael,Fabron,190000,50,EDP,"Bergamot, Lavender, Cardamom","Dry Wood, Leathery Accord","Cedarwood, Amber, Patchouli",Night,Male
+604,HRMN-0604,Johan Malik,Fabron,190000,50,EDP,"Tobacco leaf, spicy notes","Vanilla, cacao, tonka bean","Dried fruits, woody notes",Night,Male
+605,HRMN-0605,Lost in the Italian Sea,Scents of Pluto,259000,50,EDP,"Italian bergamot, Aldehydes","Jasmine, Orange blossom","Sandalwood, White musk",Day,Female
+606,HRMN-0606,Not That Kind of Cherry,Scents of Pluto,379000,50,EDP,"Frozen Cherry, Saffron, Mystical Incense","Juicy Sour Cherry, Cinnamon, Orris, Crimson Orris","Cherry Brandy, Benzoin, Cistus, Liquorous Woods",Night,Unisex
+607,HRMN-0607,Hugged in Cashmere,Scents of Pluto,289000,50,EDP,"Bergamot, Cistus, Pepper","Saffron, Violet, Black Sesame","Musk, Sandalwood, Cashmere Wood",Night,Unisex
+608,HRMN-0608,An Empty Room,Scents of Pluto,289000,50,EDP,"Lemon, Grapefruit, Bergamot","Floral, Metalic","Amber, Mineral, Oak Moss, Cedarwood, Musk",Night,Unisex
+609,HRMN-0609,New Kind of Jungle,Scents of Pluto,379000,50,EDP,"lemon, Fresh wet herbs, nenuphar","watery yacinth, lush jungle accord, honeysuckle, blue tuberose","crystal musks, moss, modern woods",Versatile,Unisex
+610,HRMN-0610,Ain't Yout Typical Candy,Scents of Pluto,379000,50,EDP,"Candied Lemon, Petitgrain, Tonic Orange","Endorphinoflor, Sunny Jasmine, Watery Fruits","Magic Vanilla, Ambery Woods, Coconut Milk",Day,Female
+611,HRMN-0611,The Vanity Room,Scents of Pluto,259000,50,EDP,"Chamomile, Clary Sage","Honey, Cypriol","Amber, Musk, Blond Wood",Night,Female
+612,HRMN-0612,Through the Mystic Forest,Scents of Pluto,259000,50,EDP,"Italian Cyprus, Myrtle, Rose","Sandalwood, Cedarwood","Amber, Musk, Rosewood",Night,Unisex
+613,HRMN-0613,Moroccan Sunset,Alt,229000,50,EDP,"Neroli, bergamot, red fruits","orange blossom, jasmine, cinnamon, resin","Vanilla, caramel, musk, cedarwood",Night,Unisex
+614,HRMN-0614,Teatime in Kyoto,Alt,229000,50,EDP,"Citrus , Jasmine, White floral","Eucalyptus, Green notes","Musk, Sandalwood",Day,Unisex
+615,HRMN-0615,Uptown,Alt,299000,100,EDP,"Strawberry, Black currant, Red Apple, Citrus","Sweat pea, fressia, jasmine, rose","Raspberry, Musk, Sandalwood, Amber",Day,Female
+616,HRMN-0616,Martini in New York,Alt,229000,50,EDP,"Bulgarian Rose, Neroli","White Rose, Jasmine, Turkish Rose","Myrrh, Musk, Amyriss",Night,Unisex
+617,HRMN-0617,Baron,Alt,299000,100,EDP,"Cardamom, Lavender, Lemon","Coffee, Whiskey, Cinnamon, Leather, Mineral Notes","Tonka Bean, Amber, Incense",Versatile,Unisex
+618,HRMN-0618,Joie de Vivre,Alt,279000,50,EDP,"Wild Cherry, Pink Pepper, Black Pepper, Coriander","Jasmine, Rose, Cognac, Ginger","Tonka Bean, Patchouli, Cashmere Wood, Cedar",Versatile,Unisex
+619,HRMN-0619,Reverie,Alt,229000,50,EDP,"Tuberose, White Flower","Black Currant, Davana","Vanilla, Myrrh",Night,Female
+620,HRMN-0620,Tahiti Sunrise,Alt,229000,50,EDP,"Coconut, Fruity Notes","Sea Salt, Solar Notes","Vanilla, Musk, Amber",Versatile,Unisex
+621,HRMN-0621,Alexandria Oud,Alt,229000,50,EDP,"Incense, Spice Notes","Ambergris, Agarwood, Oud","Vanilla, Sandalwood, Civet, Cedar",Night,Unisex
+622,HRMN-0622,Foxy,Alt,299000,100,EDP,"Passion fruit, grapefruit,pinnaple","Peony, Red berry, vanilla orchid, jasmine","Musk, woody, oakmoss",Night,Female
+623,HRMN-0623,The Lioness Rasuna Said,House of Medici,375000,50,EDP,"Rose Otto, Rose Mallow, Clementine","Sedap Malam, Metallic Accord, Aldehydes","Tonkin Musk, Indonesian Vanilla",Night,Female
+624,HRMN-0624,Stoa Palazzo,House of Medici,400000,50,EDP,"Bergamot, Orange Flower","Cassia, Immortelle","Sandalwood, Guiac Wood",Night,Unisex
+625,HRMN-0625,Jingu Ensata,House of Medici,375000,50,EDP,"Iris Pallida, Grasss","White Suede, Violet","Vanilla, Musk",Day,Unisex
+626,HRMN-0626,Midnight Blast Psalm,House of Medici,325000,50,EDP,"Plum, Wolfberry, Costus, Pomegranate","Tuberose, Jasmine, Dried Rose","Patchouli, Pine Tar, Opoponax",Night,Unisex
+627,HRMN-0627,Gabriella the White Beams,House of Medici,325000,50,EDP,"Blood Orange, Pistachio, Pink Pepper","Tuberose, Jasmine, Ylang Ylang","Coconut, Amber, Tonka Bean",Versatile,Female
+628,HRMN-0628,Hundred Man Slayer,House of Medici,400000,50,EDP,"Patchouli, Barley Mint, Olive","Tobacco, Resins, Dark Chocolate","Civet, Sandalwood",Night,Male
+629,HRMN-0629,Galileo Astronomia,House of Medici,375000,50,EDP,"Lavender Bulgaria, Cola, Peppermint","Tobacco, Oak, Chinotto","Vetiver, Musk, Vannila",Versatile,Unisex
+630,HRMN-0630,Jophiel the Crimson,House of Medici,375000,50,EDP,"Strawberry, Fir, Saffron, Rum","Jasmine Sambac, Caramel, Mocha","Vannila, Tonka Bean, Pine Tree",Night,Unisex
+631,HRMN-0631,Daybreak Angel,House of Medici,325000,50,EDP,"lime, bergamot, bitter orange","juniper berries, jasmine, cedar","musk, ambergris, oakmoss",Versatile,Unisex
+632,HRMN-0632,Lilac Wine,House of Medici,350000,50,EDP,"Wine, Saffron, Thyme","Lilac, Blueberry, Mocha","Leather, Heliotrope, Mahogany",Night,Female
+633,HRMN-0633,Fatima La Isabella,House of Medici,350000,50,EDP,"Blue Chamomile, Cinnamon, Cacao","Turkish Rose, Tobacco Blossom, White Honey","White Chocolate, Dried fruits, Musk",Night,Female
+634,HRMN-0634,Maria De Constantine,House of Medici,325000,50,EDP,"Dark Chocolate, Charcoal, Rum","Cherry, Espresso, Sangria","Cedarwood, Bitter Almond, Musk",Night,Female
+635,HRMN-0635,Agape of Jeanne D'Arc,House of Medici,325000,50,EDP,"Maghrebi Mint Tea, Orange Blossom, Ginger","Magnolia,Iris, Cardamom, Basil","Praline, Bourbon Vanilla, Hay",Versatile,Unisex
+636,HRMN-0636,Infatuation of Edward,House of Medici,325000,50,EDP,"Rum, Ethiopian Coffee","Java Coffee Oil, Pipe Tobacco, Jasmine","Dirty Oud, White Musk, Chestnut",Night,Male
+637,HRMN-0637,Devil in a New Dress,House of Medici,350000,50,EDP,"May Rose, Pink Pepper, Saffron","Bulgarian Rose, Agarwood, Incense","Vanilla, Patchouli, Cocoa Powder",Night,Female
+638,HRMN-0638,Paradise Reservoir,House of Medici,325000,50,EDP,"Lemon, Neroli, Yuzu","Blood Orange, Vetiver Bourbon, Liatrix","Fig Tree, White Musk, Amber",Day,Unisex
+639,HRMN-0639,Opaque Ash,De Antoine,510000,100,XDP,"Grapefruit, Pear, Cardamom","Rose, Lily of the Valley, Tobacco Leaves","Patchouli, Woody Ambery, Cedarwood, Vanilla",Night,Unisex
+640,HRMN-0640,Velvet Garden,De Antoine,510000,100,XDP,"Bergamot, Fruity, Spicy","Freesia, Jasmine, Lily of Valley, Orchid, Orris, Violet","Ambergris, Cedarwood, Musk, Sandalwood, tonka, Vanilla",Versatile,Female
+641,HRMN-0641,Emperor's Spice,De Antoine,510000,100,XDP,"Apple, Lavender, Bergamot, Mandarin Orange","Geranium, Violet, Jasmine","Vanilla, Cardamom, Sandalwood, Pepper, Guaiac Wood, Patchouli",Night,Male
+642,HRMN-0642,Caspian Coast,De Antoine,510000,100,XDP,"Lemon, Mandarin, Bergamot","Marine Note, Freesia, Pear, Amberwood","Musks, Cashmere Wood, Driftwood, Sandalwood",Day,Unisex
+643,HRMN-0643,Kyoto Ceremony,De Antoine,510000,100,XDP,"Citrus Cocktail, Matcha Green Tea, Vegetal Softness","Orange Blossom, Milk Chocolate, Powdery, Mugane","Vanilla Pod, Velvet Musks, Precious Wood",Versatile,Unisex
+644,HRMN-0644,Boise,De Antoine,385000,100,EDP,"Mandarin, Lemon, Pink Peppercorn","Blackcurrant, Jasmine, Freesia, Guava","Cedarwood, Musk, Patchouli",Day,Unisex
+645,HRMN-0645,Joie de Vivre,De Antoine,385000,100,EDP,"Saffron, Juniperberries, Blackcurrant, Lemon","eather, Rose, White Flower","Musky, Powdery, Sweet Amber",Night,Female
+646,HRMN-0646,Rosa Damascena,De Antoine,385000,100,EDP,"Bergamot, Mandarin",Damask Rose,"Damask Rose, Cedarwood, Musk",Versatile,Female
+647,HRMN-0647,Homme Fatale,De Antoine,385000,100,EDP,"Sage, Violet, Bergamot","Violet, Lavender","Cedarwood, Wood, Musk",Versatile,Male
+648,HRMN-0648,L'amour Toujours,De Antoine,430000,100,XDP,Peony,Peony,Peony,Day,Female
+649,HRMN-0649,Clair de Lune,De Antoine,430000,100,XDP,"Pink Pepper, Rose, Oceanic","Violet, Peony","Musk, Sandalwood",Versatile,Female
+650,HRMN-0650,Mansion Heir,EONA,329000,75,EDP,"Plum, Grapefruit, Sage, Violet","Lily, Heliotrope, Cooked milk, Jasmine, Rose","Musk, Raspberry, Vanilla, Sandalwood, Muguet",Night,Female
+651,HRMN-0651,Under the Moonlight,EONA,329000,75,EDP,"Bergamot, Geranium, Rose","Oud, Leather","Amber, Sandalwood, Patchouli, Cedarwood",Night,Unisex
+652,HRMN-0652,Cold Shower,EONA,329000,75,EDP,"Bergamot, Lemon, Orange","Lily of the Valley, Coriander, Nutmeg","Guaiacwood, Cashmere Wood, Amber",Day,Unisex
+653,HRMN-0653,Casanova,Fonce,235000,50,XDP,"Lavender, Bergamot","Milk, Jasmin, Cedar","Coffee, Tonka, Vanilla",Night,Unisex
+654,HRMN-0654,Teased,Fonce,235000,50,XDP,Letchi,"Damask Rose, Grass Rose, Chamomile","Musk, Woody Notes",Day,Female
+655,HRMN-0655,Morning Tea,Fonce,235000,50,XDP,"Tea, Orange","Jasmine, Matcha","White Chocolate, Oakmoss, Cedar",Day,Unisex
+656,HRMN-0656,Iris Alpha,Fonce,275000,50,XDP,Bergamot,"Iris, Jasmine, Lilly of the Valley, Cinnamon","White Musk, Patchouli, Vanilla, Tonka Bean, Animal Notes",Night,Unisex
+657,HRMN-0657,Santal,Fonce,190350,50,XDP,"Violet, Cardamom","Papyrus, Iris","Cedarwood, Sandalwood, Leather, Amber",Versatile,Unisex
+658,HRMN-0658,La Nuit,Fonce,190350,50,XDP,"Cardamom, Clove","Bergamote, Cedar, Lavender","Vétiver, Cumin",Night,Unisex
+659,HRMN-0659,Jasmin Blossom,Fonce,190350,50,XDP,Orange Blossom,Jasmine,"Honey, Patchouli, Virginia Cedar, Rose",Day,Female
+660,HRMN-0660,Rosewood,Fonce,190350,50,XDP,"Rose, Cumin","Rose, Vetiver, Cedarwood","Musk, Guaia, Olibanum, Labdanum, Agarwood",Versatile,Unisex
+661,HRMN-0661,De Bleu,Fonce,190350,50,XDP,"Grapefruit, Lemon","Patchouli, Ginger","Incense, Amber, Cedarwood",Versatile,Male
+662,HRMN-0662,British Pear,Fonce,190350,50,XDP,"Pear, Melon","Fresia, Rose","Musk, Patchouli, Amber",Day,Female
+663,HRMN-0663,Roses Vanille,Fonce,190350,50,XDP,"Sea Notes, Lemon","Rose, Creamy","Vanilla, Sugar, White Musk",Versatile,Female
+664,HRMN-0664,Tabac Vanille,Fonce,190350,50,XDP,"Tobaco Leaf, Spicy Notes","Tonka Bean, Tobacco Blossom, Vanille, Cacao","Dried Fruity, Woody Notes",Night,Unisex
+665,HRMN-0665,Vanille and Salt,Fonce,190350,50,XDP,"Jasmine, Ginger","Vanille, Salt","Ambergris, Sandalwood",Versatile,Unisex
+666,HRMN-0666,Frosted,Fraghead,385000,100,EDP,"rose, beer","mint, tangerine","orris, musk",Versatile,Unisex
+667,HRMN-0667,Hearing,Fraghead,399000,100,EDP,"Grapefruit, Pepper",Jasmine Sambac,Vetiver,Day,Unisex
+668,HRMN-0668,Baby Boomers,Honino,239000,50,EDP,"Pink Pepper, Blackcurrant, Red Rose","Sandalwood, Cahmere Wood, Aldehydic","Patchouli, Moss, Musk",Versatile,Unisex
+669,HRMN-0669,Teddy's Blanket,Honino,220000,50,EDP,"Mandarin, Apple, Grapefruit","Jasmine, Tuberose, Lemon","musk, Heliotrope, Amber",Versatile,Unisex
+670,HRMN-0670,Shower Song,Honino,220000,50,EDP,"Neroli, Pear, Bergamot, Grapefruit, Lemon","Orange Blossom, Stephanotis, Rose, Peach, Blackcurrant","Musk, Cedarwood, Cashmere Wood, Patchouli",Versatile,Unisex
+671,HRMN-0671,Romeo & Roses,Honino,220000,50,EDP,"Ambery, Rose, Vanilla, Lily, Musk, Aldehydic, Ylang-Ylang","moroccan Rose, Ambery, Damascena Rose, Musk, Jasmine","Vanilla Gourmand, Musk, Iris, Amber, Vetiver, Patchouli",Versatile,Unisex
+672,HRMN-0672,Weekend Daydream,Olmorva,111600,30,EDP,Transparent Flower,"Orris, Rose, Jasmine","Orcanox, Lorenox, Musk",Versatile,Unisex
+673,HRMN-0673,Major Icon,Olmorva,125550,30,EDP,"Grapefruit, May Rose, Pink Pepper, Damascena Rose","Labdanum, Amberwood","Patchouli, Musk",Versatile,Unisex
+674,HRMN-0674,Fells Like Romance,Olmorva,111600,30,EDP,"Coconut, Honeysuckle, Lemon","Tuberose, Jasmine, Gardenia, Ambrette, Musk","Vanilla, Sandalwood, Musk, Patchouli",Night,Female
+675,HRMN-0675,Sparkling Escape,Olmorva,111600,30,EDP,"Bergamot, Mandarin, Pear","White Amber, Amberwood","Violet Leaves, Sandalwood cream, Musk",Day,Unisex
+676,HRMN-0676,Duchess Charm,Olmorva,111600,30,EDP,"Lavender, Pepper, Orange Zest","Fresh Flower, Powdery, Sandalwood","Amberwood, Lorenox",Night,Unisex
+677,HRMN-0677,Grounded Whisper,Personal Chemistry,879000,50,EDP,"Fig Tree Leaves, Lilac","Osmanthus, Ylang-ylang","Haiti Vetiver, Satin Musk",Versatile,Unisex
+678,HRMN-0678,No Ordinary Days,Personal Chemistry,879000,50,EDP,"Scalary Sage, Violet Leaves","Jasmine Sambac, Geranium, Tea Leaves","Rain Accord, White Musk",Day,Unisex
+679,HRMN-0679,Patina,Personal Chemistry,879000,50,EDP,"Peach, Violet Leaves","Tuberose, Rose, Orange Blossom","Cashmeran, Suede, Musks, Sandalwood",Night,Unisex
+680,HRMN-0680,Unspoken,Personal Chemistry,879000,50,EDP,"Plum, Pink Pepper, Cardamom","Damascena Rose, Incense, Elemi","Patchouli, Gaiac Wood, Cypriol",Night,Unisex
+681,HRMN-0681,Velvet Kiss,Personal Chemistry,879000,50,EDP,"Juicy Tangerine, Davana, Raspberry","Orange Blossom, Damascena Rose, Violet, Cyclamen","Orris, Cashmeran, Cedarwood",Versatile,Female
+682,HRMN-0682,Berilium,Eser,245000,50,XDP,"Passionfruit, Pear, Raspberry","Lily of the Valley, Peach, Amber dry","Musk, Sandalwood, Heliotrope",Night,Unisex
+683,HRMN-0683,Eden,Eser,245000,50,XDP,"Green Apple, Kumquat Peel","Lily of the Valley, Gardenia, Freesia","Amber, Cedarwood, Musk",Day,Female
+684,HRMN-0684,Signature FO 005,Fakhrul Oud,750000,50,XDP,"Violet leaf, Moringa, Mandarin Orange","Turkish rose blossom, Lily of the valley, Pink pepper, Coriander, Orris","Patchouli sumatra, Styrax sumatra, Amber, Galbanum, Tahitian Vanilla",Versatile,Unisex
+685,HRMN-0685,Tropical Oud,Fakhrul Oud,1680000,50,XDP,"Blackcurrant, Fruity notes","Agarwood sumatra, Turkish rose, Saffron, Pink pepper","Borneo oud, Amber, Styrax, Labdanum, Patchouli Aceh, Sandalwood sumatra, Musk, Olibanum, Vanilla",Night,Unisex
+686,HRMN-0686,Ceylon Tea,Fakhrul Oud,900000,50,EDP,"Lemon, Bergamot, Mint","Indonesian tea, Petitgrain, Jasmine, Neroli, Cubeb, Fennel","Ceylon tea, Ambrette seed, Oakmoss, Vetiver, Sandalwood, Patchouli",Versatile,Unisex
+687,HRMN-0687,Signature 002,Fakhrul Oud,900000,50,XDP,"Nutmeg Aceh, Saffron","Jasmine sambac, Bulgarian rose","Indonesia Oud, Musk, Patchouli, Amber",Night,Unisex
+688,HRMN-0688,Tease,MORF,349000,30,EDP,"Grapefruit, peach","Peony, blackberry, plastic","Rose, musk, agarwood",Versatile,Unisex
+689,HRMN-0689,Tempt,MORF,349000,30,EDP,"Star anise, clove","Fennel, whiskey","Amber, agarwood, benzoin",Night,Unisex
+690,HRMN-0690,Obscure,MORF,349000,30,EDP,"Bergamot, lemon",Clary sage,Cedarwood,Versatile,Unisex
+691,HRMN-0691,Strawberry Shortcake,Laux,99000,50,EDP,"Fruity, Strawberry, Sweet, Fresh",-,-,Day,Unisex
+692,HRMN-0692,Milky Shake,Laux,99000,50,EDP,"Vanilla, Milk, Calm, Powdery, Sweet",-,-,Day,Unisex
+693,HRMN-0693,Cookies & Cream,Laux,99000,50,EDP,"Vanilla Cake, Calm, Powdery, Balsamic, Creamy",-,-,Night,Unisex
+694,HRMN-0694,Sweet Berry,Laux,99000,50,EDP,"Floral, Berry, Sweet, Soft, Fresh",-,-,Day,Unisex
+695,HRMN-0695,Fresh Melon,Laux,99000,50,EDP,"Fresh, Melon, Milk, Sweet, Candy",-,-,Day,Unisex
+696,HRMN-0696,Jelly Grape,Laux,99000,50,EDP,"Fruity, Grape, Blackcurrant, Fresh, Classic",-,-,Day,Unisex
+697,HRMN-0697,Floral Saffron,Laux,99000,50,EDP,"Floral, Powdery, Woody, Warm Spice, Sweet",-,-,Night,Unisex
+698,HRMN-0698,Gummy Candy,Laux,99000,50,EDP,"Candy, Fruity, Cranberry, Sweet, Mint",-,-,Day,Unisex
+699,HRMN-0699,Pina Colada,Laux,99000,50,EDP,"Coconut, Vanilla, Pineapple, Lily, Tropical",-,-,Day,Unisex
+700,HRMN-0700,Melted Caramel,Laux,99000,50,EDP,"Brown Sugar, Vanilla, Popcorn, Butter, Smoky",-,-,Day,Unisex
+701,HRMN-0701,Ultimate Angel,Avantglossy,149000,30,XDP,"Blood Orange, Bergamot","Tuberose, Lily of the Valley, Jasmine Sambac",Sandalwood,Day,Female
+702,HRMN-0702,Fallen Angel,Avantglossy,149000,30,XDP,"Blueberry, Geranium, Incense","Saffron, Oud","Amberwood, Birch, Rose",Night,Female
+703,HRMN-0703,Fantasy,World of Make Scents,259000,50,XDP,"Jasmine, Tuberose, Lily","Spicy Marine, Green Leaves, Fruity","Sandalwood, Musk, Amber",Versatile,Female
+704,HRMN-0704,Summerity,World of Make Scents,259000,50,XDP,"Apple, Peach, Watermelon, Guava","Pineapple, Jasmine, Ozonic, Coconut Milk","Cedar, Sandalwood, Musky",Day,Female
+705,HRMN-0705,Somewhere in Shanghai,Astree,349000,50,EDP,"Osmanthus, Bergamot","Green Tea, Jasmine Tea, Silver Needle","Cedarwood, Ambrette",Day,Unisex
+706,HRMN-0706,Garden in a Bouqet,Astree,349000,50,EDP,"Lemon, bergamot, Apple, Pear","Neroli, Southern Magnolia, Honey Rose, White Rose","Ambrette, Heliotrope, Indonesian Vanilla",Day,Female
+707,HRMN-0707,Sunday at Monaco,Astree,349000,50,EDP,"Bergamot, Orange, Lemon, Mandarin","Clove, Tolu, Ylang-Ylang","Cedarwood, Incense, Myrrh, Vetiver",Day,Male
+708,HRMN-0708,Villa De La Rose,Astree,349000,50,EDP,"Black Pepper, Magnolia","May Rose, Damask Rose, Geranium","Patchouli, Rose, Moss, Amberwood",Day,Female
+709,HRMN-0709,A Day at the Park,Astree,349000,50,EDP,Ambrette,"Poppy, Fig, Orris","Tonka Beans, Heliotrope, Barley",Day,Unisex
+710,HRMN-0710,Ocean Breeze,Astree,349000,50,EDP,"Sea Salt, Grapefruit",Sage,"Seaweed, Musk",Day,Unisex
+711,HRMN-0711,Whispering Wind,Astree,349000,50,EDP,"Green Notes, Bergamot, Pepper","Water, Rain, Turkish Rose, Jasmine","Pine Tree, Moss, Patchouli",Day,Unisex
+712,HRMN-0712,1750,Astree,349000,50,EDP,Moon Flower,Chamomile,White Musk,Day,Unisex
+713,HRMN-0713,La La Lilac,Diell,289000,50,XDP,"Lilac, Cherry, Cream, Pear, Apple","Honey, Peony, Tulip, Plum, Rose","Musk, Violet, Sandalwood",Day,Female
+714,HRMN-0714,Symphonia de Iris,Diell,289000,50,XDP,Iris,Sandalwood,"Tonka Bean, Benzoin",Versatile,Unisex
+715,HRMN-0715,Capri in Summer,Diell,289000,50,EDP,"Lime, Petitgrain, Cardamom","Green Tea, Mate, Coriander","White Musk, Cedar, Rock Rose",Day,Unisex
+716,HRMN-0716,Caramella,Diell,289000,50,EDP,"Carnation, Jasmine","Patchouli, Sandalwood","Caramel, Coffee, Vanilla",Night,Unisex
+717,HRMN-0717,Spring Memories,Diell,289000,50,EDP,Violet Leaves,"Orris Root, Heliotrope",Oak,Day,Unisex
+718,HRMN-0718,Soleil,Fetch,195000,50,XDP,"Pepper, Lemon, Aromatic",Rose,"Patchouli, Oakmoss",Versatile,Unisex
+719,HRMN-0719,Megalopolis,Fetch,195000,50,XDP,"Jasmine, Orange","Roses, ylang-ylang","Patchouli, woods, vanilla",Versatile,Unisex
+720,HRMN-0720,Kanna,Fetch,195000,50,XDP,"Berries, Almond, Ginger","Cherry, Jasmine, Rose","White Jasmine, Sweet Vanilla",Versatile,Female
+721,HRMN-0721,Slow Waltz,Fetch,165600,30,EDP,"Jasmine, saffron","Ambergris, amberwood","Resin, fir, cedar",Versatile,Unisex
+722,HRMN-0722,Libertango,Fetch,165600,30,EDP,"coriander, lavender, galbanum, grapefruit, tea, neroli, petitgrain, bergamot","guaiac wood, nutmeg, balsam fir, cardamom, pepper, Brazilian rosewood","iris, musk, sandalwood, oakmoss, cedar",Versatile,Male
+723,HRMN-0723,Johakyu,Fetch,165600,30,EDP,"white lily, violet leaves, green accents","black lilac, white peony, baile rose, jasmine","patchoulli, sandalwood",Versatile,Female
+724,HRMN-0724,Indische,Fetch,165600,30,EDP,"blackcurrant, bergamot, apple, pineapple","dry birch, rose, patchoulli, moroccan jasmine","Oak moss, musk, vanilla, ambergris",Versatile,Male
+725,HRMN-0725,Arabesque,Fetch,165600,30,EDP,"citrus, rosewood","apple martini,narcissus, orchid","white amber, cedar, white musk",Versatile,Unisex
+726,HRMN-0726,Magnetic,Forsol,289000,50,EDP,"Green Apple, Dew, Eucalyptus","White Tulips, Mimosa, Marine Notes","White Musk, Sandalwood, Vetiver, Coconut",Versatile,Unisex
+727,HRMN-0727,Sentimetal,Forsol,289000,50,EDP,"Cypress Leaf, Sage","Cold Metal, Juniper Berries, Tonka Bean, Jasmine","Burnt Wood, White Musk, Powdery Notes",Versatile,Unisex
+728,HRMN-0728,Green Scene,Forsol,244020,50,EDP,White Champagne,"Black Tea, Fig, Bitter Orange","Cedarwood, Soft Vetiver",Versatile,Unisex
+729,HRMN-0729,Rose Pepper,Forsol,249000,50,EDP,"Turkish Rose, Pink Pepper","Raspberry Blossom, Rose","Amber, Papyrus",Versatile,Unisex
+730,HRMN-0730,Charmomile,Forsol,244020,50,EDP,"Clary Sage, Chamomile","Water, Cypriol","Amber, Musk, Blond Wood",Versatile,Unisex
+731,HRMN-0731,Melancholy Verse of a Forgotten Flower,GHAIER,260000,50,EDP,"Paper, White Tea","Lilac, Mimosa, Violet, Lily of the Valley","Musk, White Musk, Ambrette",Versatile,Unisex
+732,HRMN-0732,The Final Cadence,GHAIER,250000,50,EDP,"Neroli, Lime, Bergamot, Bitter Orange","Freesia, Rose, Lily of the Valley, Orange Blossom","Musk, Cedar, Leather, Vanilla, Sandalwood",Versatile,Unisex
+733,HRMN-0733,Atheia the Smilax Ornata,GHAIER,245000,50,EDP,"Chinotto, Sarsaparilla","Ylang Ylang, Neroli, Geranium, Carnation","Labdanum, Vanilla, Birch, Star anise",Versatile,Unisex
+734,HRMN-0734,Ta .Te,Mars on Earth,198000,50,EDP,"Grapefruit, pear, pineapple","Jasmine, lily of the valley, tuberose","Cedar, musky, amberwood",Versatile,Unisex
+735,HRMN-0735,Ze . Nith,Mars on Earth,198000,50,EDP,"bergamot, pear, tangerine","sambac jasmine, orange blossom, bigaflower","vanilla, white musk, benzoin",Versatile,Female
+736,HRMN-0736,Niseko,Readyset,189000,35,EDP,"Mimosa, Pink Pepper",-,"Vanilla, Almond, Tiare Flower",Night,Female
+737,HRMN-0737,De Latoya,Readyset,189000,35,EDP,"Lemon, Bergamot, Apple","Juniper Berries, Rose, Tuberose","Cetalox, Musk",Versatile,Female
+738,HRMN-0738,Pearl,Readyset,189000,35,EDP,"Bergamot, Orange","Broom, Tuberose, Honey, Jasmine",Vanilla,Night,Female
+739,HRMN-0739,Emerald,Readyset,189000,35,EDP,"Peony Leaf, Violet, Rose","Green Apple, Tea","Cashmere, Vetiver",Versatile,Unisex
+740,HRMN-0740,Virgn's First,Aksen,319000,100,XDP,"Turkey Red Rose, Pink Pepper, Mandarin Orange, Bergamot","Raspberry Bloom, Lilac, Peach, Geranium, Jasmine, Blackcurrant","Papyrus, Amber, Patchouli, White Musk, Vanilla",Night,Female
+741,HRMN-0741,New Romance,Aksen,319000,100,XDP,"Lily Of The Valley, Peach, Blackcurrant, Bergamot, Turkey Red Rose, Pink Pepper, Green, Lemon, Kiwi, Rhubarb","Jasmine, Carnation, Raspberry Bloom, Ozonic Accord, Freesia, Watermelon, Cyclamen","Orange Blossom Accord, Musk, Leather Accord, Papyrus, Amber, White Wood, Citrus Wood, Sandalwood",Versatile,Female
+742,HRMN-0742,Dancing Water,Avila,250000,110,EDP,"Mandarin, Grapefruit, Pear, Cassis, Red Berries, Pink Pepper","Water Lily, Jasmine, Rose, Magnolia","Vanilla, Amber, Cedarwood, Musk, Patchouli",Versatile,Female
+743,HRMN-0743,Love Potion with Dancing Glitter,Avila,250000,110,EDP,"Bergamot, Pink pepper, Ozone, Juniperberry, Blood Orange","Rose, Jasmine, Freesia, Neroli","Vanila, Amber, Musk, Moss, Sandalwood, Vetiver",Versatile,Female
+744,HRMN-0744,Blooming Peony,Avila,250000,110,EDP,"mandarin, bergamot, muguet, green, herbal","peony, rose, jasmine, dewberry, orange flower","musk, patchouli, amber",Versatile,Female
+745,HRMN-0745,Freshia,Avila,195000,110,EDP,"pear, orange, bergamot, lemon, lily, green","freesia, jasmine, rose, fruity, ylang ylang prune","musk, amber, patchouli, cedarwood, tonka, sandalwood",Versatile,Unisex
+746,HRMN-0746,Gabrielis,Avila,195000,110,EDP,"berries, citrus, peppery, fruity","jasmine, rose, spicy, muguet, neroli","tuberose, sandalmusk, musk, amber",Night,Female
+747,HRMN-0747,Infinity,Avila,250000,110,EDP,"lemon, lavandin, grapefruit, ozone, mandarin, bergamot","cardamon, coriander, jasmine sambac, fruity, pink pepper, caramel","sandal, musk, Patchouli, moss, amber, vanilla",Versatile,Unisex
+748,HRMN-0748,Avant Garde,Avila,250000,110,EDP,"bergamot, elemi, pink pepper, birch tar, blackcurrant","clary sage, orange flower, patchouli, juniperberry, white floral","amber, leather, musc, cedarwood, vanilla moss",Night,Male
+749,HRMN-0749,Orpheus,Avila,195000,110,EDP,"juniperberry, mandarin, lemon, pink pepper","jasmine, rose, muguet, magnolia, ylang","cedarwood, musk, amber, vetiver",Night,Female
+750,HRMN-0750,Comma,CONSTANT,318000,50,EDP,"Water Flower, Acacia Sage, Amaretto","Woody, Orris Bigrade, Green Leaves","Musky, Amber, Lotus, Sandalwood",Day,Female
+751,HRMN-0751,Dot,CONSTANT,318000,50,EDP,"Rose, Pink peppercorn","Maltol, patchouli, guaiac wood","Oud, Amber, Sandalwood",Night,Unisex
+752,HRMN-0752,Milky Bath,EBE,170000,30,EDP,"Bergamot, blackcurrant, freesia","Apple, Muguet, Whipped cream","Vanilla, apricot, musk, amber",Day,Female
+753,HRMN-0753,De Luna,EBE,170000,30,EDP,"Lemon, bergamot, williams pears, freesia","rose, aniseed, lily of valley, peony","patchouli, musk, peach, amber",Day,Female
+754,HRMN-0754,Lost Signorina,EBE,180000,30,EDP,"Pink pepper, Redcurrant","Rose, Jasmine, Peony","Musk, Vanilla",Day,Unisex
+755,HRMN-0755,Sweet Disaster,EBE,180000,30,EDP,"cherry, rhubarb, pineapple","jasmine, neroli, peony","cotton candy, vanilla, musk, amber",Day,Female
+756,HRMN-0756,Blue Desire,EBE,180000,30,EDP,"Sparkling lemon, spices","Lavender, iris","Woods, Amber",Versatile,Unisex
+757,HRMN-0757,Wanderlust,EBE,150000,30,EDP,"Bergamot, Clary Sage, Rosemarry, Orange, Fresia, Quince, Pear, Pepperming","Geranium, Coriander, Juniper berries, Lavender, Jasmine Sambac, Cyclamen, Blueberry","Oakmoss, Cedar wood, Musk, Amber, Patchouli, Vanilla",Versatile,Unisex
+758,HRMN-0758,Marvelous,EBE,150000,30,EDP,"Bergamot, Blackcurrant, Freesia","Apple, ,Muguet, Whipped Cream","Vanilla, Apricot, Musk, Amber",Day,Female
+759,HRMN-0759,Precious,EBE,150000,30,EDP,"Fresh watery accord, powdery",Peony,"Musky notes, Powdery notes, Marine notes",Day,Female
+760,HRMN-0760,Echoes,S.TOI,269000,50,EDP,"Clover, Rosewood","Coconut husk, Shea","Amber, Patchouli",Versatile,Unisex
+761,HRMN-0761,Oceans,S.TOI,269000,50,EDP,"Lavender, Pink Pepper, Bergamot","Heliotrope, Lily of the Valley","Sandalwood, Ambrette Seed, Metal",Versatile,Unisex
+762,HRMN-0762,Enigma,S.TOI,269000,50,EDP,"Hay, Litsea Cubeba",Jasmine Sambac,"Sandalwood, Patchouli",Versatile,Unisex
+763,HRMN-0763,Constellation,S.TOI,259000,50,EDP,"Lime, Tumeric","Honey, Ylang Ylang, Tuberose","Amber, Musk",Versatile,Unisex
+764,HRMN-0764,Ray of Sunshine,S.TOI,259000,50,EDP,"Vetiver, Neroli, Saffron","Hibiscus, Black Berries","Tuberose, Vanilla",Versatile,Unisex
+765,HRMN-0765,Intermission,S.TOI,259000,50,EDP,"Clove, Rice","Jasmine, Tuberoes","Musk, Frankinsense, Sandalwood",Night,Unisex
+766,HRMN-0766,Unopened Letter,Saudade,368000,50,EDP,"Geranium, Coriander, Pink Pepper","Violet, Amber, Oakmoss","Vetiver, Patchouli, Musk",Versatile,Unisex
+767,HRMN-0767,Under The Rug,Saudade,368000,50,EDP,"Agarwood, Leather","Rosewood, Incense, Sichuan Pepper, Vetiver","Sandalwood, Jasmine",Night,Unisex
+768,HRMN-0768,Tangled Thread,Saudade,368000,50,EDP,"Neroli, Green Tea","Lily of the Valley, Jasmine, Lotus","White Woods, Clean Musk",Day,Unisex
+769,HRMN-0769,Pinky Promise,Saudade,368000,50,EDP,Moroccan Rose,"Black Pepper, Taif Rose","Pomegranate, Cedarwood, Ambrette",Versatile,Unisex
+770,HRMN-0770,Firenze,GioiA,335200,30,EDP,"Pink Pepper, Bergamot","Lavender, Geranium Egypt","Labdanum, Vanilla, Vetiver",Versatile,Male
+771,HRMN-0771,Jenny,GioiA,362000,70,EDP,"Saffron, White Pepper, Bergamot","Rose, Cedarwood, Peony","Oud, Musk, Amber, Vanilla",Versatile,Female
+772,HRMN-0772,Golden Age,Elvicto,128000,35,XDP,Bergamot,"Neroli, Lavender","Sandalwood, Cashmeran, Musk",Day,Male
+773,HRMN-0773,Old Money,Elvicto,128000,35,XDP,"Bergamot, Lemon, Aldehydic, Lime, Orange, Grapefruit","Pine, Palmarosa, Litsea Cubeba, Ozone","Musks, Cedarwood, Balsamic, Amber",Versatile,Male
+774,HRMN-0774,Las Vegas,Elvicto,128000,35,XDP,"Bergamot, Grapefruit, Pepper, Fig, Watery","Violet, Patchouli, Fennel, Geranium","Tonka Bean, Vetiver, Incence, Musks",Night,Male
+775,HRMN-0775,Xtrovert,Elvicto,128000,35,XDP,"Passion Fruit,Pear,Rapsberry","Cassis Buds,Lily Of The Valley","Patchouli,Heliotrope,Sandal Wood,Amber,Ambroxan",Day,Female
+776,HRMN-0776,Helios,Elvicto,128000,35,XDP,Cyclamen,"Ciste, Labdanum","Musky, Cedarwood, Vanilla",Night,Male
+777,HRMN-0777,Suit & Tie,Elvicto,128000,35,XDP,"Lemon, Bergamot, Basil","Lavender, Orange Blossom, Clary Sage","Cedarwood, Patchouli, Vanilla",Versatile,Male
+778,HRMN-0778,Beach Club,Elvicto,128000,35,XDP,"Blackcurrant, Mandarin, Orange","Coconut, Peach, White Flowers","Musks, Vanilla",Day,Female
+779,HRMN-0779,Escobar,Elvicto,128000,35,XDP,"Grapefruit, Pear, Black Tea","Lavender, Fern, Pepper","Precious woods, Musks, Leather",Night,Male
+780,HRMN-0780,Haluu,Elvicto,128000,35,XDP,"Saffron, Fir, Bergamot, Nagarmotha","Oud, White Floral, Tageta","Amber, Musk, Caramel Cedar, Moss",Night,Unisex
+781,HRMN-0781,420,Filosophia,450000,100,EDP,"Clary Sage, Petitgrain","420 Leaf Accord, Geranium","Guaiac Wood, Vanilla, Fir Balsam, Patchouli, Vetiver, Sandalwood",Versatile,Unisex
+782,HRMN-0782,Twilight,Hindsight,429000,50,EDP,"Cinnamon, Dates, Bergamot","Caramel, Tuberose, Rose Absolute","Balinese Vanilla, Tonka Bean, Sumatran Benzoin",Night,Unisex
+783,HRMN-0783,Beauquet,Hindsight,449000,50,XDP,"Tuberose, Clary Sage, Bergamot","Orange Blossom, Jasmine, Ylang Ylang","Vetiver, Balinese Vanilla",Night,Female
+784,HRMN-0784,Tangelo,Hindsight,389000,50,EDP,"Tangelo, Blackcurrant, Fig","Jasmine Sambac, Coconut, Tuberose","Tonka Bean, Patchouli, Amberwood, Balinese Vanilla",Day,Unisex
+785,HRMN-0785,Muskmallow,Hindsight,389000,50,EDP,"Bergamot, Neroli, Petitgrain","Orange Blossom, Whipped Cream Accord","Heliotrope, Tonka Bean, Musk",Versatile,Female
+786,HRMN-0786,Enchantee,KIYO+,219000,50,EDP,"Lemon, Mandarin, Pink Pepper","Guava, Freesia, Jasmine, Cassis","Clearwood, Musk, Cedar",Day,Female
+787,HRMN-0787,Memoire,KIYO+,219000,50,EDP,Pink Pepper,"Coffee, Almond, Licorice","Vanilla, Patchouli, Cedar",Day,Female
+788,HRMN-0788,Missing Heirloom,Le Secre,189000,30,EDP,Narcissus,Coconut Water,"Cashmeran, Cedar",Day,Unisex
+789,HRMN-0789,Down The Aisle,Le Secre,189000,30,EDP,"Mandarin, Blackcurrant, Black pepper","Rose, Osmanthus, Peony","Sandalwood, Patchoulli, Musky",Versatile,Female
+790,HRMN-0790,Glams,Odore,132300,60,EDP,"Pear, Jasmine, Ambrette","Ylang-ylang, Narcissus, Rose","Patchouli, Moss",Versatile,Female
+791,HRMN-0791,Classe,Odore,220500,60,EDP,Red Apple,"Peony, Rose, Carnation, Jasmine",Suede,Versatile,Female
+792,HRMN-0792,Joye,Odore,220500,60,EDP,"Pear Skin, Bergamot, Apple","Jasmine, Lily of the Valley, Violet","Woody, Ambery, White Musks, Vanilla, Cooked Sugar",Versatile,Female
+793,HRMN-0793,Sesa,OUDS,150000,35,EDP,"Cardamom, Black Pepper","Iris, Violet, Geranium, Mint","Amber, Cedar, Sandalwood",Versatile,Unisex
+794,HRMN-0794,Nerd,OUDS,150000,35,EDP,"Chocolate, Lavender","Honey, Geranium, Jasmine","Musk, Sandalwood, Tonka Bean, Vetiver, Agarwood",Day,Female
+795,HRMN-0795,Nusa,OUDS,150000,35,XDP,"Bergamot, Mango, Chamomile, Bulgarian rose","Hedlone, Gualac Wood","Papyrus, Agarwood",Versatile,Unisex
+796,HRMN-0796,Strangers,Permenent,299000,50,XDP,"Cardamon, Mimosa, Violet Leaf, Lemon, Mandarin, Grapefruit","Rose Turkish, Cyclamen, Freesia, Cumin, Muguet, Magnolia","Musk, Vanilla, Tonka Bean, Heliotrope, Cedar, Sandal",Night,Female
+797,HRMN-0797,Beloved,Permenent,299000,50,XDP,"Mandarin, Bergamot, Ozone, Blackcurrant, Gardenia","Jasmine, Neroli, Rose, Muguet, Prune, Lactone","Musk, Sandal, Amber, Vanilla, Moss, Benzoin",Versatile,Female
+798,HRMN-0798,Woods,Permenent,239000,50,XDP,"Bergamot, Clove, Blackpepper","Vetiver, Olibanum, Cedar, Labdanum","Guaiac, Amber, Vanilla",Night,Male
+799,HRMN-0799,Sweet,Permenent,239000,50,XDP,"Green Pear, Bergamot, Violet, Mandarin, Rosemary, Pepper, Clary Sage","Magnolia, Sandalwood, Rose, Muguet, Carnation","Amber, Cedar, Musk, Vanilla, Moss, Sandal Wood",Versatile,Female
+800,HRMN-0800,Es Teh Pandan,Semerbak,199000,50,XDP,"lavender, white tea, mint","pandan, rose, green tea","sandalwood, patchouli",Versatile,Unisex
+801,HRMN-0801,Tapak Rinjani,Semerbak,185000,50,XDP,Black Tea,"Clove, Leather","Patchouli, Tonka Bean, Tobacco",Night,Male
+802,HRMN-0802,Nyiur Bersemi,Semerbak,185000,50,XDP,"Strawberry, Osmanthus, White Tea","Coconut, Freesia, Lily of The Valley","Sandalwood, Amber",Day,Female
+803,HRMN-0803,Candra Kirana,Semerbak,199000,50,XDP,"rose, raspberry, jasmine","tuberose, magnolia, cucumber","vanilla, buttercream, sandalwood",Night,Female
+804,HRMN-0804,Asmoro Bangun,Semerbak,199000,50,XDP,"mandarin, grapefruit, blackcurrant, ginger","ocean, white tea, sakura","oakmoss, tobacco cedarwood",Day,Male
+805,HRMN-0805,Tepian Embun,Semerbak,120000,30,EDP,"peony, osmanthus","green, citrus","agarwood, musk, sandalwood",Versatile,Unisex
+806,HRMN-0806,Flora Notes,Boura,135150,30,EDP,"Linden Blossom, Lily of the Valley, Lilac, Bergamot","Jasmine, Tuberose, Ylang Ylang, Nutmeg, Carnation","Musk, Iris, Vanilla, Cloves , Sandalwood",Versatile,Female
+807,HRMN-0807,Bibliosmia,Boura,220150,50,EDP,"Neroli, Cardamom, Plum, Forest Fruits","Franggipani, Geranium, Mate, Vanilla","Amber, Patchouli, Cashmeran, Sandalwood",Versatile,Male
+808,HRMN-0808,Majestic Night,Boura,207200,50,EDP,"Lavender, Apricot, Bergamot","Clove, Cinnamon, Lily of the Valley, Jasmine","Amber, Patchouli, Musk",Night,Unisex
+809,HRMN-0809,Ellinika Doors,Boura,220150,50,EDP,"Raspberry, Strawberry, Grapefruit, Pear","Lily, Freesia, Rose","Rhuburb, Musk, Amber",Versatile,Female
+810,HRMN-0810,Visco Garden,Boura,220150,50,EDP,"Lemon, Bergamot, Bitter Oranges","Rose, Juniper Berry, Jasmine","Balsam fir, Musk, Ambergis",Versatile,Female
+811,HRMN-0811,Living Montage,Boura,233100,50,EDP,"Wild berries, oranges blossom, tangerine, lime","Caramel, pear, jasmine","Madagascar vanilla, licorine, musk, amber",Versatile,Female
+812,HRMN-0812,Noisy Bathroom,Boura,220150,50,EDP,"Star Anise, Fennel, Pineapple, Amalfi Lemon","Cotton Flower, Jasmine, Virginia Cedar, Patchouli",-,Day,Female
+813,HRMN-0813,24 Hours,Mandalika,810000,100,EDP,"Cardamom, Lemon, Pear","Iris, Cinnamon, Lavender","Vanilla, Amber, Cedar",Versatile,Male
+814,HRMN-0814,Mr Fantastic,Mandalika,853000,100,EDP,"Saffron, Pineapple, Orange","Amber, Birch Wood, Rose","Musk, Vanilla, Fragrant Pine Needle",Versatile,Female
+815,HRMN-0815,Morning Grass,Mandalika,810000,100,EDP,"Green Apple, Bergamot, Mandarin Orange","Citrus Leaves, Pine, Violet, Cashmeran","Musk, Amber, Oakmoss",Day,Male
+816,HRMN-0816,Rebel,Mandalika,810000,100,EDP,Grapefruit,"Pink Pepper, Geranium, Black Pepper","Leather, Vetiver",Night,Male
+817,HRMN-0817,Yes I Am,Mandalika,810000,100,EDP,"Cardamom, Coriander, Menthol","Rhubarb, Lily, Rose","Oakmoss, Sandalwood, Lemongrass",Day,Male
+818,HRMN-0818,Seduction,Mandalika,526500,100,EDP,"Goji Berry, Apricot Nectar, Pink Pepper","Rubber Seed, Coffee, Calla Lily","Sandalwood, Saffron, Milk, Amber",Night,Female
+819,HRMN-0819,The Only One,Mandalika,862500,100,EDP,"Peach, Apple Blossom","Pineapple Flower, Oud","Musk, Patchouli, Rose",Night,Female
+820,HRMN-0820,Only The Brave,Mandalika,526500,100,EDP,"Tobacco, Cardamom","Cedarwood, Sandalwood","Vanilla, Musk",Night,Male
+821,HRMN-0821,Holy Sweet,Mandalika,591500,100,EDP,"Raspberry, Strawberry, Cherry","Jasmine, Violet","Musk, Amber, Vanilla",Versatile,Female
+822,HRMN-0822,Romantica Exotica,Mandalika,210000,10,EDP,"Pear, Strawberry, Raspberry","Jasmine, Peony, Orange Blossom","Patchouli, Musk Blossom, Ambroxan",Versatile,Female
+823,HRMN-0823,Vanilla Mango,Mandalika,210000,10,EDP,"Mango, Bergamot, Mandarin Orange","Olibanum, Apple Blossom, Jasmine","Musk, Vanilla, Cedarwood",Day,Female
+824,HRMN-0824,Remember Me,Mandalika,810000,100,EDP,"Pear, Poppy, Daffodil","Tuberose, Musk, Jasmine","Patchouli, Vetiver",Night,Female
+825,HRMN-0825,Forbidden Temtation,Mandalika,810000,100,EDP,"Blackcurrant, Pear, Red Pepper, Pineapple","Jasmine, Rose, Heliotrope, Grapefruit","Vanilla, Amber, Cedarwood, Patchouli",Versatile,Female
+826,HRMN-0826,Princess,Mandalika,210000,10,EDP,"Bergamot, Lychee","Turkish Rose, Lily, Nutmeg","Vanilla, Amber, Cedarwood",Day,Female
+827,HRMN-0827,Irrestible,Mandalika,526500,100,EDP,"Mandarin Orange, Lemon, Lavender, Blackcurrant","Jasmine, Pear, Orange Blossom, Petitgrain","Vanilla, Amber, Musk, Cedarwood",Versatile,Female
+828,HRMN-0828,Gorgeous,Mandalika,210000,10,EDP,"Mandarin Orange, Bergamot, Red Berries","Jasmine, Tuberose, Orange Blossom","Vanilla, Musk Blossom, Cedarwood",Day,Female
+829,HRMN-0829,Sweet Cheery,Mandalika,210000,10,EDP,"Blackcurrant, Cherry, Red Pepper","Rose, Lily, Sambac Jasmine","Vanilla, Vetiver, Orris Flower",Day,Female
+830,HRMN-0830,N°1,Mandalika,591500,100,EDP,"Ginger, Bergamot","Violet, Sage","Amber, Cedarwood, Musk",Night,Male
+831,HRMN-0831,Hypnotized,Mandalika,526500,100,EDP,"Bergamot, Plum","Hazelnut, Honey","Amber, Cedarwood, Patchouli",Night,Male
+832,HRMN-0832,Icon,Mandalika,810000,100,EDP,"Grapefruit, Lemon, Lime","Apple, Lily, Pink Pepper","Amber, Musk, Leather, Labdanum",Versatile,Unisex
+833,HRMN-0833,Hedonist,Jayrosse,109000,30,XDP,"Sicilian Orange, Calabrian bergamot, Sicilian Lemon",Fruity Mediterranean notes,"White Musk, Madagascar Vanilla, Amber",Versatile,Male
+834,HRMN-0834,Habibi,Jayrosse,89000,30,EDP,"citrus , grass","Roasted Coffee ,Woody",Caramel Vanilla,Night,Male
+835,HRMN-0835,Gale,Jayrosse,89000,30,EDP,"Pink Pepper, Juniper, Violet","Toffee, Cinnamon, Lavender, Sage","Vanilla, Amber, Tonka Bean, Suede",Day,Male
+836,HRMN-0836,Bruce,Jayrosse,89000,30,EDP,"Pear, Lavender, Mint, Bergamot, Lemon","Cinnamon, Clary Sage, Caraway","Black Vanilla Husk, Amber, Patchouli, Cedar",Night,Male
+837,HRMN-0837,Grey,Jayrosse,89000,30,EDP,"Plum, Ozonic notes, Grapefruit, Bergamot","Hazelnut, Honey, Cedar, Cashmere Wood, Orange Blossom","Amberwood, Patchouli, Oakmoss, Vetiver",Night,Male
+838,HRMN-0838,Luke,Jayrosse,89000,30,EDP,"Citron, Calabrian bergamot, Sicilian Orange","Tunisian Neroli, Nigerian Ginger, Ceylon Cinnamon","Chinese Black Tea, Ambroxan, Guaiac Wood, Olibanum",Versatile,Male
+839,HRMN-0839,Noah,Jayrosse,89000,30,EDP,"Mint, Green Apple, Lemon","Tonka Bean, Ambroxan, Geranium","Madagascar Vanilla, Virginian Cedar, Atlas Cedar, Vetiver, Oakmoss",Day,Male
+840,HRMN-0840,Rouge,Jayrosse,89000,30,EDP,"Calabrian bergamot, Pepper","Sichuan Pepper, Lavender, Pink Pepper, Vetiver, Patchouli, Geranium, elemi","Ambroxan, Cedar, Labdanum",Night,Male
+841,HRMN-0841,About Her,Raine Beauty,284000,50,EDP,"coriander, bergamot, pepper","jasmine, almond, laurel blossoms","vanilla, tonka bean, musks",Night,Female
+842,HRMN-0842,Closer Still,Raine Beauty,284000,50,EDP,"Turkish rose, apple, pink pepper","raspberry, rose petals, clove, white flower","wood, musk, amber",Versatile,Female
+843,HRMN-0843,She Blooms,Raine Beauty,284000,50,EDP,"lotus leaves, lemon blossom, yellow fruits","white flower, mugane, rose petals, tulip","mimosa powder, precious wood, satin musk",Day,Female
+844,HRMN-0844,Madhava,Hipnoza,219000,30,EDP,"Lemon, Grapefruit, Bergamot","Aromatic, Pepper, Pine, Coriander","Ambergris, Oakmoss, Powdery, Marine",Versatile,Unisex
+845,HRMN-0845,Isaga,Hipnoza,219000,30,EDP,"Oud, Rose, Guaiac Wood, Cedarwood, Musky","Oud, Rose, Guaiac Wood, Cedarwood","Oud, Rose, Guaiac Wood, Cedarwood, Patchouli",Night,Unisex
+846,HRMN-0846,Eleven,Hipnoza,219000,30,EDP,"Orange, Bergamot, Lactone, Milky","Vanilla, Jasmine, Damson, Coumarin","Vanilla, Coconut, Milky, Powdery",Versatile,Female
+847,HRMN-0847,Seven,Hipnoza,299000,50,EDP,"White Floral, Melon, Rose, Freesia","Rose, Ambergris, Saffron","Agarwood, Ambergris, Musk",Versatile,Unisex
+848,HRMN-0848,Nine,Hipnoza,64900,5,EDP,"Melon, Bergamot, Grapefruit","Vanilla, Rose, Sandalwood","Vanilla, Rose, Powdery",Day,Female
+849,HRMN-0849,Orion,Velixir,445000,100,EDP,"Bergamot, Cinnamon","Bourbon Vanilla, Praline, Ambroxan","Woody Notes, Amber, Musk, Heliotrope",Versatile,Unisex
+850,HRMN-0850,Helios,Velixir,445000,100,EDP,"Coconut, Mint, Green Notes","Fig, Marine Notes","Woody Nites, Tonka Bean, Vetiver",Day,Unisex
+851,HRMN-0851,Galatea,Velixir,445000,100,EDP,"Biscuit, Caramel","Milk, Honey, White Sugar, Tonka Bean","White Musk, Vanilla, Praline, Amber",Night,Unisex
+852,HRMN-0852,Adonis,Velixir,445000,100,EDP,"Lavender, Bergamot, Mint","Madagascar Vanilla, Benzon Base","Amber, Tonka Bean, Woody Notes",Night,Unisex
+853,HRMN-0853,Athena,Velixir,445000,100,EDP,"Litchi, Rhubarb, Grapefruit","Bulgarian Rose, Freesia, Vanilla","Orris Root, Musk, Akigalawood, Vetiver",Day,Unisex
+854,HRMN-0854,Garden of Words,Xociety,228900,50,EDP,"Bergamot, Rhubarb, Grapefruit, Pear, Pineapple, Lemon, Mint, Apple","Jasmine, Violet, Rose, Lily of the Valley, Blackcurrant, Coconut, Orange Blossom","Peach, Sandalwood, Vanilla, Raspberry, Marine, Caramel, Orcanox, Amber Wood, Musk",Versatile,Unisex
+855,HRMN-0855,CORPORAT,Xociety,249000,50,EDP,Pineapple,Ylang-Ylang,Amberwood,Day,Unisex
+856,HRMN-0856,COPIUM,Xociety,249000,50,EDP,Chamomile,Pear,"Sandalwood, Musk",Night,Unisex
+857,HRMN-0857,Sixty Nine Degrees,Naisday,105000,30,XDP,"Peach, Rhubarb, Pear, Green Melon","Jasmine, Freesia, Rose, Lily Of The Valley","Patchouli, Sandalwood, Musks, Cashmere Floral, Oriental Scent",Day,Unisex
+858,HRMN-0858,Intimate Moment,Naisday,111000,30,XDP,Apple,"Rose, Jasmine Peony","Vanilla Bean, Amber Floral, Oriental Scent",Versatile,Unisex
+859,HRMN-0859,Wonka,Naisday,110000,30,XDP,Caramel,"Coumarin, Madu","Vanila, White Musks",Versatile,Unisex
+860,HRMN-0860,Thousand Kisses,Naisday,95000,30,XDP,"Green Apple, Pear, Lemonade Accord, Mint Leaves","Rose, Lily of the Valley, Fresh Flowers","Cedarwood, Moss, Woody Amber, Patchouli",Versatile,Unisex
+861,HRMN-0861,Scandalicious,Naisday,104000,30,XDP,"Bergamot, Grapefruit, Pepper, Fig, Watery","Violet, Patchouli, Fennel, Geranium","Tonka Bean, Vetiver, Incense, Musks",Versatile,Unisex
+862,HRMN-0862,Wish of Tomorrow,Naisday,115000,30,XDP,"Bergamot, Grapefruit, Pear, Blackcurrant","Jasmine, Violet, Lily of the Valley, Orange Blossom","Patchouli, Vanilla, Moss, Amber",Versatile,Unisex
+863,HRMN-0863,Santorini,Naisday,111000,30,XDP,"Mandarin, Galbanum, Ylang","Tuberose, White Floral, Orange Flower","Vanilla, Tonka Bean, Musk",Versatile,Unisex
+864,HRMN-0864,Morning X,Naisday,108000,30,XDP,"Orange, Grapefruit, Bergamot, Pink Pepper","Muguet, Heliotrope, Jasmine","Vanilla, Sandalwood, Vetiver, Patchouli",Night,Unisex
+865,HRMN-0865,O.N.S,Naisday,106000,30,XDP,"Bergamot, Mandarin, Carrot seeds, Almond","Jasmine, White Floral, Rose, Petalia","Cocoa Butter, Tonka Bean, Coffe, Mocha, Vanilla",Night,Unisex
+866,HRMN-0866,Dance Floor,Naisday,110000,30,XDP,"Green, Bergamot, Coconut",Jasmine,Vanila,Day,Female
+867,HRMN-0867,Dans,Sciesa,300000,50,EDP,"Anise, Grapefruit","Rose, Patchouli",White Musk,Versatile,Unisex
+868,HRMN-0868,Corso,Sciesa,390000,50,EDP,Lemon,"Plum, Rose, Saffron","Vanilla, Dry Wood",Night,Unisex
+869,HRMN-0869,Ives,Gauri,80000,30,EDP,Floral,Floral,Vanilla,Day,Female
+870,HRMN-0870,Grania,Gauri,80000,30,EDP,"Black Currant, Green Mandarin, Lavender, Mandarin Orange, Petitgrain","Neroli, Rose, Patchouli, Oakmoss, Orange Blossom, Jasmine","White Musk, Madagascar Vanilla, Cedar, Ambergris",Night,Unisex
+871,HRMN-0871,ILEANA,Gauri,80000,30,EDP,"Plum, Ozonic, Grapefruit, Bergamot","Hazelnut, Honey, Cedar, Cashmere Wood, Jasmine, Orange Blossom","Amberwood, Patchouli, Oakmoss, Vetiver",Versatile,Male
+872,HRMN-0872,ALENA,Gauri,80000,30,EDP,"Green Notes, Orange","Jasmine Sambac, Honeysuckle, Tuberose","Vanilla, Sandalwood, Oris Root",Day,Female
+873,HRMN-0873,ULICIA,Gauri,80000,30,EDP,"Bulgarian Rose, Hawthorn, Black Currant, Mandarin Orange, Petitgrain","Parma Violet, Opoponax, Jasmine, Lavender, Orange Blossom","White Musk, Incense, Madagascar Vanilla, Cedar, Ambergris",Night,Female
+874,HRMN-0874,ALLURE,Gauri,80000,30,EDP,Rum,Vanilla,Musk,Night,Unisex
+875,HRMN-0875,RAELYNN,Gauri,80000,30,EDP,Floral,Citrus,-,Day,Female
+876,HRMN-0876,REANNA,Gauri,80000,30,EDP,"Calabrian bergamot, Orange, Grapefruit","Sichuan Pepper, Lavender, Pink Pepper, Vetiver, Patchouli, Geranium, Elemi","Ambroxan, Cedar, Labdanum, Leather, Tonka Bean, Styrax, Musk",Versatile,Male
+877,HRMN-0877,ULYSSES,Gauri,80000,30,EDP,Citrus,Amber,Warm Spices,Day,Male
+878,HRMN-0878,GAELLE,Gauri,80000,30,EDP,Citrus,Fresh Spices,Rose,Day,Male
+879,HRMN-0879,Salvia,Euodia,799000,100,EDP,"orange, pine",clary sage,"guaiacwood, patchouli",Day,Male
+880,HRMN-0880,Iridace,Euodia,799000,100,EDP,"Orange, Mandarin","Orris Extract, Carrot seed, Jasmine","Vanila, Sandalwood",Day,Female
+881,HRMN-0881,Nicotiana,Euodia,799000,100,EDP,"Bergamot, fig, bay leaf","cedarwood, vetiver, musk","hay, tobacco",Day,Male
+882,HRMN-0882,Gerania,Euodia,799000,100,EDP,"Bergamot, mandarin","geranium, palmarosa","clove, eucalyptus",Day,Male
+883,HRMN-0883,Freese,Euodia,799000,100,EDP,"Petigran, mandarin, pepper","freesia, neroli","patchouli, musk",Day,Male
+884,HRMN-0884,VIP Men,Avicenna,439000,100,EDT,"Nutmeg, Pink Pepper, Saffron","Rose, Tonka Bean, Gardenia","Labdanum, Blond Woods, Vanilla",Versatile,Male
+885,HRMN-0885,Starburst,Avicenna,168350,50,EDP,"Coffee, Orange Blossom","Jasmine Sambac, Bitter Almond","Vanilla, Cashmere Wood",Versatile,Female
+886,HRMN-0886,VIP Women,Avicenna,155400,50,EDP,"Pear, Peach, Melon, Blackcurrant","Ylang-ylang, Lily of the valley, Rose","Lactonic, Sandalwood, Musky",Versatile,Female
+887,HRMN-0887,Wild Men,Avicenna,179550,100,EDT,Citrus,"Geranium, Lavender","Amber, Patchouli",Versatile,Male
+888,HRMN-0888,Adventure,Avicenna,239400,100,EDT,"Bergamot, Pink Pepper, Grapefruit","Lavender, Cardamom, Aquatic","Blonde Woods, Oak Moss, Cashmere, White Musk",Day,Male
+889,HRMN-0889,Lumiere,Avicenna,224400,100,EDP,"Honey Dew melon, Green Apple, Lemon","Rose, Viole, Orange Blossom","Musk, Patchoulli, Sandalwood",Day,Female
+890,HRMN-0890,Eclat,Avicenna,263400,100,EDT,"Citrus, Watery","Grapefruit, Aromatic, Jasmine","Woody, Amber, Tonka Bean",Versatile,Male
+891,HRMN-0891,La Femme,Avicenna,263400,100,EDP,"Lemon, Grapefruit, Apple, Pear","Lilly, Jasmine, Rose, Violet","Sandalwood, Amber, Vanilla, Musk",Versatile,Female
+892,HRMN-0892,Miracle,Avicenna,263400,100,EDP,"Red fruits, Orange, Pepper","Jasmine, Rose, Violet","Vanilla, Powdery, Musk, Caramel",Night,Female
+893,HRMN-0893,Summer Bloom,Azwary Perfume,180000,50,EDP,"Jasmine, Grapefruit, Freesia","Tuberose, Rose","Musk, Cashmere",Day,Female
+894,HRMN-0894,Sexy Blue,Azwary Perfume,250000,50,EDP,"Red Apple, Peach, Red Pepper","Jasmine, Rose","Musk, Amber, Sandalwood",Day,Female
+895,HRMN-0895,Senorita,Azwary Perfume,375000,50,EDP,"Green Apple, Papaya Blossom, Strawberry","Nutmeg, Lychee, Yuzu","Mint, Pine",Day,Female
+896,HRMN-0896,Royal Essenza,Azwary Perfume,450000,50,EDP,"Pomelo, Bergamot, Freesia","Pomegranate, Pineapple, Watermelon","Sandalwood, Cedar, White Musk",Day,Female
+897,HRMN-0897,Guardian Woman,Azwary Perfume,375000,50,EDP,"Melon, Apple, Peach","Freesia, Jasmine, Tuberose","Musk, Ylang-Ylang, Sandalwood",Day,Female
+898,HRMN-0898,Calista,Azwary Perfume,450000,50,EDP,"Red Pepper, Nutmeg, Plum, Apple","Freesia, Peony, Jasmine","Musk, Amber, Sandalwood",Versatile,Female
+899,HRMN-0899,Alexandria,Azwary Perfume,625000,50,EDP,"Rose, Black Currant, Pear","Violet, Jasmine","Vanilla, Dupa, White Musk",Night,Female
+900,HRMN-0900,Valencia,Azwary Perfume,250000,50,EDP,"Passionfruit, Pamelo, Watermelon","Parmaviolet, Jasmine, Tuberose","Sandalwood, Musk, Vetiver",Day,Unisex
+901,HRMN-0901,Mademoiselle,Azwary Perfume,400000,50,EDP,"Red Pepper, Nutmeg, Plum, Apple","Freesia, Peony, Jasmine","Musk, Amber, Sandalwood",Versatile,Unisex
+902,HRMN-0902,Inspiration,Azwary Perfume,225000,50,EDP,"Lavender, Martini, Bergamot","Lilac, Green Tea, Orchid","Musk, Cedar",Versatile,Unisex
+903,HRMN-0903,Happy Feel,Azwary Perfume,300000,50,EDP,"Freesia, Green Apple, Strawberry","Rose Tea, Magnolia, Redberry","White Musk, Cedar, Amber",Versatile,Unisex
+904,HRMN-0904,Choco Lover,Azwary Perfume,150000,50,EDP,"Chocolate, Vanilla, Cherry","Vanilla, Chocolate, Basil","Chocolate, Vanilla, Amber, Musk",Night,Unisex
+905,HRMN-0905,The Dreamer Women,Azwary Perfume,300000,50,EDP,"Peach, Redberry","Jasmine, Peony","Amber, Patchouli",Versatile,Female
+906,HRMN-0906,Sun Montana,Azwary Perfume,225000,50,EDP,"Bergamot, Mint, Mandarin Orange","Coriander, Lemon, Cardamom","Musk, Amber, Vanilla",Day,Unisex
+907,HRMN-0907,The Dreamer Men,Azwary Perfume,300000,50,EDP,"Cardamom, Bergamot, Watermelon","Pepper, Cinnamon","Sandalwood, Tonka Bean, Amber",Night,Male
+908,HRMN-0908,Sinclair Man,Azwary Perfume,525000,50,EDP,"Patchouli, Musk, Virginia Cedar","Nutmeg, Lychee, Yuzu","Mint, Pine",Versatile,Male
+909,HRMN-0909,Romantic Coco Men,Azwary Perfume,175000,50,EDP,"Red Pepper, Pala, Prem, Apple","Red Pepper, Basil, Jasmine","Vanilla, Pepper, Dark Chocolate",Night,Male
+910,HRMN-0910,Red Sapphire,Azwary Perfume,250000,50,EDP,"Red Pepper, Nutmeg, Plum, Apple","Freesia, Peony, Jasmine","Musk, Amber, Sandalwood",Night,Male
+911,HRMN-0911,Marseille,Azwary Perfume,250000,50,EDP,"Orange, Mint Leaves, Litchi, Lotus",Raspberry,"Sandalwood, Amber, Musk",Day,Male
+912,HRMN-0912,Dell Matinno,Azwary Perfume,575000,50,EDP,"Apple, Corriander, Cassia","Clove, Peach, Carnation","Sandalwood, Oakmoss, Vetiver",Day,Male
+913,HRMN-0913,Amour de Jasmine,Azwary Perfume,225000,50,EDP,"Magnolia, Lotus","Vanilla, Cinnamon, Musk","Jasmine, Tuberose",Day,Female
+914,HRMN-0914,Hunny Women,Azwary Perfume,175000,50,EDP,"Musk, Lily, Ylang-Ylang","Musk, Rose, Lotus","Vetiver, Musk, Vanilla",Day,Female
+915,HRMN-0915,Sinclair Women,Azwary Perfume,525000,50,EDP,"Bergamot, Pomelo, Red Current","Orchid, Cactus","Vanilla, Amber, Red Cedar",Day,Female
+916,HRMN-0916,D'queen,Azwary Perfume,400000,50,EDP,"Passion Fruit, Bergamot, Green Apple","Violet, Orchid, Jasmine","Amber, Musk, Cedar",Day,Female
+917,HRMN-0917,Cairo,Buttonscarves,420000,40,EDP,"Pink Peppercorn, Marine, Magnolia","Rose, Jasmine","Patchouli, vanilla, musk",Night,Unisex
+918,HRMN-0918,Dubai,Buttonscarves,540000,85,EDP,"Lemon, Bergamot","Fig, Jasmine, Geranium","Sandalwood, Oud, Amber",Versatile,Male
+919,HRMN-0919,Capri,Buttonscarves,540000,85,EDP,"Lemon, Apple Blossom","Freesia, Jasmine","Vanilla, Cedarwood, Patchouli Dust, Musk",Versatile,Unisex
+920,HRMN-0920,New York,Buttonscarves,540000,85,EDP,"Bergamot, Pink Peppercorn, Lily Of The Valley, Neroli","Magnolia, Rose, Jasmine, Orange Flower","Caramel, Vanilla, Sandalwood, Musky",Versatile,Female
+921,HRMN-0921,Yuccavalley,Buttonscarves,540000,85,EDP,"Sugarcase, Rose","Sandalwood, Ylang","Vanilla, Bean, Benzoin",Night,Female
+922,HRMN-0922,Bilbao,Buttonscarves,540000,85,EDP,"Perm Ambrette, Calone","Jasmine, Ylang, Narcissus, Maltol","Patchouly, Vetyver, Soft Amber",Day,Female
+923,HRMN-0923,Colmar,Buttonscarves,420000,40,EDP,"Galbanum, Marine, Rhubarb","Jasmine Tuberose, Orange Flowers","Lactonic, Iris, Ambroxan, Musk",Night,Unisex
+924,HRMN-0924,Venice,Buttonscarves,540000,85,EDP,"Mandarin ylang, white flowers","Plum, sweet, woody, lactonic","Sandalwood, vanilla, musk",Day,Female
+925,HRMN-0925,Bora Bora,Buttonscarves,540000,85,EDP,"Bergamot, Mandarin, Grapefruit, Blackcurrant","Orange Flower, Ambroxan","Musk, Benzoin",Day,Unisex
+926,HRMN-0926,Calabria,Buttonscarves,540000,85,EDP,"Bergamot, Pear, Orange, Green","Cedarwood, Freesia, Ozonic, Neroli","Vetyver, Musk, Amber",Day,Female
+927,HRMN-0927,Alexandria,Buttonscarves,540000,85,EDP,"Rose, Fruity","Amber, Sweet","Vanilla, Musk",Night,Unisex
+928,HRMN-0928,Endgame,Dasfelix,159000,30,EDP,"Bergamot, Plum, Grapefruit","Honey, Cedar, Orange Blossom, Hazelnut, Cashmere Wood","Patchouli, Vetiver, Amberwood, Oakmoss",Night,Male
+929,HRMN-0929,Anomaly,Dasfelix,159000,30,EDP,"Bergamot, Orange, Green Tea, Apple, Lemon","Peach, White Floral, Coconut, Amber","Musk, Caramel, Woodsy, Vetiver",Versatile,Male
+930,HRMN-0930,Checkmate,Dasfelix,159000,30,EDP,"Mint, Green Apple, Lemon","Tonka Bean, Ambroxan, Geranium","Vanilla, Cedar, Vetiver",Versatile,Male
+931,HRMN-0931,Winter Hunter,Dasfelix,159000,30,EDP,"Lime, Passion Fruit, Ginger","Pepper, Gin, Mint, Spices","Leather, Amber, Woody",Versatile,Male
+932,HRMN-0932,Summer Fighter,Dasfelix,159000,30,EDP,"Bergamot, Pepper","Lavender, Vetiver, Patchouli","Cedar, Labdanum",Day,Male
+933,HRMN-0933,V.30,Hiraeth,975000,50,EDP,"Pink Pepper, Orange, Petitgrain","Jasmine, Cedar, Iris","Amber, Musk, Sandalwood, Vetiver, Patchouli",Versatile,Unisex
+934,HRMN-0934,Shade of Burgundy,Hiraeth,999000,50,EDP,"Rum, Cinnamon","Honey dates, Oak","Vanilla, Sandalwood",Night,Unisex
+935,HRMN-0935,19,Normal Estate,889000,50,EDP,"Juniper Berries, Lemon, Mint","Myrrh, Tonka Bean, Roasted Chestnut",Blond Woods,Night,Unisex
+936,HRMN-0936,7,Normal Estate,889000,50,EDP,"Davana, Mandarin","Iris, Dark Violet, Saffron, Blue Ginger","Cocoa Beans, Amber, Vetiver Haiti, Birch Wood, Suede Leather",Versatile,Unisex
+937,HRMN-0937,24,Normal Estate,889000,50,EDP,"Grapefruit, Bergamot, Lemon ","Lavender Abs, Cyclamen, Peony","Cedarwood Atlas, Vetiver Java, Patchouli, Incense, Oakmoss",Versatile,Unisex
+938,HRMN-0938,Serious Moonlight,Oaken Lab,849000,50,EDP,"Pomelo, Darjeeling Black Tea","Coconut, Night Jasmine, Wood","Oud, Vanilla, Leather, Tar",Night,Unisex
+939,HRMN-0939,PLEIN AIR,Oaken Lab,799000,50,EDP,"Citrus, Ozone","Peppermint, Anise, Fennel",White Musk,Day,Unisex
+940,HRMN-0940,Sanctum,Oaken Lab,849000,50,EDP,"Dry Bergamot, Translucent Jasmine, Rose","Paper, Sandalwood","Benzoine, Virginia Cedarwood, Patchouli",Day,Unisex
+941,HRMN-0941,Earth of Mankind,Oaken Lab,899000,50,EDP,"Clove, Cassia, Tobacco","Vanilla, Patchouli, Vetiver",Agarwood,Night,Unisex
+942,HRMN-0942,Batavia Barber,Oaken Lab,899000,50,EDP,"Neroli, Bergamot, Orange","Lavender, Jasmine","Moss, Musk, Patchouli, Leather",Day,Male
+943,HRMN-0943,Far Afield,Oaken Lab,799000,50,EDP,"Aqua, Bergamot, Ozone",Black Pepper,Cedarwood,Day,Unisex
+944,HRMN-0944,Monko,Oaken Lab,899000,50,EDP,Angelica Root,Incense,"Record Dust Accord, Warm Woody",Night,Unisex
+945,HRMN-0945,Before Moonrise,Oaken Lab,849000,50,EDP,"Pomelo, Darjeeling Black Tea","Coconut, White Woods","Oud, Vanilla",Night,Unisex
+946,HRMN-0946,Conservatory,Oaken Lab,849000,50,EDP,"Basil, Orange Peel, Bergamot, Neroli","Rose, Cassia","Cedar, Sumatran Benzoin, Ambergris, Patchouli",Day,Unisex
+947,HRMN-0947,Caught a glimpse of my office crush through the gap of our cubicles,Oaken Lab,799000,50,EDP,"Geranium, Rose, Black Pepper","Frankincense, Clary Sage, Cedar Atlas, Paper","Ink Accord, Benzoin Sumatra, Cashmeran",Day,Unisex
+948,HRMN-0948,Dewata Zhen,Hutan Aromantika,2590000,30,XDP,Balinese Ylang-Ylang,"North Sumatera Jasmine, Orchid, Rose, Lotus",Jinko Gold Oud,Day,Unisex
+949,HRMN-0949,Borneo Khatulistiwa,Hutan Aromantika,2199000,30,XDP,"West Borneo Grapefruit, Calabrian Bergamot",Java Golden Vetiver,Rimba Taraka Oud,Day,Unisex
+950,HRMN-0950,Banyu Swarga,Hutan Aromantika,2099000,30,XDP,-,Oud Almasih,"South Sulawesi Patchouli, Flores Vanilla Tincture",Day,Unisex
+951,HRMN-0951,Lunaire Rhapsodie,Hausser,1400000,50,EDT,"Rum, Whiskey, Mango","Tobacco, Iris, Vanilla","Labdanum, Musk, Cedar",Night,Unisex
+952,HRMN-0952,Amayadori,Hausser,1415000,50,EDP,Citrus,Rain,Woody Notes,Day,Unisex
+953,HRMN-0953,Ballade en Papier,Hausser,1325000,50,EDP,Spices,Floral Notes,"Paper Accord, Musk",Day,Unisex
+954,HRMN-0954,Cuban Waltz,Hausser,1300000,50,EDP,"Lavender, Italian Mandarin, Cherry, Almond","Honey, Heliotrope, Jasmine, Cashmere Wood","Vanilla, Amber, Musk",Night,Unisex
+955,HRMN-0955,Bijoux de Nuit,Hausser,1285000,50,EDP,Jasmine,"Tuberose, Lily",Exotic Musk,Night,Unisex
+956,HRMN-0956,Symphonie de Tabriz,Hausser,1335000,50,EDP,"Rum, Rosewood, Apple, Lavender","Eucalyptus, Cashmere Wood, Lily of the Valley, Cinnamon","Oud, Tonka Bean, Honey, Tob, Amber, Musk, Sandalwood, Honey",Night,Unisex
+957,HRMN-0957,Tresor du Bois,Hausser,1175000,50,EDP,Bergamot,"Rose, Tobacco","Natural Oud, Amber, Musk, Vanilla",Day,Unisex
+958,HRMN-0958,BATAVIA OUD,UCCA OUD ,2999999,25,XDP,Ceylon Cinnamon,"Himalayan Cedarwood, Kupang Red Meat Sandalwood, Borneo Plantation Oud","Sumatera Wild Oud, Secret Leather Accord",Night,Unisex
+959,HRMN-0959,VANILLE DE AGAR,UCCA OUD ,2240000,25,XDP,Clove,"Vanilla, Tobacco","Agarwood, Sandalwood",Night,Unisex
+960,HRMN-0960,MEUTIA SANTAL,UCCA OUD ,2235000,25,XDP,Neroli,"Jasmine, Champaca",Sandalwood,Day,Unisex
+961,HRMN-0961,Fleur,Byliv,55000,30,EDP,Cloudberry,Daisy,"Cashmere, Musk, Driftwood",Day,Female
+962,HRMN-0962,Black Sapphire,Byliv,99000,30,XDP,"Pear, Pink Pepper, Orange Blossom","Coffee, Jasmine, Bitter Almond, Licorice","Vanilla, Patchouli, Cedar, Cashmere",Night,Female
+963,HRMN-0963,Red Diamond,Byliv,99000,30,XDP,"Bitter Almond, Saffron","Egyptian Jasmine, Cedar","Ambergris, Woody",Day,Female
+964,HRMN-0964,Fuchsia,Byliv,55000,30,EDP,Apple,Flowers,Vanilla,Day,Female
+965,HRMN-0965,Solis,Sansoe,389000,50,EDP,"Mandarin Orange, Pear, Galbanum",-,"Guaiac Wood, Patchouli, Musk",Day,Unisex
+966,HRMN-0966,Lunae,Sansoe,389000,50,EDP,"Goji Berries, Peach, Lime","Peony, Coriander",Sandalwood,Night,Unisex
+967,HRMN-0967,Flos,Sansoe,389000,50,EDP,Pink Pepper,"White Flowers, Saffron","Amber, Musk",Day,Unisex
+968,HRMN-0968,Sommar,Sansoe,389000,50,EDP,Green Tea,Geranium,"Cedarwood, Vetiver, Musk",Day,Unisex
+969,HRMN-0969,Ortiz,Sansoe,389000,50,EDP,"Bergamot, Cardamom",Peony,"Cedarwood, Oud",Day,Unisex
+970,HRMN-0970,Lignum,Sansoe,389000,50,EDP,Pear,-,"Wood, Musk, Ambergris",Day,Unisex
+971,HRMN-0971,Rosyn,Sansoe,389000,50,EDP,Clove,Rose,Oud,Day,Unisex
+972,HRMN-0972,Cedrus,Sansoe,389000,50,EDP,Ambrette,Magnolia,"Cedarwood, Ambergris",Day,Unisex
+973,HRMN-0973,Fleur de Chance,Etre,379000,50,EDP,"Bergamot, Juniper Berries","Lily of the Valley, Ylang-Ylang","Cedarwood Atlas, Cashmeran",Day,Unisex
+974,HRMN-0974,Bouquet de Joie,Etre,379000,50,EDP,"Blackcurrant Buds, Raspberry","Peony, Violet","Vetiver, Ambergris",Day,Unisex
+975,HRMN-0975,Angelique,Etre,379000,50,EDP,"Carrot Seed, Ginger","Lilac, Iris",Musk,Day,Unisex
+976,HRMN-0976,For The Memories Of,Etre,533000,50,EDP,"Lime, Mandarin, Elemi","Chamomile, Frankincense Resinoid","Ylang-Ylang, Sandalwood",Day,Unisex
+977,HRMN-0977,Force d ame,Etre,350000,50,EDP,Rose,Cedarwood,Fruity Musks,Day,Unisex
+978,HRMN-0978,Volcanique,Etre,350000,50,EDP,"Pear, Berries","Iris, Jasmine","Patchouli, Sandalwood, Vanilla",Night,Unisex
+979,HRMN-0979,Libre d Esprit,Etre,350000,50,EDP,"Watermelon, Pineapple","Peach Cocktail, Coconut Water","Musks, Sandalwood",Day,Unisex
+980,HRMN-0980,Enigma,Cote d Azur,350000,100,EDP,"Blackcurrant, Raspberry","Jasmine, Rose","Patchouli Indonesia, Tonka bean",Night,Female
+981,HRMN-0981,Love in Motion Classic,Cote d Azur,350000,100,EDP,"apple, peach","Lilac, jasmine","Exotic Musk, Dark Amber",Night,Female
+982,HRMN-0982,Rosie Posie,Cote d Azur,195000,30,XDP,"Cardamom, plum","Rose, Cedarwood","Vanilla Bean, Amber",Night,Unisex
+983,HRMN-0983,Blanc Pepper,Cote d Azur,350000,100,EDP,"Pink Pepper, Bergamot","Orris, Violet, Orange Flower","Musk, Amberette",Night,Unisex
+984,HRMN-0984,Moonlight Musk,Cote d Azur,350000,100,EDP,"Lychee, Blackcurrant","Rose, mugget","White Musk, Vetiver",Versatile,Female
+985,HRMN-0985,Bubbles,Cote d Azur,350000,100,EDP,"cardamom, violet","lavender, jasmine","musk, cedarwood",Day,Unisex
+986,HRMN-0986,Lightning & Thunder,Cote d Azur,350000,100,EDP,"coffe, mandarin","lavender, orange blossom","vanilla, tonka bean",Night,Unisex
+987,HRMN-0987,Lazy Afternoon,Cote d Azur,350000,100,EDP,"ginger, pink pepper","violet leaves, jasmine","sandalwood, patchouli",Night,Unisex
+988,HRMN-0988,Appocalypse V2,Monacruz,113500,60,XDP,"Bergamot, Blackcurrant","Honey, Tuberose, Ylang-Ylang","Vanilla, Tonka Bean, Sandalwood",Night,Male
+989,HRMN-0989,Moon Rabbit,Monacruz,186000,105,XDP,"Blackcurrant, Pear,Pink Pepper","Rose, Orange Blossom, Ylang-ylang","Amber, Tonka Bean, Cedarwood",Night,Unisex
+990,HRMN-0990,British Man,Monacruz,180000,105,XDP,"Red Pepper, Neroli, Ylang-ylang","Anise, Hazelnut, Cacao","Sandalwood, Mahogany, Tonka Bean, Amber",Night,Male
+991,HRMN-0991,Cinnamon,Monacruz,187000,105,XDP,"Bergamot, Black Pepper","Clary Sage, Lavender","Vanilla Absolute, Cinnamon, Tonka Bean",Night,Unisex
+992,HRMN-0992,Aurora,Monacruz,185000,105,XDP,"Apricot, Pear","White Rose, Magnolia","Vanilla Bean, Amber, Soft Musk",Night,Female
+993,HRMN-0993,Lucifer,Monacruz,195000,105,XDP,"Ginger Flower, Green Mandarin, Pink Pepper",Caramel Vanilla,"Sandalwood, White Amber",Night,Unisex
+994,HRMN-0994,Vanirose,Caliv,154500,50,EDP,"Rose, Water Notes, Lemon","Rose, Sugar","Vanilla, White Musk, Cedar",Versatile,Female
+995,HRMN-0995,Louis,Caliv,189000,50,EDP,"Mugwort, Spearmint","Lavender, Benzoin","Musk, Tonka, Vanilla",Night,Male
+996,HRMN-0996,Berry Breeze,Caliv,154500,50,EDP,"Wild Berries, Green Apple, Coconut, Mandarin Orange","Jasmine, Lily of the Valley","Caramel, Vanilla, Sandalwood",Day,Female
+997,HRMN-0997,Signature,Caliv,159000,50,EDP,"Lavender, Pear, Mint","Cinnamon, Clary Sage, Caraway","Vanilla, Amber, Patchoulli",Versatile,Unisex
+998,HRMN-0998,Orion Sergio,Exxome,219000,50,EDP,"Lemon, Bergamot, Cardamon, Lily, Tuberose","Musk, Tonka Bean, Peppermint, Oakmoss","Amber, Sandalwood, Leather, Ylang-Ylang",Versatile,Unisex
+999,HRMN-0999,B,Exxome,278000,100,EDP,"Blackcurrant, Chamomile, Pear, Papaya, Burgundy Tuscan Grapes","Lily of the Valley, Jasmine, Iris, Orange Blossom, Yellow Peonies","Coconut, Vanilla, Patchouli, Tonka Bean",Night,Female
+1000,HRMN-1000,Flo,Exxome,275000,100,EDP,"Forest Fruit, Blackberry, Raspberry, Bergamot, Lychee","Jasmine, Pink Peony, Celosia, Vanilla","Apricot, Patchouli, Musk, Sandalwood",Versatile,Female
+1001,HRMN-1001,Zafron,Exxome,279000,100,EDP,"Strawberry, Raspberry, Melon, Grapefruit","Jasmine, Rose, Lavender, Honeysuckle","Patchouli, Vanilla, Cotton Candy, White Musk, Amber, Sandalwood",Day,Unisex
+1002,HRMN-1002,Dr. G Day Light,Exxome,325000,100,EDP,"Mocktail, Wine, Green Mandarin, Lemon, Soursop","Peony, White Floral, Vanilla, Honeysuckle","Tobacco, Indonesian Patchouli, Tonka Bean, Dark Musk",Versatile,Unisex
+1003,HRMN-1003,Dr. G Calm & Mysterious,Exxome,299000,100,EDP,"Bergamot, Blood Orange, Pineapple, Rum","Bay Leaf, Geranium, Caramel, Tonka Bean","Vanilla, Musk, Tobacco",Night,Male
+1004,HRMN-1004,Orion Truly Gentleman,Exxome,289000,100,EDP,"Mandarin Orange, Bergamot, Saffron","Pepper, Cedar, Coriander, Lavender","Sandalwood, Vetiver, Honey, amber",Versatile,Male
+1005,HRMN-1005,Horseman,Exxome,285900,100,EDP,"Fresh Mint, Apple, Bergamot, Lemon, Orange","Tonka Bean, Oakmoss, Geranium, Ambroxan","Vanilla, Musk, Leather, Cedarwood",Day,Male
+1006,HRMN-1006,Sea Salt,Heaven Scent,160000,50,EDP,Ambrette Seeds,Sea Salt,Sage,Versatile,Male
+1007,HRMN-1007,Mister Affair,Heaven Scent,160000,50,EDP,Caramel,Clary Sage,Tonka Bean,Night,Male
+1008,HRMN-1008,Mister Midnight,Heaven Scent,160000,50,EDP,Black Vanilla,Black Musk,Chocolate,Night,Male
+1009,HRMN-1009,Goddess of Heaven,Heaven Scent,160000,50,EDP,Dark Berries,Jasmine,"Musk, Amber, Vanilla",Night,Female
+1010,HRMN-1010,Si Fiola,Heaven Scent,160000,50,EDP,Blackcurrent,Orange Blossom,Marshmallow,Day,Female
+1011,HRMN-1011,Blooming Heaven,Heaven Scent,160000,50,EDP,Damascus Rose,Peony,White Musk,Night,Female
+1012,HRMN-1012,Noble,Heaven Scent,160000,50,EDP,Jasmine,-,Green Tea,Day,Unisex
+1013,HRMN-1013,Orenji,Gean Perfume,169000,100,EDP,"Pineapple, Passionfruit, Bergamoth, Orange","Peach, Pink Peony, Freesia","Musk, Cedar, Amber",Day,Female
+1014,HRMN-1014,Sarah Lavenda,Gean Perfume,169000,100,EDP,Rose,"Vanilla, Iris","Musk, Amber",Night,Female
+1015,HRMN-1015,Capra Marile,Gean Perfume,169000,100,EDP,"Mandarin Orange, Clary Sage","Caramel, Tonka bean",Veliver,Day,Male
+1016,HRMN-1016,Fuzz Intense,Gean Perfume,169000,100,EDP,"Passion Fruit, Peach, Pear, Raspberry, Cassis",Lily of The Valley,"Musk, Sandalwood, Vanilla, Patchouli, Heliotrope",Versatile,Female
+1017,HRMN-1017,Ocean,Justin Paul,125000,50,EDP,Aquatic,Green,Oakmoss,Day,Male
+1018,HRMN-1018,Sauvage,Justin Paul,125000,50,EDP,"Citrus, Spicy","Nutmeg, Cinnamon","Woody, Patchouly",Night,Male
+1019,HRMN-1019,Good Guy,Justin Paul,125000,50,EDP,"Leather, Tamarine, Birch Tar","Sandalwood, Muguet, Violet","Cedar, Leather, Guaiacwood",Night,Male
+1020,HRMN-1020,Earl Grey,Justin Paul,125000,50,EDP,Calabrian Bergamot,"Spicy, Cedarwood","Woody, Oakmoss",Versatile,Male
+1021,HRMN-1021,Navy,Justin Paul,125000,50,EDP,Earthy,Violet Leaf,Sandalwood,Day,Male
+1022,HRMN-1022,Iceberg,Justin Paul,125000,50,EDP,Ozone,"Muguet, Cassic","Cedar, Leather",Day,Unisex
+1023,HRMN-1023,Fete Privee,Labcitane,185000,50,XDP,Lime,"Mint, Vodca","Leather, Amber, Woody",Night,Male
+1024,HRMN-1024,Erotes,Labcitane,185000,50,XDP,"Green appel, Mint, Lemon","Tonka Bean, Ambroxan, Geranium","Vetiver, Oakmoss, Vanilla, Cedar",Day,Male
+1025,HRMN-1025,Oui,Labcitane,185000,50,XDP,Mint,"Rose, Fressia","Vanilla, Ambroxan, Woody, Patchouli",Night,Female
+1026,HRMN-1026,Pear Idole,Labcitane,185000,50,XDP,"Aquatic, Fruity Bergamote","Rose, Pear","White Floral, Musky, Sweet Vanilla",Day,Female
+1027,HRMN-1027,Rose Peony,Labcitane,185000,50,XDP,Fruity Litchi,Rose Peony,Woody Rose,Versatile,Female
+1028,HRMN-1028,Jasmine Tea,Labcitane,185000,50,XDP,"Early Grey Tea, Apple, Mandarin Orange","Jasmine, Lily, Honey Suckle","Musk, Iris, Sandalwood, Amber",Versatile,Female
+1029,HRMN-1029,Liberte,Labcitane,185000,50,XDP,"Bergamote, Pepper","Lavender, Vetiver, Pink Pepper","Ambroxan, Woody",Day,Male
+1030,HRMN-1030,Oud Damask,Labcitane,275000,50,EDP,Labdanum,"Rose, Saffron","Oud, Sandalwood",Night,Unisex
+1031,HRMN-1031,Tabac Vanille,Labcitane,185000,50,XDP,"Warm Spicy, Tobacco","Cacao, Vanilla",Woody Notes,Night,Unisex
+1032,HRMN-1032,Bleu Profond,Labcitane,185000,50,XDP,"Lemon, Mint, Pink Pepper","Jasmine, Nutmeg, Ginger","Vetiver, Sandalwood, Patchouli, White Musk",Versatile,Male
+1033,HRMN-1033,Coffee Mood,Labcitane,185000,50,XDP,"Creamy, Orange Blossom","Coffee, Almond","Vanilla, Cedar Wood",Versatile,Unisex
+1034,HRMN-1034,Bois de Musc,Labcitane,195000,50,EDP,Cardamom,"Bergamote, Lavender","Vetiver , Woody , Caraway",Versatile,Male
+1035,HRMN-1035,Mawoe,Leuseni,850000,50,EDP,"Rose, Raspberry","Bulgarian rose, Turkish rose, Pink pepper, Cinnamon","Sandalwood, Benzoin, Patchouli, Amber, Cedarwood, Vanilla, Musk",Versatile,Female
+1036,HRMN-1036,D'opium,Leuseni,750000,50,EDP,"Bergamot, Peach","Jasmine, Peony, Magnolia, Orange blossom, Lily of the valley","Oakmoss, Patchouli, Sandalwood, Musk, Woody notes",Versatile,Unisex
+1037,HRMN-1037,Hades,Myth Fragrance,180000,50,EDP,"Rose, Saffron, Pink Pepper","Labdanum, Vetiver","Oud, Sandalwood",Night,Unisex
+1038,HRMN-1038,Zeus,Myth Fragrance,180000,50,EDP,"Juniper, Nutmeg, Bergamot, Pineapple",Coriander,"Musk, Cedar, Patchouli, Vanilla",Versatile,Male
+1039,HRMN-1039,Poseidon,Myth Fragrance,180000,50,EDP,"Green leaves, Apple, Citrus","Lotus, water notes","Musk, Cedar, Oakmoss",Day,Unisex
+1040,HRMN-1040,Betrayed,Myth Fragrance,180000,50,EDP,"Heliotrope, Bergamot","Bitteralmond, Lavender, Jasmine","Vanilla, Sandalwood",Night,Unisex
+1041,HRMN-1041,Story of 01,Myth Fragrance,99000,30,EDP,"Ripe fruit, Safron, Pineapple","Amberwood, Ambergis","Cedarwood, Vanilla",Versatile,Unisex
+1042,HRMN-1042,Kitsu-Ne,Myth Fragrance,180000,50,EDP,"Fig, Bitter Orange",Matcha Tea,"Cedar, Vetiver",Versatile,Unisex
+1043,HRMN-1043,Toxic Flirt,Myth Fragrance,135000,50,EDP,"Wild Berries, Plum, Coriander","White Honey, Cinnamon, Tuberose, Jasmine, Rose","Vanille, Amber, Musk, Sandalwood, Cedar Wood",Night,Unisex
+1044,HRMN-1044,La Vie en Rose,Peculiar,452000,50,EDP,"Bergamot, Raspberry, Blackcurrant, Tropica Fruit","Rose, Geranum, Violet, Ozonic","Musky, Cedarwood, Tonka, Amber Dry",Versatile,Female
+1045,HRMN-1045,Edith,Peculiar,452000,50,EDP,"Bergamot, Blackcurrant","Davana, Rose","Patchouli, Moss, Musks",Versatile,Female
+1046,HRMN-1046,Positano,Saint Hars,249000,30,XDP,Bergamot,"Roasted Coffee Beans, Chocolate, Hazelnut",Leather,Night,Unisex
+1047,HRMN-1047,St. Tropez,Saint Hars,249000,30,XDP,Bergamot,Casablanca Lily,"Tahitian Vanilla, Amber, Sandalwood",Versatile,Female
+1048,HRMN-1048,St. Moritz,Saint Hars,249000,30,XDP,Bergamot,"Lily of the Valley, Jasmine","Vanilla, Amber, Musk, Vertiver",Versatile,Female
+1049,HRMN-1049,Sangria,Scentials,199000,30,EDP,"Orange, Pink pepper , Spices, Grapefruit","Pepper, Fig, Fig Tree, Vetiver, Pelargonium, Flint","Sandalwood, Cedar, Agarwood, Patchouli, Benzoin",Night,Unisex
+1050,HRMN-1050,Cerise,Scentials,190000,30,EDP,Black Currant,"Praline, Patchouli","Vanilla, Pear, Tonka Bean, Iris",Day,Unisex
+1051,HRMN-1051,Amaranth,Scentials,199000,30,EDP,"Raspberry, Pear, Bergamot, Black Currant","Jasmine, African Orange Flower, Peony","Paraline, Cashmere Wood, Olibanum",Versatile,Female
+1052,HRMN-1052,Munselli,Scentials,199000,30,EDP,"Red Currant, Passionfruit, Grapefruit, Pink Pepper","Rose, Orchid, Peony, Jasmine","Vanilla, Panacotta, Musk, Patchouli",Day,Unisex
+1053,HRMN-1053,Magnifique Jardin,Scentworks & Co,229000,105,EDP,Blackcurrant,Poppy,Barley,Night,Female
+1054,HRMN-1054,Cherry Blossom,Scentworks & Co,229000,105,EDP,Bergamot,"Cherry Blossom, Rose",Musk,Day,Female
+1055,HRMN-1055,Soleil,Scentworks & Co,229000,105,EDP,Blackcurrant,Honey,Peach,Day,Female
+1056,HRMN-1056,Ballerina,Scentworks & Co,229000,105,EDP,"Blackcurrant, Mandarin Orange","Orange Blossom, Lavender","Musk, Vanilla",Versatile,Female
+1057,HRMN-1057,Mad Tea,Scentworks & Co,229000,105,EDP,"Bergamot, Lemon","Green Tea, Peppermint, Jasmine","Amber, Musk",Day,Unisex
+1058,HRMN-1058,La Vie en Rose,Scentworks & Co,229000,105,EDP,"Blackcurrant, Peach","Rose, Iris",Cedar,Versatile,Female
+1059,HRMN-1059,London Breeze,Scentworks & Co,229000,105,EDP,Peach,Freesia,Patchouli,Day,Female
+1060,HRMN-1060,Jasmine Tease,Scentworks & Co,229000,105,EDP,Gardenia,Jasmine Sambac,Patchouli,Night,Female
+1061,HRMN-1061,Peaonia,Scentworks & Co,229000,105,EDP,Apple,Peony,Suede,Versatile,Female
+1062,HRMN-1062,Summer Madness,Scentworks & Co,229000,105,EDP,Ambrette Seeds,Sea Salt,Sage,Day,Female
+1063,HRMN-1063,Less Citrus,Scentworks & Co,229000,105,EDP,"Bergamot, Citron",Lily of the valley,Musk,Day,Unisex
+1064,HRMN-1064,Dark Vanilla,Scentworks & Co,229000,105,EDP,"Pear, Pink Pepper, Orange Blossom","Coffee , Jasmine","Vanilla, Patchouli, Cedar",Night,Female
