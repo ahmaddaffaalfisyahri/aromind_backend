@@ -229,38 +229,44 @@ Jika tidak yakin, tetap berikan perkiraan terbaik berdasarkan teks yang terlihat
     best_row = None
     best_score = 0
 
-    # 3. Cari parfum yang paling cocok dengan fuzzy matching
+    # 3. Cari parfum yang paling cocok - HANYA exact match
     for _, row in DF.iterrows():
         name = str(row.get("perfume", "")).lower().strip()
         brand = str(row.get("brand", "")).lower().strip()
 
         score = 0
         
-        # Exact match pada detected perfume/brand dari Gemini
-        if detected_perfume and name and (name in detected_perfume or detected_perfume in name):
-            score += 5
-        if detected_brand and brand and (brand in detected_brand or detected_brand in brand):
+        # Exact match pada detected perfume dari Gemini (prioritas tertinggi)
+        if detected_perfume and name:
+            # Exact match nama lengkap
+            if name == detected_perfume:
+                score += 10
+            # Nama parfum ada di dalam detected text
+            elif name in detected_perfume:
+                score += 5
+                
+        # Exact match pada brand dari Gemini
+        if detected_brand and brand:
+            if brand == detected_brand:
+                score += 5
+            elif brand in detected_brand:
+                score += 2
+            
+        # Fallback: cari EXACT nama parfum lengkap di seluruh teks (minimal 5 karakter)
+        if name and len(name) >= 5 and name in text_lower:
             score += 3
             
-        # Fallback: cari di seluruh teks
-        if name and len(name) > 2 and name in text_lower:
-            score += 2
-        if brand and len(brand) > 2 and brand in text_lower:
+        # Brand match di teks (minimal 3 karakter)
+        if brand and len(brand) >= 3 and brand in text_lower:
             score += 1
-            
-        # Partial word matching untuk nama parfum
-        if name and len(name) > 3:
-            name_words = name.split()
-            for word in name_words:
-                if len(word) > 3 and word in text_lower:
-                    score += 1
 
         if score > best_score:
             best_score = score
             best_row = row
 
     matched = None
-    if best_row is not None and best_score > 0:
+    # HANYA return match jika score minimal 3 (artinya ada match yang cukup kuat)
+    if best_row is not None and best_score >= 3:
         price_val = best_row.get("price", None)
         try:
             price = float(price_val) if price_val is not None else None
