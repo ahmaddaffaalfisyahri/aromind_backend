@@ -186,20 +186,11 @@ async def recognize(file: UploadFile = File(...)):
     try:
         model = genai.GenerativeModel("gemini-1.5-flash")
         
-        # Prompt yang lebih spesifik untuk identifikasi parfum
-        prompt = f"""Analisis gambar parfum ini dan identifikasi:
-1. Nama parfum (perhatikan teks pada botol/kemasan)
-2. Nama brand/merek
-
-Daftar parfum yang mungkin: {', '.join(perfume_names[:50])}
-Daftar brand yang mungkin: {', '.join(set(brand_names))}
-
-Berikan output dalam format:
-NAMA_PARFUM: [nama parfum yang teridentifikasi]
-BRAND: [nama brand yang teridentifikasi]
-TEKS_LAIN: [teks tambahan yang terlihat]
-
-Jika tidak yakin, tetap berikan perkiraan terbaik berdasarkan teks yang terlihat."""
+        # Prompt sederhana - minta Gemini ekstrak teks saja
+        prompt = """Baca semua teks yang terlihat di gambar parfum ini.
+Tuliskan semua teks yang kamu lihat, satu per baris.
+Fokus pada: nama parfum, nama brand, ukuran (ml), dan teks lainnya.
+Jangan tambahkan penjelasan, cukup tulis teks yang terlihat."""
 
         response = model.generate_content([
             prompt,
@@ -215,57 +206,36 @@ Jika tidak yakin, tetap berikan perkiraan terbaik berdasarkan teks yang terlihat
     
     text_lower = text.lower()
     
-    # Ekstrak nama parfum dan brand dari response Gemini
-    detected_perfume = ""
-    detected_brand = ""
-    
-    for line in text.split("\n"):
-        line_lower = line.lower()
-        if "nama_parfum:" in line_lower:
-            detected_perfume = line.split(":", 1)[-1].strip().lower()
-        elif "brand:" in line_lower:
-            detected_brand = line.split(":", 1)[-1].strip().lower()
+    # Bersihkan teks - hapus karakter khusus
+    import re
+    text_clean = re.sub(r'[^a-zA-Z0-9\s]', ' ', text_lower)
 
     best_row = None
     best_score = 0
 
-    # 3. Cari parfum yang paling cocok - HANYA exact match
+    # Cari parfum yang cocok dengan pendekatan sederhana
     for _, row in DF.iterrows():
         name = str(row.get("perfume", "")).lower().strip()
         brand = str(row.get("brand", "")).lower().strip()
 
         score = 0
         
-        # Exact match pada detected perfume dari Gemini (prioritas tertinggi)
-        if detected_perfume and name:
-            # Exact match nama lengkap
-            if name == detected_perfume:
-                score += 10
-            # Nama parfum ada di dalam detected text
-            elif name in detected_perfume:
+        # Cek nama parfum di teks (minimal 4 karakter)
+        if name and len(name) >= 4:
+            if name in text_lower or name in text_clean:
                 score += 5
                 
-        # Exact match pada brand dari Gemini
-        if detected_brand and brand:
-            if brand == detected_brand:
-                score += 5
-            elif brand in detected_brand:
-                score += 2
-            
-        # Fallback: cari EXACT nama parfum lengkap di seluruh teks (minimal 5 karakter)
-        if name and len(name) >= 5 and name in text_lower:
-            score += 3
-            
-        # Brand match di teks (minimal 3 karakter)
-        if brand and len(brand) >= 3 and brand in text_lower:
-            score += 1
+        # Cek brand di teks (minimal 3 karakter)  
+        if brand and len(brand) >= 3:
+            if brand in text_lower or brand in text_clean:
+                score += 3
 
         if score > best_score:
             best_score = score
             best_row = row
 
     matched = None
-    # HANYA return match jika score minimal 3 (artinya ada match yang cukup kuat)
+    # Threshold rendah = 3 (minimal nama parfum ditemukan ATAU brand ditemukan)
     if best_row is not None and best_score >= 3:
         price_val = best_row.get("price", None)
         try:
