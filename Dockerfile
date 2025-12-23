@@ -1,11 +1,5 @@
-# Base image Python
+# Base image Python (lebih ringan tanpa Tesseract)
 FROM python:3.11-slim
-
-# Install Tesseract OCR
-RUN apt-get update && apt-get install -y \
-    tesseract-ocr \
-    tesseract-ocr-ind \
-    && rm -rf /var/lib/apt/lists/*
 
 # Set working directory
 WORKDIR /app

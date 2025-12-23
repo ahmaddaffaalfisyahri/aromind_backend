@@ -3,11 +3,17 @@ from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 from typing import Optional, List
 import pandas as pd
-
-# --- untuk OCR gambar ---
-from PIL import Image
-import pytesseract
+import os
+import base64
 import io
+
+# --- untuk Gemini AI OCR ---
+import google.generativeai as genai
+
+# Konfigurasi Gemini API
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
+if GEMINI_API_KEY:
+    genai.configure(api_key=GEMINI_API_KEY)
 
 app = FastAPI(
     title="Aromind AI API",
@@ -156,15 +162,39 @@ async def recommend(payload: RecommendRequest):
     )
 
 
-# ---- Endpoint OCR gambar parfum ----
+# ---- Endpoint OCR gambar parfum dengan Gemini AI ----
 @app.post("/recognize", response_model=RecognizeResponse)
 async def recognize(file: UploadFile = File(...)):
-    # 1. Baca file gambar
+    # 1. Baca file gambar dan konversi ke base64
     content = await file.read()
-    image = Image.open(io.BytesIO(content))
-
-    # 2. Jalankan OCR ambil teks di gambar
-    text = pytesseract.image_to_string(image)
+    image_base64 = base64.b64encode(content).decode("utf-8")
+    
+    # Tentukan mime type
+    mime_type = file.content_type or "image/jpeg"
+    
+    # 2. Jalankan OCR dengan Gemini AI
+    if not GEMINI_API_KEY:
+        return RecognizeResponse(
+            recognized_text="Error: GEMINI_API_KEY tidak dikonfigurasi",
+            matched=None,
+        )
+    
+    try:
+        model = genai.GenerativeModel("gemini-1.5-flash")
+        
+        # Kirim gambar ke Gemini untuk ekstraksi teks
+        response = model.generate_content([
+            "Ekstrak semua teks yang ada di gambar ini. Fokus pada nama parfum, brand, dan informasi produk. Berikan hanya teks yang terlihat, tanpa penjelasan tambahan.",
+            {
+                "mime_type": mime_type,
+                "data": image_base64
+            }
+        ])
+        
+        text = response.text if response.text else ""
+    except Exception as e:
+        text = f"Error OCR: {str(e)}"
+    
     text_lower = text.lower()
 
     best_row = None
@@ -211,3 +241,4 @@ async def recognize(file: UploadFile = File(...)):
         recognized_text=text,
         matched=matched,
     )
+
