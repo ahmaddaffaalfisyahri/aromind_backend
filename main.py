@@ -179,12 +179,30 @@ async def recognize(file: UploadFile = File(...)):
             matched=None,
         )
     
+    # Daftar nama parfum dan brand dari database untuk referensi
+    perfume_names = DF["perfume"].dropna().unique().tolist()
+    brand_names = DF["brand"].dropna().unique().tolist()
+    
     try:
         model = genai.GenerativeModel("gemini-1.5-flash")
         
-        # Kirim gambar ke Gemini untuk ekstraksi teks
+        # Prompt yang lebih spesifik untuk identifikasi parfum
+        prompt = f"""Analisis gambar parfum ini dan identifikasi:
+1. Nama parfum (perhatikan teks pada botol/kemasan)
+2. Nama brand/merek
+
+Daftar parfum yang mungkin: {', '.join(perfume_names[:50])}
+Daftar brand yang mungkin: {', '.join(set(brand_names))}
+
+Berikan output dalam format:
+NAMA_PARFUM: [nama parfum yang teridentifikasi]
+BRAND: [nama brand yang teridentifikasi]
+TEKS_LAIN: [teks tambahan yang terlihat]
+
+Jika tidak yakin, tetap berikan perkiraan terbaik berdasarkan teks yang terlihat."""
+
         response = model.generate_content([
-            "Ekstrak semua teks yang ada di gambar ini. Fokus pada nama parfum, brand, dan informasi produk. Berikan hanya teks yang terlihat, tanpa penjelasan tambahan.",
+            prompt,
             {
                 "mime_type": mime_type,
                 "data": image_base64
@@ -196,20 +214,46 @@ async def recognize(file: UploadFile = File(...)):
         text = f"Error OCR: {str(e)}"
     
     text_lower = text.lower()
+    
+    # Ekstrak nama parfum dan brand dari response Gemini
+    detected_perfume = ""
+    detected_brand = ""
+    
+    for line in text.split("\n"):
+        line_lower = line.lower()
+        if "nama_parfum:" in line_lower:
+            detected_perfume = line.split(":", 1)[-1].strip().lower()
+        elif "brand:" in line_lower:
+            detected_brand = line.split(":", 1)[-1].strip().lower()
 
     best_row = None
     best_score = 0
 
-    # 3. Cari parfum yang paling cocok dari teks
+    # 3. Cari parfum yang paling cocok dengan fuzzy matching
     for _, row in DF.iterrows():
-        name = str(row.get("perfume", "")).lower()
-        brand = str(row.get("brand", "")).lower()
+        name = str(row.get("perfume", "")).lower().strip()
+        brand = str(row.get("brand", "")).lower().strip()
 
         score = 0
-        if name and name in text_lower:
+        
+        # Exact match pada detected perfume/brand dari Gemini
+        if detected_perfume and name and (name in detected_perfume or detected_perfume in name):
+            score += 5
+        if detected_brand and brand and (brand in detected_brand or detected_brand in brand):
+            score += 3
+            
+        # Fallback: cari di seluruh teks
+        if name and len(name) > 2 and name in text_lower:
             score += 2
-        if brand and brand in text_lower:
+        if brand and len(brand) > 2 and brand in text_lower:
             score += 1
+            
+        # Partial word matching untuk nama parfum
+        if name and len(name) > 3:
+            name_words = name.split()
+            for word in name_words:
+                if len(word) > 3 and word in text_lower:
+                    score += 1
 
         if score > best_score:
             best_score = score
