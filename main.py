@@ -81,7 +81,7 @@ async def debug_ocr(file: UploadFile = File(...)):
         return {"error": "GEMINI_API_KEY tidak dikonfigurasi"}
     
     try:
-        model = genai.GenerativeModel("gemini-1.5-flash")
+        model = genai.GenerativeModel("gemini-2.0-flash")
         prompt = """Baca semua teks yang terlihat di gambar parfum ini.
 Tuliskan semua teks yang kamu lihat, satu per baris.
 Fokus pada: nama parfum, nama brand, ukuran (ml), dan teks lainnya.
@@ -228,7 +228,7 @@ async def recognize(file: UploadFile = File(...)):
         )
     
     try:
-        model = genai.GenerativeModel("gemini-1.5-flash")
+        model = genai.GenerativeModel("gemini-2.0-flash")
         
         # Prompt yang lebih spesifik untuk parfum
         prompt = """Lihat gambar parfum ini dengan teliti.
