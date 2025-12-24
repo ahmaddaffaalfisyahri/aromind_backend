@@ -211,6 +211,8 @@ async def recommend(payload: RecommendRequest):
 # ---- Endpoint OCR gambar parfum dengan Gemini AI ----
 @app.post("/recognize", response_model=RecognizeResponse)
 async def recognize(file: UploadFile = File(...)):
+    import re
+    
     # 1. Baca file gambar dan konversi ke base64
     content = await file.read()
     image_base64 = base64.b64encode(content).decode("utf-8")
@@ -225,18 +227,21 @@ async def recognize(file: UploadFile = File(...)):
             matched=None,
         )
     
-    # Daftar nama parfum dan brand dari database untuk referensi
-    perfume_names = DF["perfume"].dropna().unique().tolist()
-    brand_names = DF["brand"].dropna().unique().tolist()
-    
     try:
         model = genai.GenerativeModel("gemini-1.5-flash")
         
-        # Prompt sederhana - minta Gemini ekstrak teks saja
-        prompt = """Baca semua teks yang terlihat di gambar parfum ini.
-Tuliskan semua teks yang kamu lihat, satu per baris.
-Fokus pada: nama parfum, nama brand, ukuran (ml), dan teks lainnya.
-Jangan tambahkan penjelasan, cukup tulis teks yang terlihat."""
+        # Prompt yang lebih spesifik untuk parfum
+        prompt = """Lihat gambar parfum ini dengan teliti.
+Identifikasi dan tulis:
+1. Nama parfum (biasanya huruf besar/menonjol)
+2. Nama brand/merek
+3. Ukuran ml jika ada
+
+Tulis hasilnya dalam format:
+NAMA: [nama parfum]
+BRAND: [nama brand]
+
+Jika tidak bisa membaca, tulis teks apapun yang terlihat."""
 
         response = model.generate_content([
             prompt,
@@ -253,35 +258,57 @@ Jangan tambahkan penjelasan, cukup tulis teks yang terlihat."""
     text_lower = text.lower()
     
     # Bersihkan teks - hapus karakter khusus
-    import re
     text_clean = re.sub(r'[^a-zA-Z0-9\s]', ' ', text_lower)
+    
+    # Pecah teks menjadi kata-kata untuk matching
+    text_words = set(text_clean.split())
 
     best_row = None
     best_score = 0
 
-    # Cari parfum yang cocok dengan pendekatan sederhana
+    # Cari parfum yang cocok dengan pendekatan yang lebih toleran
     for _, row in DF.iterrows():
         name = str(row.get("perfume", "")).lower().strip()
         brand = str(row.get("brand", "")).lower().strip()
 
         score = 0
         
-        # Cek nama parfum di teks (minimal 4 karakter)
-        if name and len(name) >= 4:
+        # === Strategi 1: Exact match nama parfum ===
+        if name and len(name) >= 3:
             if name in text_lower or name in text_clean:
-                score += 5
+                score += 10  # Bonus besar untuk exact match
                 
-        # Cek brand di teks (minimal 3 karakter)  
+        # === Strategi 2: Partial word match untuk nama parfum ===
+        if name and len(name) >= 3:
+            name_words = name.split()
+            for word in name_words:
+                if len(word) >= 3:
+                    # Cek apakah kata ada di teks
+                    if word in text_lower or word in text_words:
+                        score += 3
+                    # Cek partial match (kata mengandung atau terkandung)
+                    for text_word in text_words:
+                        if len(text_word) >= 3:
+                            if word in text_word or text_word in word:
+                                score += 2
+                                break
+                
+        # === Strategi 3: Brand matching ===
         if brand and len(brand) >= 3:
             if brand in text_lower or brand in text_clean:
-                score += 3
+                score += 5  # Brand match
+            # Partial brand match
+            brand_words = brand.split()
+            for word in brand_words:
+                if len(word) >= 3 and word in text_words:
+                    score += 2
 
         if score > best_score:
             best_score = score
             best_row = row
 
     matched = None
-    # Threshold rendah = 3 (minimal nama parfum ditemukan ATAU brand ditemukan)
+    # Threshold = 3 (diturunkan agar lebih mudah match)
     if best_row is not None and best_score >= 3:
         price_val = best_row.get("price", None)
         try:
