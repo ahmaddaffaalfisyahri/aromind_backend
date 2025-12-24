@@ -262,46 +262,39 @@ Jika tidak bisa membaca, tulis teks apapun yang terlihat."""
     
     # Pecah teks menjadi kata-kata untuk matching
     text_words = set(text_clean.split())
+    
+    # Filter kata-kata pendek dan umum
+    common_words = {'the', 'of', 'for', 'and', 'eau', 'de', 'parfum', 'edp', 'edt', 'ml'}
+    text_words_filtered = {w for w in text_words if len(w) >= 4 and w not in common_words}
 
     best_row = None
     best_score = 0
 
-    # Cari parfum yang cocok dengan pendekatan yang lebih toleran
+    # Cari parfum yang cocok - PRIORITAS EXACT MATCH
     for _, row in DF.iterrows():
         name = str(row.get("perfume", "")).lower().strip()
         brand = str(row.get("brand", "")).lower().strip()
 
         score = 0
         
-        # === Strategi 1: Exact match nama parfum ===
+        # === PRIORITAS 1: EXACT match nama parfum (bobot SANGAT TINGGI) ===
         if name and len(name) >= 3:
+            # Cek exact match untuk nama parfum
             if name in text_lower or name in text_clean:
-                score += 10  # Bonus besar untuk exact match
+                score += 50  # Bobot sangat tinggi untuk exact match
                 
-        # === Strategi 2: Partial word match untuk nama parfum ===
-        if name and len(name) >= 3:
-            name_words = name.split()
-            for word in name_words:
-                if len(word) >= 3:
-                    # Cek apakah kata ada di teks
-                    if word in text_lower or word in text_words:
-                        score += 3
-                    # Cek partial match (kata mengandung atau terkandung)
-                    for text_word in text_words:
-                        if len(text_word) >= 3:
-                            if word in text_word or text_word in word:
-                                score += 2
-                                break
-                
-        # === Strategi 3: Brand matching ===
+        # === PRIORITAS 2: EXACT match brand (bobot tinggi) ===
         if brand and len(brand) >= 3:
             if brand in text_lower or brand in text_clean:
-                score += 5  # Brand match
-            # Partial brand match
-            brand_words = brand.split()
-            for word in brand_words:
-                if len(word) >= 3 and word in text_words:
-                    score += 2
+                score += 30  # Bobot tinggi untuk brand match
+                
+        # === PRIORITAS 3: Word match untuk nama parfum (hanya jika belum exact match) ===
+        if score < 50 and name and len(name) >= 4:
+            name_words = [w for w in name.split() if len(w) >= 4 and w not in common_words]
+            for word in name_words:
+                # Hanya match kata yang panjang dan spesifik
+                if word in text_words_filtered:
+                    score += 5
 
         if score > best_score:
             best_score = score
