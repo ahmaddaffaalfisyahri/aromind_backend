@@ -208,19 +208,138 @@ async def recommend(payload: RecommendRequest):
     )
 
 
-# ---- Endpoint OCR gambar parfum dengan Gemini AI ----
+# ---- Helper: Fuzzy/Similarity Search ----
+def calculate_similarity(str1: str, str2: str) -> float:
+    """Hitung similarity antara 2 string (0.0 - 1.0)"""
+    if not str1 or not str2:
+        return 0.0
+    
+    str1, str2 = str1.lower(), str2.lower()
+    
+    # Exact match
+    if str1 == str2:
+        return 1.0
+    
+    # Contains match
+    if str1 in str2 or str2 in str1:
+        return 0.8
+    
+    # Word overlap
+    words1 = set(str1.split())
+    words2 = set(str2.split())
+    if words1 and words2:
+        overlap = len(words1 & words2)
+        total = len(words1 | words2)
+        return overlap / total if total > 0 else 0.0
+    
+    return 0.0
+
+
+def extract_keywords_from_text(text: str) -> dict:
+    """Ekstrak keyword dari hasil OCR Gemini"""
+    import re
+    
+    result = {
+        "nama": None,
+        "brand": None,
+        "keywords": [],
+        "raw_text": text
+    }
+    
+    lines = text.strip().split('\n')
+    
+    for line in lines:
+        line_lower = line.lower().strip()
+        
+        # Cari format NAMA: xxx atau BRAND: xxx
+        if 'nama:' in line_lower:
+            result["nama"] = line.split(':', 1)[-1].strip()
+        elif 'brand:' in line_lower or 'merek:' in line_lower:
+            result["brand"] = line.split(':', 1)[-1].strip()
+    
+    # Ekstrak semua kata penting sebagai keywords
+    text_clean = re.sub(r'[^a-zA-Z0-9\s]', ' ', text.lower())
+    words = text_clean.split()
+    
+    # Filter kata umum
+    stopwords = {'the', 'of', 'for', 'and', 'eau', 'de', 'parfum', 'edp', 'edt', 
+                 'ml', 'nama', 'brand', 'merek', 'ukuran', 'jika', 'tidak', 'ada',
+                 'yang', 'ini', 'itu', 'dengan', 'untuk', 'atau', 'dan'}
+    
+    result["keywords"] = [w for w in words if len(w) >= 3 and w not in stopwords]
+    
+    return result
+
+
+def search_perfume_by_keywords(keywords_data: dict, df) -> tuple:
+    """Search parfum berdasarkan keywords - return (best_row, best_score)"""
+    
+    best_row = None
+    best_score = 0
+    
+    nama = keywords_data.get("nama", "") or ""
+    brand = keywords_data.get("brand", "") or ""
+    keywords = keywords_data.get("keywords", [])
+    raw_text = keywords_data.get("raw_text", "").lower()
+    
+    for _, row in df.iterrows():
+        db_name = str(row.get("perfume", "")).strip()
+        db_brand = str(row.get("brand", "")).strip()
+        
+        score = 0
+        
+        # === PRIORITAS 1: Match nama parfum dari OCR ===
+        if nama:
+            sim = calculate_similarity(nama, db_name)
+            score += sim * 60  # Max 60 poin
+        
+        # === PRIORITAS 2: Match brand dari OCR ===
+        if brand:
+            sim = calculate_similarity(brand, db_brand)
+            score += sim * 40  # Max 40 poin
+        
+        # === PRIORITAS 3: Keyword matching (fallback) ===
+        db_name_lower = db_name.lower()
+        db_brand_lower = db_brand.lower()
+        
+        # Cek apakah nama DB ada di raw text
+        if len(db_name_lower) >= 4 and db_name_lower in raw_text:
+            score += 50
+        
+        # Cek apakah brand DB ada di raw text
+        if len(db_brand_lower) >= 3 and db_brand_lower in raw_text:
+            score += 30
+        
+        # Keyword overlap dengan nama parfum
+        for kw in keywords:
+            if len(kw) >= 4:
+                if kw in db_name_lower:
+                    score += 8
+                if kw in db_brand_lower:
+                    score += 5
+        
+        if score > best_score:
+            best_score = score
+            best_row = row
+    
+    return best_row, best_score
+
+
+# ---- Endpoint OCR gambar parfum dengan Gemini AI (IMPROVED) ----
 @app.post("/recognize", response_model=RecognizeResponse)
 async def recognize(file: UploadFile = File(...)):
-    import re
+    """
+    OCR parfum dengan kombinasi approach:
+    1. Gemini AI ekstrak keyword dari gambar
+    2. Fuzzy search di database parfum
+    """
     
     # 1. Baca file gambar dan konversi ke base64
     content = await file.read()
     image_base64 = base64.b64encode(content).decode("utf-8")
-    
-    # Tentukan mime type
     mime_type = file.content_type or "image/jpeg"
     
-    # 2. Jalankan OCR dengan Gemini AI
+    # 2. Jalankan OCR dengan Gemini AI - IMPROVED PROMPT
     if not GEMINI_API_KEY:
         return RecognizeResponse(
             recognized_text="Error: GEMINI_API_KEY tidak dikonfigurasi",
@@ -228,81 +347,41 @@ async def recognize(file: UploadFile = File(...)):
         )
     
     try:
-        model = genai.GenerativeModel("gemini-2.0-flash")
+        model = genai.GenerativeModel("gemini-1.5-flash")  # Lebih stabil
         
-        # Prompt yang lebih spesifik untuk parfum
-        prompt = """Lihat gambar parfum ini dengan teliti.
-Identifikasi dan tulis:
-1. Nama parfum (biasanya huruf besar/menonjol)
-2. Nama brand/merek
-3. Ukuran ml jika ada
+        # Prompt yang lebih spesifik untuk ekstrak keyword
+        prompt = """Analisis gambar parfum/cologne ini. Ekstrak informasi berikut:
 
-Tulis hasilnya dalam format:
-NAMA: [nama parfum]
-BRAND: [nama brand]
+NAMA: [tulis nama produk parfum yang terlihat, biasanya teks paling besar/menonjol]
+BRAND: [tulis nama brand/merek pembuat parfum]
 
-Jika tidak bisa membaca, tulis teks apapun yang terlihat."""
+Panduan:
+- Untuk parfum Indonesia, brand umum: HMNS, Mykonos, Jayrosse, Evangeline, Brasov, Casablanca, Gatsby, Axe, Implora, Wardah, dll.
+- Baca SEMUA teks yang terlihat pada kemasan
+- Jika ragu, tulis semua teks yang terbaca
+
+Contoh output:
+NAMA: Bukan Parfum Biasa
+BRAND: HMNS"""
 
         response = model.generate_content([
             prompt,
-            {
-                "mime_type": mime_type,
-                "data": image_base64
-            }
+            {"mime_type": mime_type, "data": image_base64}
         ])
         
         text = response.text if response.text else ""
     except Exception as e:
         text = f"Error OCR: {str(e)}"
     
-    text_lower = text.lower()
+    # 3. Ekstrak keywords dari hasil OCR
+    keywords_data = extract_keywords_from_text(text)
     
-    # Bersihkan teks - hapus karakter khusus
-    text_clean = re.sub(r'[^a-zA-Z0-9\s]', ' ', text_lower)
+    # 4. Search di database dengan fuzzy matching
+    best_row, best_score = search_perfume_by_keywords(keywords_data, DF)
     
-    # Pecah teks menjadi kata-kata untuk matching
-    text_words = set(text_clean.split())
-    
-    # Filter kata-kata pendek dan umum
-    common_words = {'the', 'of', 'for', 'and', 'eau', 'de', 'parfum', 'edp', 'edt', 'ml'}
-    text_words_filtered = {w for w in text_words if len(w) >= 4 and w not in common_words}
-
-    best_row = None
-    best_score = 0
-
-    # Cari parfum yang cocok - PRIORITAS EXACT MATCH
-    for _, row in DF.iterrows():
-        name = str(row.get("perfume", "")).lower().strip()
-        brand = str(row.get("brand", "")).lower().strip()
-
-        score = 0
-        
-        # === PRIORITAS 1: EXACT match nama parfum (bobot SANGAT TINGGI) ===
-        if name and len(name) >= 3:
-            # Cek exact match untuk nama parfum
-            if name in text_lower or name in text_clean:
-                score += 50  # Bobot sangat tinggi untuk exact match
-                
-        # === PRIORITAS 2: EXACT match brand (bobot tinggi) ===
-        if brand and len(brand) >= 3:
-            if brand in text_lower or brand in text_clean:
-                score += 30  # Bobot tinggi untuk brand match
-                
-        # === PRIORITAS 3: Word match untuk nama parfum (hanya jika belum exact match) ===
-        if score < 50 and name and len(name) >= 4:
-            name_words = [w for w in name.split() if len(w) >= 4 and w not in common_words]
-            for word in name_words:
-                # Hanya match kata yang panjang dan spesifik
-                if word in text_words_filtered:
-                    score += 5
-
-        if score > best_score:
-            best_score = score
-            best_row = row
-
+    # 5. Build response
     matched = None
-    # Threshold = 3 (diturunkan agar lebih mudah match)
-    if best_row is not None and best_score >= 3:
+    if best_row is not None and best_score >= 5:  # Threshold 5
         price_val = best_row.get("price", None)
         try:
             price = float(price_val) if price_val is not None else None
