@@ -272,57 +272,83 @@ def extract_keywords_from_text(text: str) -> dict:
 
 
 def search_perfume_by_keywords(keywords_data: dict, df) -> tuple:
-    """Search parfum berdasarkan keywords - return (best_row, best_score)"""
+    """Search parfum berdasarkan keywords - return (best_row, best_score, match_reason)"""
     
     best_row = None
     best_score = 0
+    match_reason = ""
     
-    nama = keywords_data.get("nama", "") or ""
-    brand = keywords_data.get("brand", "") or ""
+    nama = (keywords_data.get("nama", "") or "").lower().strip()
+    brand = (keywords_data.get("brand", "") or "").lower().strip()
     keywords = keywords_data.get("keywords", [])
     raw_text = keywords_data.get("raw_text", "").lower()
+    
+    # Validasi - jika tidak ada data dari OCR, langsung return
+    if not nama and not brand and not keywords:
+        return None, 0, "No keywords extracted"
     
     for _, row in df.iterrows():
         db_name = str(row.get("perfume", "")).strip()
         db_brand = str(row.get("brand", "")).strip()
-        
-        score = 0
-        
-        # === PRIORITAS 1: Match nama parfum dari OCR ===
-        if nama:
-            sim = calculate_similarity(nama, db_name)
-            score += sim * 60  # Max 60 poin
-        
-        # === PRIORITAS 2: Match brand dari OCR ===
-        if brand:
-            sim = calculate_similarity(brand, db_brand)
-            score += sim * 40  # Max 40 poin
-        
-        # === PRIORITAS 3: Keyword matching (fallback) ===
         db_name_lower = db_name.lower()
         db_brand_lower = db_brand.lower()
         
-        # Cek apakah nama DB ada di raw text
-        if len(db_name_lower) >= 4 and db_name_lower in raw_text:
-            score += 50
+        score = 0
+        reason = []
         
-        # Cek apakah brand DB ada di raw text
-        if len(db_brand_lower) >= 3 and db_brand_lower in raw_text:
-            score += 30
+        # === PRIORITAS 1: EXACT MATCH nama parfum ===
+        # Nama harus cukup panjang (min 5 char) dan match persis
+        if nama and len(nama) >= 5:
+            if nama == db_name_lower:
+                score += 100  # Exact match = pasti ini
+                reason.append(f"Exact name: {db_name}")
+            elif nama in db_name_lower or db_name_lower in nama:
+                # Partial match - tapi harus signifikan
+                if len(nama) >= 6 or len(db_name_lower) >= 6:
+                    score += 60
+                    reason.append(f"Partial name: {db_name}")
         
-        # Keyword overlap dengan nama parfum
+        # === PRIORITAS 2: EXACT MATCH brand ===
+        if brand and len(brand) >= 3:
+            if brand == db_brand_lower:
+                score += 50  # Brand exact match
+                reason.append(f"Exact brand: {db_brand}")
+            elif brand in db_brand_lower or db_brand_lower in brand:
+                score += 25
+                reason.append(f"Partial brand: {db_brand}")
+        
+        # === PRIORITAS 3: Full name found in raw text ===
+        # Hanya match jika nama parfum LENGKAP ditemukan (bukan parsial)
+        if len(db_name_lower) >= 6 and db_name_lower in raw_text:
+            score += 80
+            reason.append(f"Full name in text: {db_name}")
+        
+        # === PRIORITAS 4: Brand found in raw text ===
+        if len(db_brand_lower) >= 4 and db_brand_lower in raw_text:
+            score += 40
+            reason.append(f"Brand in text: {db_brand}")
+        
+        # === PRIORITAS 5: Significant keyword matching ===
+        # Hanya match keyword yang panjang dan unik
+        matched_keywords = []
         for kw in keywords:
-            if len(kw) >= 4:
+            if len(kw) >= 5:  # Keyword harus minimal 5 karakter
                 if kw in db_name_lower:
-                    score += 8
-                if kw in db_brand_lower:
-                    score += 5
+                    score += 15
+                    matched_keywords.append(kw)
+                elif kw in db_brand_lower:
+                    score += 10
+                    matched_keywords.append(kw)
+        
+        if matched_keywords:
+            reason.append(f"Keywords: {matched_keywords}")
         
         if score > best_score:
             best_score = score
             best_row = row
+            match_reason = " | ".join(reason)
     
-    return best_row, best_score
+    return best_row, best_score, match_reason
 
 
 # ---- Endpoint OCR gambar parfum dengan Gemini AI (IMPROVED) ----
@@ -377,11 +403,12 @@ BRAND: HMNS"""
     keywords_data = extract_keywords_from_text(text)
     
     # 4. Search di database dengan fuzzy matching
-    best_row, best_score = search_perfume_by_keywords(keywords_data, DF)
+    best_row, best_score, match_reason = search_perfume_by_keywords(keywords_data, DF)
     
     # 5. Build response
+    # THRESHOLD = 40 (harus ada match yang cukup kuat)
     matched = None
-    if best_row is not None and best_score >= 5:  # Threshold 5
+    if best_row is not None and best_score >= 40:
         price_val = best_row.get("price", None)
         try:
             price = float(price_val) if price_val is not None else None
@@ -402,8 +429,13 @@ BRAND: HMNS"""
             score=float(best_score),
         )
 
+    # Tambahkan debug info di recognized_text jika tidak match
+    debug_info = text
+    if not matched and best_score > 0:
+        debug_info += f"\n\n[DEBUG] Best score: {best_score}, Reason: {match_reason}"
+
     return RecognizeResponse(
-        recognized_text=text,
+        recognized_text=debug_info,
         matched=matched,
         debug_score=float(best_score),
     )
