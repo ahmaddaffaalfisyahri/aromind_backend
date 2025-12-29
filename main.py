@@ -7,13 +7,12 @@ import os
 import base64
 import io
 
-# --- untuk Gemini AI OCR ---
-import google.generativeai as genai
+# --- untuk Groq Vision AI OCR ---
+from groq import Groq
 
-# Konfigurasi Gemini API
-GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
-if GEMINI_API_KEY:
-    genai.configure(api_key=GEMINI_API_KEY)
+# Konfigurasi Groq API
+GROQ_API_KEY = os.getenv("GROQ_API_KEY")
+groq_client = Groq(api_key=GROQ_API_KEY) if GROQ_API_KEY else None
 
 app = FastAPI(
     title="Aromind AI API",
@@ -69,30 +68,43 @@ async def root():
     return {"message": "Halo dari Aromind AI 🚀", "version": "1.3"}
 
 
-# Debug endpoint untuk test Gemini langsung
+# Debug endpoint untuk test Groq langsung
 @app.post("/debug-ocr")
 async def debug_ocr(file: UploadFile = File(...)):
-    """Debug endpoint - lihat raw response dari Gemini"""
+    """Debug endpoint - lihat raw response dari Groq Vision"""
     content = await file.read()
     image_base64 = base64.b64encode(content).decode("utf-8")
     mime_type = file.content_type or "image/jpeg"
     
-    if not GEMINI_API_KEY:
-        return {"error": "GEMINI_API_KEY tidak dikonfigurasi"}
+    if not groq_client:
+        return {"error": "GROQ_API_KEY tidak dikonfigurasi"}
     
     try:
-        model = genai.GenerativeModel("gemini-2.0-flash")
         prompt = """Baca semua teks yang terlihat di gambar parfum ini.
 Tuliskan semua teks yang kamu lihat, satu per baris.
 Fokus pada: nama parfum, nama brand, ukuran (ml), dan teks lainnya.
 Jangan tambahkan penjelasan, cukup tulis teks yang terlihat."""
 
-        response = model.generate_content([
-            prompt,
-            {"mime_type": mime_type, "data": image_base64}
-        ])
+        response = groq_client.chat.completions.create(
+            model="llama-3.2-90b-vision-preview",
+            messages=[
+                {
+                    "role": "user",
+                    "content": [
+                        {"type": "text", "text": prompt},
+                        {
+                            "type": "image_url",
+                            "image_url": {
+                                "url": f"data:{mime_type};base64,{image_base64}"
+                            }
+                        }
+                    ]
+                }
+            ],
+            max_tokens=1024
+        )
         
-        text = response.text if response.text else "(kosong)"
+        text = response.choices[0].message.content if response.choices else "(kosong)"
         
         # Cari match dari database
         text_lower = text.lower()
@@ -106,7 +118,7 @@ Jangan tambahkan penjelasan, cukup tulis teks yang terlihat."""
                 matches_found.append({"type": "brand", "value": brand})
         
         return {
-            "gemini_response": text,
+            "groq_response": text,
             "text_lowercase": text_lower,
             "matches_found": matches_found[:10]
         }
@@ -351,12 +363,12 @@ def search_perfume_by_keywords(keywords_data: dict, df) -> tuple:
     return best_row, best_score, match_reason
 
 
-# ---- Endpoint OCR gambar parfum dengan Gemini AI (IMPROVED) ----
+# ---- Endpoint OCR gambar parfum dengan Groq Vision AI ----
 @app.post("/recognize", response_model=RecognizeResponse)
 async def recognize(file: UploadFile = File(...)):
     """
     OCR parfum dengan kombinasi approach:
-    1. Gemini AI ekstrak keyword dari gambar
+    1. Groq Vision AI ekstrak keyword dari gambar
     2. Fuzzy search di database parfum
     """
     
@@ -365,16 +377,14 @@ async def recognize(file: UploadFile = File(...)):
     image_base64 = base64.b64encode(content).decode("utf-8")
     mime_type = file.content_type or "image/jpeg"
     
-    # 2. Jalankan OCR dengan Gemini AI - IMPROVED PROMPT
-    if not GEMINI_API_KEY:
+    # 2. Jalankan OCR dengan Groq Vision AI
+    if not groq_client:
         return RecognizeResponse(
-            recognized_text="Error: GEMINI_API_KEY tidak dikonfigurasi",
+            recognized_text="Error: GROQ_API_KEY tidak dikonfigurasi",
             matched=None,
         )
     
     try:
-        model = genai.GenerativeModel("gemini-1.5-flash")  # Lebih stabil
-        
         # Prompt yang lebih spesifik untuk ekstrak keyword
         prompt = """Analisis gambar parfum/cologne ini. Ekstrak informasi berikut:
 
@@ -390,12 +400,26 @@ Contoh output:
 NAMA: Bukan Parfum Biasa
 BRAND: HMNS"""
 
-        response = model.generate_content([
-            prompt,
-            {"mime_type": mime_type, "data": image_base64}
-        ])
+        response = groq_client.chat.completions.create(
+            model="llama-3.2-90b-vision-preview",
+            messages=[
+                {
+                    "role": "user",
+                    "content": [
+                        {"type": "text", "text": prompt},
+                        {
+                            "type": "image_url",
+                            "image_url": {
+                                "url": f"data:{mime_type};base64,{image_base64}"
+                            }
+                        }
+                    ]
+                }
+            ],
+            max_tokens=1024
+        )
         
-        text = response.text if response.text else ""
+        text = response.choices[0].message.content if response.choices else ""
     except Exception as e:
         text = f"Error OCR: {str(e)}"
     
