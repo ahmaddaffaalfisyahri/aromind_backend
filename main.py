@@ -86,7 +86,7 @@ Fokus pada: nama parfum, nama brand, ukuran (ml), dan teks lainnya.
 Jangan tambahkan penjelasan, cukup tulis teks yang terlihat."""
 
         response = groq_client.chat.completions.create(
-            model="llama-3.2-90b-vision-preview",
+            model="llama-3.2-11b-vision-preview",
             messages=[
                 {
                     "role": "user",
@@ -401,7 +401,7 @@ NAMA: Bukan Parfum Biasa
 BRAND: HMNS"""
 
         response = groq_client.chat.completions.create(
-            model="llama-3.2-90b-vision-preview",
+            model="llama-3.2-11b-vision-preview",
             messages=[
                 {
                     "role": "user",
